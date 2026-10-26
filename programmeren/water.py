@@ -1,1 +1,1 @@
-def hoeveelheid_water(minuten: int)
+def hoeveelheid_water(minuten: int) ->int
