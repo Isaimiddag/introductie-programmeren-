@@ -11,6 +11,6 @@ if __name__ = "__main__":
     
     totale_kosten = int(totale_kosten_overnachten + reiskosten)
     
-    print(f"De totale kosten van uw reis en overnachtingen )
+    print(f"De totale kosten van uw reis en overnachtingen {totale_kosten})
     
     
