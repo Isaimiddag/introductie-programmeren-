@@ -9,11 +9,11 @@ if __name__ ==" __main__":
     print(f"Dan drinkt u {result_thee}mg aan thee")
     
     total_coffee = int(input("Hoeveel koffie drinkt u?: "))
-    result_coffee = total_coffee * 90
+    result_coffee = total_coffee * coffee
     print(f"Dan drinkt u {result_coffee}mg aan koffie")    
     
     total_energydink =int(input("Hoeveel engergydrink drinkt u?: "))
-    result_energydrink = total_energydrink * 80
+    result_energydrink = total_energydrink * 
     print(f"Dan drinkt u {result_energydrink}mg aan energydrink") 
     
     total_cola = int(input("Hoeveel cola drinkt u?: "))
