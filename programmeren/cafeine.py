@@ -3,5 +3,5 @@ if __name__ ==" __main__":
     coffee == 90
     energydrink== 80
     cola = 40
-    totale_cafeine = input(Hoeveel )
+    totale_cafeine = input(Hoeveel thee, koffie,)
     
