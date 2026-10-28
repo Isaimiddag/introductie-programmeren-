@@ -6,6 +6,7 @@ if __name__ ==" __main__":
     
     thee = int(input("Hoeveel thee drinkt u?: "))
     result_thee = thee * 45
+    
     print(f"Dan drinkt u {result_thee}mg aan thee")
     coffee = int(input("Hoeveel koffie drinkt u?: "))
     
