@@ -7,6 +7,6 @@ if __name__ = "__main__":
     print(f"Dan kost u heen en terug reis {reiskosten} euro")
     
     kosten_overnachten = int(input(f"Hoeveel nachten blijft u overnachten?: "))
-    
+    ko
     
     
