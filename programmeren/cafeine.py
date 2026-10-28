@@ -21,7 +21,7 @@ if __name__ =="__main__":
     result_cola == total_cola * cola
     print(f"Dan drinkt u {result_cola}mg aan cola") 
     
-    total_cafeine == result_thee + result_coffee + r
+    total_cafeine == result_thee + result_coffee + result_energydrink + result_cola
     
     
     
