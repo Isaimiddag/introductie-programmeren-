@@ -9,7 +9,7 @@ if __name__ ==" __main__":
     print(f"Dan drinkt u {result_thee}mg aan thee")
     
     coffee = int(input("Hoeveel koffie drinkt u?: "))
-    result_thee = thee * 45
+    result_coffee = thee * 45
     print(f"Dan drinkt u {result_thee}mg aan thee")    
     
     energydink =int(input("Hoeveel thee drinkt u?: "))
