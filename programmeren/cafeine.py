@@ -9,15 +9,15 @@ if __name__ =="__main__":
     print(f"Dan drinkt u {result_thee}mg aan thee")
     
     total_coffee = int(input("Hoeveel koppen koffie drinkt u per dag?: "))
-    result_coffee == total_coffee * coffee
+    result_coffee = total_coffee * coffee
     print(f"Dan drinkt u {result_coffee}mg aan koffie")    
     
     total_energydrinkink =int(input("Hoeveel blikjes engergydrink drinkt u per dag?: "))
-    result_energydrink == total_energydrink * energydrink
+    result_energydrink = total_energydrink * energydrink
     print(f"Dan drinkt u {result_energydrink}mg aan energydrink") 
     
     total_cola = int(input("Hoeveel blikken cola drinkt u per dag?: "))
-    result_cola == total_cola * cola
+    result_cola = total_cola * cola
     print(f"Dan drinkt u {result_cola}mg aan cola") 
     
     total_cafeine == result_thee + result_coffee + result_energydrink + result_cola
