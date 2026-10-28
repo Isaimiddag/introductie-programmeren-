@@ -4,7 +4,7 @@ if __name__ ==" __main__":
     energydrink = 80
     cola = 40
     
-    thee = int(input("Hoeveel thee drinkt u?: "))
+    total_thee = int(input("Hoeveel thee drinkt u?: "))
     result_thee = thee * 45
     print(f"Dan drinkt u {result_thee}mg aan thee")
     
