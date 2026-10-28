@@ -4,6 +4,7 @@ if __name__ ==" __main__":
     energydrink = 80
     cola = 40
     thee = int(input("Hoeveel thee drinkt u?: "))
+    result = 
     coffee = int(input("Hoeveel koffie drinkt u?: "))
     energydink =int(input("Hoeveel thee drinkt u?: "))
     cola =int(input("Hoeveel cola drinkt u?: "))
