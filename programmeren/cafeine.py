@@ -3,5 +3,6 @@ if __name__ ==" __main__":
     coffee == 90
     energydrink== 80
     cola = 40
-    thee = input("Hoeveel thee drinkt u?")
+    thee = input("Hoeveel thee drinkt u?: ")
+    
     
