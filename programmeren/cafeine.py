@@ -1,3 +1,5 @@
 if __name__ ==" __main__":
-    thee == 
+    thee == 45
+    coffee == 90
+    
     
