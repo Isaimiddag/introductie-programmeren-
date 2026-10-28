@@ -8,7 +8,7 @@ if __name__ ==" __main__":
     result_thee = thee * 45
     print(f"Dan drinkt u {result_thee}mg aan thee")
     
-    totaloffee = int(input("Hoeveel koffie drinkt u?: "))
+    total_coffee = int(input("Hoeveel koffie drinkt u?: "))
     result_coffee = coffee * 90
     print(f"Dan drinkt u {result_coffee}mg aan koffie")    
     
