@@ -3,6 +3,7 @@ if __name__ ==" __main__":
     coffee = 90
     energydrink = 80
     cola = 40
+    
     thee = int(input("Hoeveel thee drinkt u?: "))
     result_thee = thee * 45
     print(f"Dan drinkt u {result_thee}mg aan thee")
