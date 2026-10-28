@@ -9,7 +9,7 @@ if __name__ = "__main__":
     kosten_overnachten = int(input(f"Hoeveel nachten blijft u overnachten?: "))
     totale_kosten_overnachten = kosten_overnachten * 60
     
-    totale_kosten = to
+    totale_kosten = totale_kosten_overnachten + reiskosten
     
     print(f"De totale kosten van uw reis en overnachtingen zijn)
     
