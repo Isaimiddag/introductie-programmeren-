@@ -13,7 +13,7 @@ if __name__ ==" __main__":
     print(f"Dan drinkt u {result_coffee}mg aan koffie")    
     
     energydink =int(input("Hoeveel engergydrink drinkt u?: "))
-    result_energydrink = coffee * 90
+    result_energydrink = energydrink * 90
     print(f"Dan drinkt u {result_coffee}mg aan koffie") 
     cola = int(input("Hoeveel cola drinkt u?: "))
     
