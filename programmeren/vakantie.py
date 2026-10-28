@@ -6,6 +6,6 @@ if __name__ = "__main__":
     reiskosten = reiskilometers * kosten_per_km *2
     print(f"Dan kost u heen en terug reis {reiskosten} euro")
     
-    kosten_overnachten = int()
+    kosten_overnachten = int(input)
     
     
