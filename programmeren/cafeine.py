@@ -22,7 +22,7 @@ if __name__ =="__main__":
     print(f"Dan drinkt u {result_cola}mg aan cola") 
     
     total_cafeine == result_thee + result_coffee + result_energydrink + result_cola
-    print(f"Dan drinkt u per dag totaal)
+    print(f"Dan drinkt u per dag totaal {t})
     
     
     
