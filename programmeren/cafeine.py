@@ -10,6 +10,7 @@ if __name__ ==" __main__":
     
     coffee = int(input("Hoeveel koffie drinkt u?: "))
     
+    
     energydink =int(input("Hoeveel thee drinkt u?: "))
     cola =int(input("Hoeveel cola drinkt u?: "))
     
