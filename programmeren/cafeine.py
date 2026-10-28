@@ -5,7 +5,7 @@ if __name__ ==" __main__":
     cola = 40
     
     total_thee = int(input("Hoeveel thee drinkt u?: "))
-    result_thee = total_thee * 45
+    result_thee = total_thee * thee
     print(f"Dan drinkt u {result_thee}mg aan thee")
     
     total_coffee = int(input("Hoeveel koffie drinkt u?: "))
