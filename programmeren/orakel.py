@@ -16,6 +16,8 @@ elif answer = "tweeenveertig":
     return True
 elif answer = "tweeënveertig":
     return True
+else:
+    return False
 
 
 if __name__ == "__main__":
