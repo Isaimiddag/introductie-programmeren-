@@ -10,11 +10,11 @@ def check_answer(answer: str) -> bool:
     True
     
     """
-if answer = "42":
+if answer == "42":
     return True
-elif answer = "tweeenveertig":
+elif answer == "tweeenveertig":
     return True
-elif answer = "tweeënveertig":
+elif answer == "tweeënveertig":
     return True
 else:
     return False
