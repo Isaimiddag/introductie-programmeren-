@@ -4,7 +4,7 @@ def check_answer(answer: str) -> bool:
     True
     
     check_answer("honderd")
-    
+    False
     
     """
 
