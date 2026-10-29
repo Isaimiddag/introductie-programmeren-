@@ -11,14 +11,7 @@ def check_answer(answer: str) -> bool:
     
     """
 if __name__ == "__main__":
-    if answer == "42":
-        return True
-    elif answer == "tweeenveertig":
-        return True
-    elif answer == "tweeënveertig":
-        return True
-    else:
-        return False
+
 
 
     
