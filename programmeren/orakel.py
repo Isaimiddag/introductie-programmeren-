@@ -12,7 +12,8 @@ def check_answer(answer: str) -> bool:
     """
 if answer = "42":
     return True
-elif answer = 
+elif answer = "tweeenveertig"
+
 
 if __name__ == "__main__":
 
