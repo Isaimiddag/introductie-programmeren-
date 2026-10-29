@@ -10,7 +10,7 @@ def check_answer(answer: str) -> bool:
     True
     
     """
-if answer == "42":
+    if answer == "42":
     return True
 elif answer == "tweeenveertig":
     return True
