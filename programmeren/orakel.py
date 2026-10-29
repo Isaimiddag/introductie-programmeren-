@@ -1,6 +1,6 @@
 def check_answer(answer: str) -> bool:
     """
-    check
+    check_answer("42")
     
     """
 
