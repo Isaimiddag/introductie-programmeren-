@@ -16,8 +16,8 @@ def check_answer(answer: str) -> bool:
         return True
     elif answer == "tweeënveertig":
         return True
-else:
-    return False
+    else:
+         return False
 
 
 if __name__ == "__main__":
