@@ -6,7 +6,8 @@ def check_answer(answer: str) -> bool:
     check_answer("honderd")
     False
     
-    check_answer("tw)
+    check_answer("tweenveertig")
+    True
     
     """
 
