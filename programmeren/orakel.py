@@ -23,7 +23,9 @@ else:
 if __name__ == "__main__":
     answer = input("Wat is het antwoord op het leven, het universum en alles? "
     if check_answer(answer):
-        print("Goed")
+        print("Dat is helemaal goed")
+    else:
+        print("Helaas, dat is fout)
 
 
     
