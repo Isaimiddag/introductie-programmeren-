@@ -1,2 +1,2 @@
 if __name__ = "__main__":
-    jaartal = int(input(Welk jaar))
+    jaartal = int(input())
