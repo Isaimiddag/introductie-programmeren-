@@ -3,4 +3,6 @@ if __name__ = "__main__":
     if jaartal % 4 == 0:
         print(f"Het jaartal {jaartal} is een schrikkeljaar!")
     elif jaartal % 400 == 0:
-        
+        print(f"Het jaartal {jaartal} is een schrikkeljaar!")
+    else:
+        print()
