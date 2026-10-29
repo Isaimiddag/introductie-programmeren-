@@ -1,3 +1,3 @@
 def is_acidic(ph: float):
     """
-    >>> is_acidic()
+    >>> is_acidic(3.0)
