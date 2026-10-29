@@ -21,7 +21,7 @@ else:
 
 
 if __name__ == "__main__":
-if check
+if check_answer(answer)
 
 
     
