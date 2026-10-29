@@ -9,5 +9,7 @@ def is_acidic(ph: float):
 if __name__ is == "__main__":
     ph = int(input("Wat is de ph-waarde?: "))
     if ph < 7:
-        print()
+        print("Het is een zuur")
+        else:
+            print("Het is geen zuur.")
     
