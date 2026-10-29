@@ -11,6 +11,6 @@ if __name__ == "__main__":
     if ph < 7:
         print("Het is een zuur.")
     else:
-            print("Het is geen zuur.")
+        print("Het is geen zuur.")
             
     
