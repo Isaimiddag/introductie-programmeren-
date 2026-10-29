@@ -8,5 +8,6 @@ def is_acidic(ph: float):
     """
 if __name__ is == "__main__":
     ph = int(input("Wat is de ph-waarde?: "))
-    if ph 
+    if ph < 7:
+        print()
     
