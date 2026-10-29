@@ -7,5 +7,5 @@ def is_acidic(ph: float):
     False
     """
 if __name__ is == "__main__":
-    ph = int(input("Wat is de))
+    ph = int(input("Wat is de ph-waarde?: "))
     
