@@ -1,1 +1,1 @@
-def is_acidic()
+def is_acidic(ph: float)
