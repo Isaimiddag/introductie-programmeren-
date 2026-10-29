@@ -14,6 +14,8 @@ if answer = "42":
     return True
 elif answer = "tweeenveertig":
     return True
+elif answer = "tweeenveertig":
+    return True
 
 
 if __name__ == "__main__":
