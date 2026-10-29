@@ -1,4 +1,5 @@
 def check_answer(answer: str) -> bool:
+    return answer == "42" or answer == "tweeenveertig" or answer == "tweeënveertig"
     """
     check_answer("42")
     True
