@@ -6,5 +6,5 @@ def is_acidic(ph: float):
     >>> is_acidic(8.0)
     False
     """
-if __name__ is
+if __name__ is == "main
     
