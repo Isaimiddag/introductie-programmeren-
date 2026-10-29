@@ -14,7 +14,7 @@ if answer = "42":
     return True
 elif answer = "tweeenveertig":
     return True
-elif answer = "tweëenveertig":
+elif answer = "tweeënveertig":
     return True
 
 
