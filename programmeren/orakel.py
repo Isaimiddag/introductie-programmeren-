@@ -10,6 +10,8 @@ def check_answer(answer: str) -> bool:
     True
     
     """
+if answer = "42"
+
 if __name__ == "__main__":
 
 
