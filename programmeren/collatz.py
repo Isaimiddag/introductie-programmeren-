@@ -10,5 +10,5 @@ def print_collatz(n):
         print(n)
 
 
-    n = int(input("Geef een getal: "))
-    print_collatz(n)
+n = int(input("Geef een getal: "))
+print_collatz(n)
