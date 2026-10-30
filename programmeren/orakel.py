@@ -1,6 +1,6 @@
 def check_answer(answer: str) -> bool:
     """
-    check_answer("42")
+    >>> check_answer("42")
     True
     
     check_answer("honderd")
@@ -14,7 +14,7 @@ def check_answer(answer: str) -> bool:
         return True
     elif answer == "tweeenveertig":
         return True
-    elif answer == "tweeënveertig":
+    elif answer == "tweeÃ«nveertig":
         return True
     else:
         return False
