@@ -8,7 +8,7 @@ def calculate_cafeine(coffee: int, tea: int, energy: int, cola: int) -> int:
 if __name__ =="__main__":
     tea = 45
     coffee = 90
-    energydrink = 80
+    energy = 80
     cola = 40
     
     total_thee = int(input("Hoeveel koppen thee drinkt u per dag?: "))
