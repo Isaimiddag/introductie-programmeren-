@@ -18,6 +18,8 @@ if __name__ == "__main__":
     
     if oppervlakte_A == oppervlakte_B:
         print(f"De rechthoeken zijn gelijk!)
+    else:
+        print()
     
     
 
