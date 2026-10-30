@@ -14,7 +14,7 @@ if __name__ == "__main__":
     by2_length = int(input("Wat is de lengte van b2 van B? "))
     
     oppervlakte_A = ax_length * ay_length * bx_length * by_length
-    
+    oppervlakte_B = ax2_length* ay2_length* bx2_length* by2_length
     
     
 
