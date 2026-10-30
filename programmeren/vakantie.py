@@ -29,7 +29,7 @@ if __name__ == "__main__":
     km = int(input("Hoeveel kilometer reis je naar je bestemming? "))
     nights = int(input("Hoeveel nachten overnacht je? "))
     totale_prijs = total_costs(km, nights)
-    print(f"totale prijs is)
+    print(f"totale prijs is {t})
     
     
     
