@@ -1,2 +1,2 @@
-
+number = int(input())
 while 
