@@ -9,6 +9,6 @@ def print_collatz(n):
 
         print(n)
 
-if __name__ == "__main__":
+
     n = int(input("Geef een getal: "))
     print_collatz(n)
