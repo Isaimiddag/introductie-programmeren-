@@ -39,9 +39,9 @@ def get_two_different_ints():
 
 get_odd_number()
 get_positive_int()
-get_any_int_but_0
-get_min_int
-get_two_different_ints
+get_any_int_but_0()
+get_min_int()
+get_two_different_ints()
 
 
 
