@@ -1,6 +1,6 @@
 def get_positive_int():
     
-def get_an
+def get_any_int_but_0()
 
 
 
