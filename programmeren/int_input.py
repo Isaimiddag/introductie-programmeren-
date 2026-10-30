@@ -20,7 +20,7 @@ def get_any_int_but_0():
     if result != 0:
         print(f"{result} is an integer")
     elif:
-        print("Dit is geen integer.")   
+        print("Dit is geen i.")   
     
 def get_min_int():
 
