@@ -32,7 +32,8 @@ def get_min_int():
 def get_two_different_ints():
     result1 = int(input("geef een integer: "))
     result2 = int(input("geef nog een integer: "))
-    if result1 and result
+    if result1 == result2:
+        print()
 
 
 
