@@ -7,5 +7,6 @@ if __name__ == "__main__":
     ay_length = int(input("Wat is de lengte van y1 van A? "))
     bx_length = int(input("Wat is de lengte van x2 van A? "))
     by_length = int(input("Wat is de lengte van b2 van A? "))
+    
 
 
