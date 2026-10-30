@@ -1,34 +1,17 @@
 def calculate_cafeine(coffee: int, tea: int, energy: int, cola: int) -> int:
     """
-    Berekent de hoeveelheid cafeine op basis van de hoeveelheid gedronken
-      drankjes van het type koffie, thee, energie, en cola.
+    Berekent de hoeveelheid cafeïne op basis van de hoeveelheid gedronken
+    drankjes van het type koffie, thee, energiedrank en cola.
     """
+    return coffee * 90 + tea * 45 + energy * 80 + cola * 40
 
 
-if __name__ =="__main__":
-    tea = 45
-    coffee = 90
-    energy = 80
-    cola = 40
-    
-    total_thee = int(input("Hoeveel koppen thee drinkt u per dag?: "))
-    result_thee = total_thee * tea
-    print(f"Dan drinkt u {result_thee}mg aan thee")
-    
-    total_coffee = int(input("Hoeveel koppen koffie drinkt u per dag?: "))
-    result_coffee = total_coffee * coffee
-    print(f"Dan drinkt u {result_coffee}mg aan koffie")    
-    
-    total_energydrink =int(input("Hoeveel blikjes engergydrink drinkt u per dag?: "))
-    result_energydrink = total_energydrink * energy
-    print(f"Dan drinkt u {result_energydrink}mg aan energydrink") 
-    
-    total_cola = int(input("Hoeveel blikken cola drinkt u per dag?: "))
-    result_cola = total_cola * cola
-    print(f"Dan drinkt u {result_cola}mg aan cola") 
-    
-    total_cafeine = result_thee + result_coffee + result_energydrink + result_cola
-    print(f"Dan drinkt u per dag totaal {total_cafeine}mg cafeine")
-    
-    
-    
+if __name__ == "__main__":
+    coffee = int(input("Hoeveel koppen koffie? "))
+    tea = int(input("Hoeveel koppen thee? "))
+    energy = int(input("Hoeveel energiedrankjes? "))
+    cola = int(input("Hoeveel glazen cola? "))
+
+    total = calculate_cafeine(coffee, tea, energy, cola)
+
+    print(f"Je krijgt {total} mg cafeïne binnen.")
