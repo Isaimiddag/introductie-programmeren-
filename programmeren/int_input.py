@@ -7,5 +7,5 @@ def get_odd_number() -> int:
         result = int(input("Enter an odd int: "))
     return result
     
-get_positive_int= int(input("Geef een integer: "))
+get_positive_int = int(input("Geef een integer: "))
 
