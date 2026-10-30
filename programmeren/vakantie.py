@@ -20,7 +20,7 @@ def overnight_costs(nights: int) -> float:
     
 def total_costs(km: int, nights: int) -> int:
     """
-    >>> 
+    >>> total_costs()
 
 if __name__ == "__main__":
     kosten_per_km = 0.13
