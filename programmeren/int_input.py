@@ -23,6 +23,7 @@ def get_any_int_but_0():
         print("Dit is een 0, voer iets anders in.")   
     
 def get_min_int():
+    
 
 def get_two_different_ints():
     
