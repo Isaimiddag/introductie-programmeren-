@@ -14,7 +14,7 @@ if __name__ == "__main__":
     oppervlakte_B = ax2_length* ay2_length* bx2_length* by2_length
     
     if oppervlakte_A == oppervlakte_B:
-        print(f"De rechthoeken zijn gelijk!)
+        print(f"De rechthoeken zijn gelijk!")
     else:
         print(f"helaas, de rechthoeken zijn niet gelijk!")
     
