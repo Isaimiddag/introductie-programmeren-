@@ -19,7 +19,7 @@ def get_any_int_but_0():
     result = int(input("geef een integer: "))
     if result != 0:
         print(f"{result} is an integer")
-    elif:
+    elif result 
         print("Dit is een 0, voer iets anders in.")   
     
 def get_min_int():
