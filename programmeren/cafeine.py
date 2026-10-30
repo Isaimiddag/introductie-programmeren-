@@ -6,7 +6,7 @@ def calculate_cafeine(coffee: int, tea: int, energy: int, cola: int) -> int:
 
 
 if __name__ =="__main__":
-    thee = 45
+    tea = 45
     coffee = 90
     energydrink = 80
     cola = 40
