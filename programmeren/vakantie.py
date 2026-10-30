@@ -26,7 +26,7 @@ def total_costs(km: int, nights: int) -> int:
     return km*0.13 *2 + nights*60
 
 if __name__ == "__main__":
-    
+    kilometers = int(input("Hoeveel kilometer reis je naar je bestemming? "))
     
     
     
