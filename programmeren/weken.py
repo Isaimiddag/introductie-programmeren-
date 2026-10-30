@@ -14,6 +14,7 @@ def weeks_elapsed(day1: int, day2: int) -> int:
     
     >>> weeks_elapsed(1, 30)
     4
+    
 
     """
 if __name__ == '__main__':
