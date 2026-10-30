@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 if __name__ == '__main__':
     get_positive_int()
     get_any_int_but_0()
