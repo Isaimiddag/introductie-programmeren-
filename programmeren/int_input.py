@@ -27,7 +27,7 @@ def get_min_int():
     if result < 10:
         print(f"geef een integer hoger dan{result}")
     else:
-        print()
+        print("Wat een mooie integer")
 
 def get_two_different_ints():
     
