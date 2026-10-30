@@ -10,3 +10,5 @@ def get_odd_number() -> int:
 get_positive_int = int(input("Geef een integer: "))
 if get_positive_int != int:
     print("Dat is geen integer, voer een integer in!")
+
+get
