@@ -11,4 +11,4 @@ def print_collatz(n):
 
 if __name__ == "__main__":
     n = int(input("Geef een getal: "))
-    
+    print()
