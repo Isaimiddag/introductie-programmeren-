@@ -1,4 +1,3 @@
-
 if __name__ == "__main__":
     ax_length = int(input("Wat is de lengte van x1 van A? "))
     ay_length = int(input("Wat is de lengte van y1 van A? "))
