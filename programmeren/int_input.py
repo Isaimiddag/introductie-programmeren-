@@ -35,7 +35,7 @@ def get_two_different_ints():
     if result1 == result2:
         print("FOUT! Je hebt twee dezelfde integers ingevoerd. Voer 2 verschillende in")
     else:
-        print("Je hebt twee)
+        print("GOEDJe hebt twee)
 
 
 
