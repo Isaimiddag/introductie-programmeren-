@@ -10,8 +10,8 @@ if __name__ == "__main__":
     
     ax2_length = int(input("Wat is de lengte van x1 van B? "))
     ay2_length = int(input("Wat is de lengte van y1 van B? "))
-    bx2_length = int(input("Wat is de lengte van x2 van A? "))
-    by2_length = int(input("Wat is de lengte van b2 van A? "))
+    bx2_length = int(input("Wat is de lengte van x2 van B? "))
+    by2_length = int(input("Wat is de lengte van b2 van B? "))
     
     
 
