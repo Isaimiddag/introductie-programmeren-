@@ -1,2 +1,2 @@
 number = int(input("vul een getal in: "))
-while number / 2
+while number / 2 = 
