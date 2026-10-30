@@ -8,5 +8,6 @@ if __name__ == "__main__":
     bx_length = int(input("Wat is de lengte van x2 van A? "))
     by_length = int(input("Wat is de lengte van b2 van A? "))
     
+    
 
 
