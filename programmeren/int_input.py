@@ -30,6 +30,7 @@ def get_min_int():
         print("Wat een mooie integer")
 
 def get_two_different_ints():
+    result1 = int(input("geef een integer: "))
     
     
 
