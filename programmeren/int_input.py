@@ -2,7 +2,7 @@ def get_positive_int():
     
 def get_any_int_but_0():
     
-def get_min
+def get_min_int()
 
 
 
