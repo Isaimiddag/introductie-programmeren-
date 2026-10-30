@@ -16,7 +16,11 @@ def get_positive_int():
         print("Dit is geen integer.")
         
 def get_any_int_but_0():
-    
+    result = int(input("geef een integer: "))
+    if integer > 0:
+        print(f"{result} is an integer")
+    else:
+        print("Dit is geen integer.")   
     
 def get_min_int():
 
