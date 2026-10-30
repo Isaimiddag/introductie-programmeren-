@@ -5,7 +5,7 @@ def hoeveelheid_water(minuten: int) -> int:
     hoeveelheid_water(10)
     120
     
-    hoeveelheid_water(5)
+    >>>hoeveelheid_water(5)
     300
     
 
