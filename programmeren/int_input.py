@@ -33,7 +33,7 @@ def get_two_different_ints():
     result1 = int(input("geef een integer: "))
     result2 = int(input("geef nog een integer: "))
     if result1 == result2:
-        print()
+        print(")
 
 
 
