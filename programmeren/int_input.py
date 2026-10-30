@@ -37,6 +37,7 @@ def get_two_different_ints():
     else:
         print("GOED! Je hebt twee verschillende integers ingevoerd!")
 
+get_odd_number
 get
 
 
