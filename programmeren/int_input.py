@@ -25,7 +25,9 @@ def get_any_int_but_0():
 def get_min_int():
     result = int(input("geef een integer: "))
     if result < 10:
-        print(f"geef een integer hoger dan{result})
+        print(f"geef een integer hoger dan{result}")
+    else:
+        print()
 
 def get_two_different_ints():
     
