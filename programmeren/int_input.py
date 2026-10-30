@@ -8,4 +8,4 @@ def get_odd_number() -> int:
     return result
     
 get_positive_int = int(input("Geef een integer: "))
-
+if get
