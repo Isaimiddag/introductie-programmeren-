@@ -38,7 +38,8 @@ def get_two_different_ints():
         print("GOED! Je hebt twee verschillende integers ingevoerd!")
 
 get_odd_number
-get
+get_positive_int
+
 
 
 
