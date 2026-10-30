@@ -9,7 +9,7 @@ def get_odd_number() -> int:
 
 
 def get_positive_int():
-    result = int(input())
+    result = int(input("geef een integer: "))
 def get_any_int_but_0():
     
 def get_min_int():
