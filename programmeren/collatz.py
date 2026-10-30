@@ -8,3 +8,7 @@ def print_collatz(n):
             n = 3 * n + 1
 
         print(n)
+
+if __name__ == "__main__":
+    n = int(input("Geef een getal: "))
+    
