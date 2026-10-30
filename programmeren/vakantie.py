@@ -23,7 +23,7 @@ def total_costs(km: int, nights: int) -> int:
     >>> total_costs(100, 5)
     313
     """
-    
+    return
 
 if __name__ == "__main__":
     kosten_per_km = 0.13
