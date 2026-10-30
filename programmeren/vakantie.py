@@ -1,4 +1,5 @@
-
+def travel_costs(km: int) -> float:
+    
 
 
 
