@@ -24,6 +24,7 @@ def get_any_int_but_0():
     
 def get_min_int():
     result = int(input("geef een integer: "))
+    if result < 
 
 def get_two_different_ints():
     
