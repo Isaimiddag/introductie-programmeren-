@@ -10,7 +10,7 @@ def get_odd_number() -> int:
 
 def get_positive_int():
     result = int(input("geef een integer: "))
-    if integer > 0:
+    if result > 0:
         print(f"{result} is an integer")
     else:
         print("Dit is geen integer.")
