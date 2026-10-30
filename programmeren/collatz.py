@@ -1,3 +1,3 @@
 number = int(input("vul een getal in: "))
-answer = number / 2
-while answer 
+answer = number 
+while answe/ 2r 
