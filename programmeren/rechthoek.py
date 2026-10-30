@@ -14,5 +14,7 @@ if __name__ == "__main__":
     by2_length = int(input("Wat is de lengte van b2 van B? "))
     
     
+    
+    
 
 
