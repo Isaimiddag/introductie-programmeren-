@@ -8,4 +8,4 @@ def calculate_years(start_size: int, end_size: int) -> int:
     return total_size
 
 if __name__ == '__main__':
-    
+    total_size = int(input(f"Wat is de))
