@@ -1,2 +1,2 @@
-def piramide(hoogte, blokjes):
+hoogte = int(input)
     
