@@ -5,8 +5,7 @@ def count_coins(cents: int) -> int:
     """
     return cents 
 
-if __name__ == '__main__':
-coins = 0
+    coins = 0
 
     coins += cents // 25
     cents = cents % 25
