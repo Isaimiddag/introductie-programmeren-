@@ -6,5 +6,22 @@ def count_coins(cents: int) -> int:
     return cents 
 
 if __name__ == '__main__':
-    <Vraag om het bedrag tot het geldig is, zet het om naar centen,
-    roep de functie aan en print het aantal munten>
+coins = 0
+
+    coins += cents // 25
+    cents = cents % 25
+
+    coins += cents // 10
+    cents = cents % 10
+
+    coins += cents // 5
+    cents = cents % 5
+
+    coins += cents
+
+    return coins
+
+
+if __name__ == '__main__':
+    cents = int(input("Hoeveel cent wisselgeld? "))
+    print(calculate_coins(cents))
