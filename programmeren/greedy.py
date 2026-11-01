@@ -9,6 +9,7 @@ def count_coins(cents: int) -> int:
     4
     >>> count_coins(78)
     6
+    
     """
 
 
