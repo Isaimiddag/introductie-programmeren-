@@ -30,5 +30,6 @@ if __name__ == '__main__':
         end_size = int(input("End population: "))
 
     result = calculate_years(start_size, end_size)
+    
 
     print(f"Years: {result}")
