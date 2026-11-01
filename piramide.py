@@ -1,1 +1,1 @@
-def piramide
+def piramide()
