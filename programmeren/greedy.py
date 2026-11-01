@@ -23,4 +23,4 @@ def count_coins(cents: int) -> int:
 
 if __name__ == '__main__':
     cents = int(input("Hoeveel cent wisselgeld? "))
-    print(calculate_coins(cents))
+    print(count_coins_coins(cents))
