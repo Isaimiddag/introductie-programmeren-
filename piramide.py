@@ -1,1 +1,2 @@
-def piramide(hoogte, blokjes)
+def piramide(hoogte, blokjes):
+    
