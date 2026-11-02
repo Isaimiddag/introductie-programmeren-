@@ -8,7 +8,7 @@ def print_collatz(n: int):
     2
     1
     """
-    return len()
+    
     
 
     while n != 1:
