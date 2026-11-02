@@ -29,12 +29,12 @@ def count_coins(cents: int) -> int:
         cents = cents % 25
 
         coins += cents // 10
-    cents = cents % 10
+        cents = cents % 10
 
-    coins += cents // 5
-    cents = cents % 5
+        coins += cents // 5
+        cents = cents % 5
 
-    coins += cents
+        coins += cents
 
     return coins
 
