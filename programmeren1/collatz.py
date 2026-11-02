@@ -25,4 +25,4 @@ def print_collatz(n: int) -> int:
 
 if __name__ == "__main__":
    n = int(input("Geef een getal: "))
-   print_collatz(n)
+   print_collatz()
