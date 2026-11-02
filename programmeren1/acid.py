@@ -9,12 +9,13 @@ def is_acidic(ph: float) -> float:
     >>> is_acidic(2)
     True
     """
-if __name__ == "__main__":
-    ph = int(input("Wat is de ph-waarde?: "))
-    if ph < 7:
+       if ph < 7:
         print(is_acidic)
     else:
         print(is_acidic)
         
+if __name__ == "__main__":
+    ph = int(input("Wat is de ph-waarde?: "))
+ 
             
     
