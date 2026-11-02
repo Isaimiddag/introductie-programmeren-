@@ -1,4 +1,4 @@
-def is_leap_year(year: int) -> bool:
+def is_schrikkel(year: int) -> bool:
     """
     >>> is_leap_year(2024)
     True
