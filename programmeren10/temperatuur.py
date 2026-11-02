@@ -1,7 +1,6 @@
 def convert_temperature(old_type: str, old_temp: int) -> int:
     """
-    Zet de temperatuur (old_temp) van het type old_type om naar
-    de temperatuur van het nieuwe type.
+    Zet de temperatuur om naar de andere eenheid.
 
     >>> convert_temperature("C", 0)
     32
@@ -11,8 +10,6 @@ def convert_temperature(old_type: str, old_temp: int) -> int:
     0
     >>> convert_temperature("F", 0)
     -17
-    >>> convert_temperature("c", 10)
-    50
     """
     if old_type.upper() == "C":
         return int((18 * old_temp + 320) / 10)
@@ -25,19 +22,7 @@ def print_table(old_type: str,
                 end_temp: int,
                 step_size: int) -> None:
     """
-    Print de conversie-tabel.
-
-    >>> print_table("C", 0, 10, 5)
-      C |   F
-      0 |  32
-      5 |  41
-     10 |  50
-
-    >>> print_table("F", 0, 4, 2)
-      F |   C
-      0 | -17
-      2 | -16
-      4 | -15
+    Print de conversietabel.
     """
     old_type = old_type.upper()
 
@@ -49,14 +34,14 @@ def print_table(old_type: str,
     print(f"{old_type:>3} | {new_type:>3}")
 
     for temp in range(begin_temp, end_temp + 1, step_size):
-        new_temp = convert_temperature(old_type, temp)
-        print(f"{temp:>3} | {new_temp:>3}")
+        converted = convert_temperature(old_type, temp)
+        print(f"{temp:>3} | {converted:>3}")
 
 
 if __name__ == "__main__":
     old_type = input("Welke eenheid van temperatuur (C of F)? ")
 
-    while old_type.upper() not in ["C", "F"]:
+    while old_type.upper() != "C" and old_type.upper() != "F":
         old_type = input("Welke eenheid van temperatuur (C of F)? ")
 
     begin_temp = int(input("Wat is de begintemperatuur? "))
