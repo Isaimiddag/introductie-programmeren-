@@ -4,7 +4,9 @@ def print_collatz(n):
     2
     1
     >>> print(4)
-    
+    4
+    2
+    1
     """
     print(n)
 
