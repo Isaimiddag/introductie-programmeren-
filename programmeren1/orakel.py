@@ -25,7 +25,7 @@ if __name__ == "__main__":
     if check_answer(answer):
         print("Ja")
     else:
-        print("Helaas, dat is fout")
+        print("Nee")
 
 
     
