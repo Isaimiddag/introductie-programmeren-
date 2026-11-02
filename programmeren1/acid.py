@@ -11,9 +11,7 @@ def is_acidic(ph: float) -> float:
     """
     if ph < 7:
         return True
-        print(is_acidic)
     else:
-       
         return False
     
         
