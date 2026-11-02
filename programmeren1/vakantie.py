@@ -1,4 +1,4 @@
-def travel_costs(km: ) -> float:
+def travel_costs(km: int) -> float:
     """
     >>> travel_costs(100)
     26.0
