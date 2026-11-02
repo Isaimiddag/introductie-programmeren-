@@ -1,29 +1,24 @@
-def print_collatz(n: int) -> int:
+def print_collatz(n: int) -> None:
     """
-    >>> print(2)
-    2
+    >>> print_collatz(1)
     1
-    >>> print(4)
+
+    >>> print_collatz(3)
+    3
+    10
+    5
+    16
+    8
     4
     2
     1
     """
-    count = 0
-    
-    
-def collatz_length(n):
+    print(n)
+
     while n != 1:
         if n % 2 == 0:
             n = n // 2
-            count += 1
         else:
             n = 3 * n + 1
-            count += 1
-    return count
 
-       
-
-if __name__ == "__main__":
-    n = int(input("Geef een getal: "))
-    hallo = print_collatz(n)
-    print(hallo)
+        print(n)
