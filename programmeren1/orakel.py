@@ -23,7 +23,7 @@ def check_answer(answer: str) -> bool:
 if __name__ == "__main__":
     answer = input("Wat is het antwoord op het leven, het universum en alles? ")
     if check_answer(answer):
-        print("")
+        print("Ja")
     else:
         print("Helaas, dat is fout")
 
