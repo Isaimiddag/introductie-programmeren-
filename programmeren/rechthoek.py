@@ -1,6 +1,15 @@
 def calculate_length(c1: int, c2: int) -> int:
     """
     Berekent de lengte van een zijde op basis van twee coördinaten.
+
+    >>> calculate_length(1, 5)
+    4
+    >>> calculate_length(5, 1)
+    4
+    >>> calculate_length(3, 3)
+    0
+    >>> calculate_length(-2, 3)
+    5
     """
     return abs(c2 - c1)
 
@@ -11,6 +20,15 @@ def is_same_rectangle(ax_length: int,
                       by_length: int) -> bool:
     """
     Controleert of de lengtes van de zijdes gelijk zijn.
+
+    >>> is_same_rectangle(4, 3, 4, 3)
+    True
+    >>> is_same_rectangle(5, 5, 5, 5)
+    True
+    >>> is_same_rectangle(4, 3, 3, 4)
+    False
+    >>> is_same_rectangle(4, 3, 4, 2)
+    False
     """
     return ax_length == bx_length and ay_length == by_length
 
@@ -21,6 +39,17 @@ def is_same_square(ax_length: int,
                    by_length: int) -> bool:
     """
     Controleert of beide rechthoeken hetzelfde vierkant zijn.
+
+    >>> is_same_square(4, 4, 4, 4)
+    True
+    >>> is_same_square(5, 5, 5, 5)
+    True
+    >>> is_same_square(4, 3, 4, 3)
+    False
+    >>> is_same_square(4, 4, 5, 5)
+    False
+    >>> is_same_square(3, 3, 3, 2)
+    False
     """
     return (
         ax_length == ay_length
@@ -53,7 +82,3 @@ if __name__ == "__main__":
             print("En ze zijn ook nog vierkant!")
     else:
         print("Er is niks aan :(")
-    
-    
-
-
