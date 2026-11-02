@@ -53,3 +53,4 @@ if __name__ == "__main__":
         step_size = int(input("Wat is de stapgrootte? "))
 
     print_table(old_type, begin_temp, end_temp, step_size)
+    
