@@ -1,5 +1,7 @@
+def print_pyramid(hoogte: int) -> None:
+    """
+    Print een halve piramide.
 
-"""
     >>> print_pyramid(1)
     ##
 
@@ -15,16 +17,24 @@
      #####
     ######
     """
+    for rij in range(1, hoogte + 1):
 
-while hoogte < 1 or hoogte > 23:
+        # Spaties
+        for _ in range(hoogte - rij):
+            print(" ", end="")
+
+        # Hekjes
+        for _ in range(rij + 1):
+            print("#", end="")
+
+        # Nieuwe regel
+        print()
+
+
+if __name__ == "__main__":
     hoogte = int(input("Hoe hoog moet de piramide zijn? "))
 
-for rij in range(1, hoogte + 1):
+    while hoogte < 1 or hoogte > 23:
+        hoogte = int(input("Hoe hoog moet de piramide zijn? "))
 
-    for _ in range(hoogte - rij):
-        print(" ", end="")
-
-    for _ in range(rij + 1):
-        print("#", end="")
-
-    print()
+    print_pyramid(hoogte)
