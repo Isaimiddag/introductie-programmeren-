@@ -6,7 +6,7 @@ def is_schrikkel(year: int) -> bool:
     False
     >>> is_schrikkel(2000)
     True
-    >>> is_leap_year(1900)
+    >>> is_schrikkel(1900)
     False
     """
     if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
