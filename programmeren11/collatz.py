@@ -11,7 +11,7 @@ def print_collatz(n: int) -> int:
     count = 0
     
     
-
+def collatz_length()
     while n != 1:
         if n % 2 == 0:
             n = n // 2
