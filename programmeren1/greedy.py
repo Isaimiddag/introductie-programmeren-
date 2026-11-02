@@ -22,7 +22,7 @@ def count_coins(cents: int) -> int:
     """
 
 
-coins = 0
+    whilecoins = 0
 
     coins += cents // 25
     cents = cents % 25
