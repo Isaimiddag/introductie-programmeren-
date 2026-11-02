@@ -38,4 +38,4 @@ if __name__ == "__main__":
 
     total = calculate_cafeine(coffee, tea, energy, cola)
 
-    print(f"Je krijgt {total} mg cafeïne binnen.")
+    print(f"Je krijgt {total} mg cafene binnen.")
