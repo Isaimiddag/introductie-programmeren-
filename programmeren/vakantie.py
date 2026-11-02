@@ -23,7 +23,7 @@ def total_costs(km: int, nights: int) -> int:
     >>> total_costs(100, 5)
     326
     total_costs(10,2)
-    
+    122.6
     """
     return km*0.13 *2 + nights*60
 
