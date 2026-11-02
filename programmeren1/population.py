@@ -9,7 +9,7 @@ def calculate_years(start_size: int, end_size: int) -> int:
     8
     >>> calculate_years(1250, 1300)
     1
-    >>> calculate_years(500, 1000)
+    >>> calculate_years(10, 1000)
     8
     >>> calculate_years(1000, 1500)
     5
