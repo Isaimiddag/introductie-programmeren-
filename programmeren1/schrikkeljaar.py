@@ -1,6 +1,6 @@
 def is_schrikkel(year: int) -> bool:
     """
-    >>> is_leap_year(2024)
+    >>> is_schrikkel(2024)
     True
     >>> is_leap_year(2025)
     False
