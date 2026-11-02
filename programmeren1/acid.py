@@ -10,11 +10,11 @@ def is_acidic(ph: float) -> float:
     True
     """
     if ph < 7:
-        
+        return True
         print(is_acidic)
     else:
         print(is_acidic)
-        
+        return False
     
         
 if __name__ == "__main__":
