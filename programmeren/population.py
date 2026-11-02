@@ -11,11 +11,10 @@ def calculate_years(start_size: int, end_size: int) -> int:
     1
     >>> calculate_years(500, 1000)
     8
-
     >>> calculate_years(1000, 1500)
-5
+    5
 
->>> calculate_years(1500, 3000)
+    >>> calculate_years(1500, 3000)
 8
   
     
