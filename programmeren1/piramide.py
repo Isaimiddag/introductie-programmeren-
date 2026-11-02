@@ -10,6 +10,7 @@ def print_pyramid(hoogte: int) -> None:
     >>> print_pyramid(1)
     ##
     """
+    while
     for rij in range(1, hoogte + 1):
         print("#" * (rij + 1))
 
