@@ -3,7 +3,8 @@ def print_collatz(n):
     >>> print(2)
     2
     1
-    >>> print(3)
+    >>> print(4)
+    
     """
     print(n)
 
