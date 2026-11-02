@@ -1,5 +1,16 @@
-hoogte = int(input("Hoe hoog moet de piramide zijn? "))
->>> 
-for rij in range(1, hoogte + 1):
-    print("#" * (rij + 1))
-    
+def print_pyramid(hoogte: int) -> None:
+    """
+    >>> print_pyramid(3)
+    ##
+    ###
+    ####
+
+    >>> print_pyramid(5)
+    ##
+    ###
+    ####
+    #####
+    ######
+    """
+    for rij in range(1, hoogte + 1):
+        print("#" * (rij + 1))
