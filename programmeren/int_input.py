@@ -3,45 +3,57 @@ def get_odd_number() -> int:
     Deze functie vereist een oneven integer.
     """
     result = int(input("Enter an odd int: "))
+
     while result % 2 == 0:
         result = int(input("Enter an odd int: "))
+
     return result
 
 
-def get_positive_int():
-    result = int(input("geef een integer: "))
-    if result > 0:
-        print(f"{result} is an integer")
-    else:
-        print("Dit is geen integer.")
-        
-def get_any_int_but_0():
-    result = int(input("geef een integer: "))
-    if result != 0:
-        print(f"{result} is an integer")
-    elif result == 0:
-        print("Dit is een 0, voer iets anders in.")   
-    
-def get_min_int():
-    result = int(input("geef een integer: "))
-    if result < 10:
-        print(f"geef een integer hoger dan{result}")
-    else:
-        print("Wat een mooie integer")
+def get_positive_int() -> int:
+    result = int(input("Geef een positief getal: "))
 
-def get_two_different_ints():
-    result1 = int(input("geef een integer: "))
-    result2 = int(input("geef nog een integer: "))
-    if result1 == result2:
-        print("FOUT! Je hebt twee dezelfde integers ingevoerd. Voer 2 verschillende in")
-    else:
-        print("GOED! Je hebt twee verschillende integers ingevoerd!")
+    while result <= 0:
+        result = int(input("Geef een positief getal: "))
 
-get_odd_number()
-get_positive_int()
-get_any_int_but_0()
-get_min_int()
-get_two_different_ints()
+    return result
+
+
+def get_any_int_but_0() -> int:
+    result = int(input("Geef een integer verschillend van 0: "))
+
+    while result == 0:
+        result = int(input("Geef een integer verschillend van 0: "))
+
+    return result
+
+
+def get_min_int() -> int:
+    result = int(input("Geef een integer van minstens 10: "))
+
+    while result < 10:
+        result = int(input("Geef een integer van minstens 10: "))
+
+    return result
+
+
+def get_two_different_ints() -> tuple[int, int]:
+    result1 = int(input("Geef een integer: "))
+    result2 = int(input("Geef nog een integer: "))
+
+    while result1 == result2:
+        print("FOUT! Voer twee verschillende integers in.")
+        result2 = int(input("Geef nog een integer: "))
+
+    return result1, result2
+
+
+if __name__ == "__main__":
+    print(get_odd_number())
+    print(get_positive_int())
+    print(get_any_int_but_0())
+    print(get_min_int())
+    print(get_two_different_ints())
 
 
 
