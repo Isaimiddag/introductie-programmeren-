@@ -1,4 +1,4 @@
-h
+
 """
     >>> print_pyramid(1)
     ##
