@@ -1,6 +1,7 @@
 def print_collatz(n):
     """
     >>> print(2)
+    """
     print(n)
 
     while n != 1:
