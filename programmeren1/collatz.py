@@ -19,6 +19,7 @@ def print_collatz(n: int):
         else:
             n = 3 * n + 1
             count += 1
+    return count
 
        
 
