@@ -1,6 +1,9 @@
 def print_collatz(n):
     """
     >>> print(2)
+    2
+    1
+    
     """
     print(n)
 
