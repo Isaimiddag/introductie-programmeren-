@@ -1,19 +1,14 @@
-def print_pyramid(hoogte: int) -> None:
-    """
-    Print een halve piramide.
+hoogte = int(input("Hoe hoog moet de piramide zijn? "))
 
-    >>> print_pyramid(3)
-    ##
-    ###
-    ####
-
-    >>> print_pyramid(1)
-    ##
-    """
-    while rij in range(1, hoogte + 1):
-        print("#" * (rij + 1))
-
-
-if __name__ == "__main__":
+while hoogte < 1 or hoogte > 23:
     hoogte = int(input("Hoe hoog moet de piramide zijn? "))
-    print_pyramid(hoogte)
+
+for rij in range(1, hoogte + 1):
+
+    for _ in range(hoogte - rij):
+        print(" ", end="")
+
+    for _ in range(rij + 1):
+        print("#", end="")
+
+    print()
