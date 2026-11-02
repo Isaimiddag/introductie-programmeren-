@@ -10,11 +10,11 @@ def calculate_years(start_size: int, end_size: int) -> int:
     >>> calculate_years(1250, 1300)
     1
     >>> calculate_years(1270, 1300)
-    8
+    1
     >>> calculate_years(1280, 1300)
-    5
+    1
     >>> calculate_years(1290, 1300)
-    8
+    1
     """
     years = 0
     population = start_size
