@@ -25,7 +25,7 @@ def total_costs(km: int, nights: int) -> int:
     >>> total_costs(10,2)
     122.6
     """
-    return km*0.13 *2 + nights*60mypy --strict --ignore-missing-imports programma.py
+    return km*0.13 *2 + nights*60
 
 if __name__ == "__main__":
     km = int(input("Hoeveel kilometer reis je naar je bestemming? "))
