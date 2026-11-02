@@ -14,7 +14,7 @@ if __name__ == "__main__":
     if ph < 7:
         print(is_acidic)
     else:
-        print("Het is geen zuur.")
+        print(is_acidic)
         
             
     
