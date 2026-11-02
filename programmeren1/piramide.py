@@ -1,4 +1,4 @@
-hoogte = int(input("Hoe hoog moet de piramide zijn? "))
+
 """
     >>> print_pyramid(1)
     ##
