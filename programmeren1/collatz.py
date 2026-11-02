@@ -8,6 +8,7 @@ def print_collatz(n: int):
     2
     1
     """
+    count = 0
     
     
 
