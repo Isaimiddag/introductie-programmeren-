@@ -8,7 +8,7 @@ def print_collatz(n) -> int:
     2
     1
     """
-    return(n)
+    
 
     while n != 1:
         if n % 2 == 0:
