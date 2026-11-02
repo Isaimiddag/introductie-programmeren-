@@ -2,7 +2,6 @@ def is_acidic(ph: float) -> float:
     """
     >>> is_acidic(3.0)
     True
-    
     >>> is_acidic(8.0)
     False
     >>> is_acidic(10)
