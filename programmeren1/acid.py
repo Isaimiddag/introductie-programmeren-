@@ -20,7 +20,7 @@ if __name__ == "__main__":
     if is_acidic(ph) == True:
         print("Het is een zuur")
     else:
-        print(")
+        print("het is een base")
     
         
  
