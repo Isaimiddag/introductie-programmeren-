@@ -36,7 +36,7 @@ def count_coins(cents: int) -> int:
 
         coins += cents
 
-    return coins
+        return coins
 
 
 if __name__ == '__main__':
