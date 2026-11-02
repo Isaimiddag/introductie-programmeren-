@@ -9,6 +9,8 @@ def calculate_years(start_size: int, end_size: int) -> int:
     8
     >>> calculate_years(9, 10)
     1
+    >>> calculate_years(9, 10)
+    1
     
     """
     years = 0
