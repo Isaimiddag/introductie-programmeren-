@@ -24,6 +24,6 @@ def print_collatz(n: int) -> int:
        
 
 if __name__ == "__main__":
-   n = int(input("Geef een getal: "))
-   hallo = print_collatz(n)
-print(hallo)
+    n = int(input("Geef een getal: "))
+    hallo = print_collatz(n)
+    print(hallo)
