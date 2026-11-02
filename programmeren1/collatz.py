@@ -1,4 +1,4 @@
-def print_collatz(n: int):
+def print_collatz(n: int): -> int
     """
     >>> print(2)
     2
