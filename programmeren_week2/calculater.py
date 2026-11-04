@@ -32,4 +32,4 @@ if __name__ == '__main__':
     som = input("Geef een som: ")
     antwoord = evaluate(som)
     if antwoord is not None:
-        print()
+        print(antwoord)
