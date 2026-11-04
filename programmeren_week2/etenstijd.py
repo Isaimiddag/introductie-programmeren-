@@ -2,7 +2,7 @@ def meal(time: str) -> str:
     uur, minuten = time.split(":")
     uur = int(uur)
     minuten = int(minuten)
-    tijd = uur 
+    tijd = uur * 60 + minuten
    
     
     
