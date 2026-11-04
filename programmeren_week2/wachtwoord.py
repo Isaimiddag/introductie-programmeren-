@@ -17,7 +17,7 @@ def check_letter(password: str) -> bool:
         if letter.isdigit():
             return True
         else:
-            return 
+            return False
 
 def check_number(password: str) -> bool:
     """
