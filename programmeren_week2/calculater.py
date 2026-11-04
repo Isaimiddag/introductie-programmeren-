@@ -32,6 +32,6 @@ if __name__ == '__main__':
     x = ?
     z = ?
 
-    antwoord = evaluate(x, y, ?)
+    antwoord = evaluate(x, y, z)
 
     print(antwoord)
