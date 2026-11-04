@@ -29,7 +29,7 @@ if __name__ == '__main__':
 
     x, y, z = som.split()
 
-    x = ?
+    x = float
     z = ?
 
     antwoord = evaluate(x, y, z)
