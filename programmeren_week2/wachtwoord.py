@@ -36,7 +36,14 @@ def check_letter(password: str) -> bool:
     return heeft_hoofdletter and heeft_kleine_letter
 
 def check_number(password: str) -> bool:
+    """
+    Controleer of het wachtwoord een cijfer bevat.
 
+    >>> check_number("abc")
+    False
+    >>> check_number("abc1")
+    True
+    """
     for letter in password:
         if letter.isdigit():
             return True
