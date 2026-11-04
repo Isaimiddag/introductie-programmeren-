@@ -1,5 +1,3 @@
-
-    
 def meal(time: str) -> str:
     
     uur, minuten = time.split(":")
