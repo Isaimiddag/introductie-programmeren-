@@ -1,6 +1,8 @@
 def meal(time: str) -> str:
     uur = time[0,1] * 60
-    min = time[]
+    min = time[2,3]
+    tijd = uur + min
+    
     
     if tijd >= 420 and tijd <= 480:
         return 
