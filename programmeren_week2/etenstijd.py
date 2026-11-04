@@ -11,7 +11,7 @@ def meal(time: str) -> str:
         return None
 
 if __name__ == "__main__":
-    kloktijd = int(input("Hoe laat is het? "))
+    kloktijd = input("Hoe laat is het? ")
     maaltijd = meal(kloktijd)
     print(f"{maaltijd}")
     
