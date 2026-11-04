@@ -7,9 +7,9 @@ def evaluate(x: int, y: str, z: int) -> float:
     >>> evaluate(2, "/", 2)
     1
     >>> evaluate(2, "*", 3)
-    6
+    6.0
     >>> evaluate(8, "-", 4)
-    4
+    4.0
     """
     formule = evaluate.split(x,y,z)
     x = int(x)
