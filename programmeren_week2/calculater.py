@@ -10,6 +10,8 @@ def evaluate(x: int, y: str, z: int) -> float:
     6.0
     >>> evaluate(8, "-", 4)
     4.0
+    >>> evaluate(4, "*", -6)
+-24.0
     """
     
     if y == "*":
