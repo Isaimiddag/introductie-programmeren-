@@ -8,7 +8,7 @@ def meal(time: str) -> str:
     elif tijd >= 1080 and tijd <= 1140:
         return
     else:
-        return
+        return None
 
 if __name__ == "__main__":
     kloktijd = int(input("Hoe laat is het? "))
