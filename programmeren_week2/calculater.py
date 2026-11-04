@@ -25,7 +25,7 @@ def evaluate(x: int, y: str, z: int) -> float:
 
 if __name__ == '__main__':
     som = input("geef een som: ")
-    x, y, z = som.split(x,y,z)
+    x, y, z = som.split()
     x = int(x)
     z = int(z)
     antwoord = evaluate(x, y, z)
