@@ -23,7 +23,8 @@ def evaluate(x: int, y: str, z: int) -> float:
         return x-z
     elif y = "+":
         return x+z
-    else
+    else:
+        return None
     
 
 if __name__ == '__main__':
