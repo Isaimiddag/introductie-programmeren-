@@ -15,6 +15,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     x = int(x)
     y = str(y)
     z = int(z)
+    
     if y = "*":
         return x*z
     elif y = "/":
@@ -28,4 +29,4 @@ def evaluate(x: int, y: str, z: int) -> float:
     
 
 if __name__ == '__main__':
-    <Invoer, verwerken, functie, uitvoer>
+    
