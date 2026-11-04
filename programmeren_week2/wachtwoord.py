@@ -27,7 +27,7 @@ def check_password(password: str) -> bool:
     Controleer of aan alledrie de eisen is voldaan.
     """
     if check_length = True and check_number = True and check_letter = True:
-        return 
+        return True 
 
 if __name__ == '__main__':
-    <Hoofdprogramma mag maar één functie aanroepen>
+    
