@@ -1,1 +1,1 @@
-def eten
+def eten(tijd: int)
