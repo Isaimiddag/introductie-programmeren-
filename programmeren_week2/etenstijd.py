@@ -10,7 +10,7 @@ def meal(time: str) -> str:
     elif tijd >= 720 and tijd <= 780:
         return "lunch"
     elif tijd >= 1080 and tijd <= 1140:
-        return
+        return "diner"
     else:
         return None
 
