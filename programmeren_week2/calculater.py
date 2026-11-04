@@ -29,4 +29,4 @@ def evaluate(x: int, y: str, z: int) -> float:
     
 
 if __name__ == '__main__':
-    som = int(in)
+    som = (in)
