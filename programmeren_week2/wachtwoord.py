@@ -42,7 +42,8 @@ def check_password(password: str) -> bool:
     return (
         check_letter(password),
         check_number(password),
-        check_length(password))
+        check_length(password)
+        ch)
 
 if __name__ == '__main__':
     wachtwoord = input("Wat is uw wachtwoord? ")
