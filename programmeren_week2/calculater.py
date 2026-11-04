@@ -29,8 +29,8 @@ if __name__ == '__main__':
 
     x, y, z = som.split()
 
-    x = float
-    z = float
+    x = int(x)
+    z = int(z)
 
     antwoord = evaluate(x, y, z)
 
