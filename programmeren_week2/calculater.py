@@ -14,6 +14,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     formule = evaluate.split(x,y,z)
     x = int(x)
     y = str(y)
+    z = int(z)
     
     
 
