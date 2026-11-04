@@ -41,7 +41,6 @@ def check_password(password: str) -> bool:
     """
     return (
         check_letter(password),
-        check_letter(password),
         check_number)
 
 if __name__ == '__main__':
