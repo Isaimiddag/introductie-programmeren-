@@ -1,10 +1,9 @@
 def meal(time: str) -> str:
+    
     uur, minuten = time.split(":")
     uur = int(uur)
     minuten = int(minuten)
     tijd = uur * 60 + minuten
-   
-    
     
     if tijd >= 420 and tijd <= 480:
         return 
