@@ -16,13 +16,13 @@ def evaluate(x: int, y: str, z: int) -> float:
     y = str(y)
     z = int(z)
     
-    if y = "*":
+    if y == "*":
         return x*z
-    elif y = "/":
+    elif y == "/":
         return x/z
-    elif y = "-":
+    elif y == "-":
         return x-z
-    elif y = "+":
+    elif y == "+":
         return x+z
     else:
         return None
