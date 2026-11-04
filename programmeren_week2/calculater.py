@@ -20,8 +20,7 @@ def evaluate(x: int, y: str, z: int) -> float:
         return float(x-z)
     elif y == "+":
         return float(x+z)
-    else:
-        return None
+
     
 
 if __name__ == '__main__':
