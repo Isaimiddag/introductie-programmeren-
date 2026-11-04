@@ -12,7 +12,7 @@ def meal(time: str) -> str:
     elif tijd >= 1080 and tijd <= 1140:
         return "avondeten"
     else:
-        return "..."
+        return " "
 
 if __name__ == "__main__":
     kloktijd = input("Hoe laat is het? ")
