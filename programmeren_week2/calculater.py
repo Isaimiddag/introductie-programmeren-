@@ -11,10 +11,6 @@ def evaluate(x: int, y: str, z: int) -> float:
     >>> evaluate(8, "-", 4)
     4.0
     """
-    formule = evaluate.split(x,y,z)
-    x = int(x)
-    y = str(y)
-    z = int(z)
     
     if y == "*":
         return x*z
