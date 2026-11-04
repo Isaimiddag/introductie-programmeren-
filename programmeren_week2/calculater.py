@@ -10,7 +10,6 @@ def evaluate(x: int, y: str, z: int) -> float:
     6
     >>> evaluate(8-4)
     4
-    
     """
     
 
