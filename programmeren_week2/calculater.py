@@ -12,7 +12,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     4
     """
     formule = evaluate.split(x,y,z)
-    
+    x = int(x)
     
 
 if __name__ == '__main__':
