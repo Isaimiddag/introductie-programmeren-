@@ -6,7 +6,7 @@ def meal(time: str) -> str:
     tijd = uur * 60 + minuten
     
     if tijd >= 420 and tijd <= 480:
-        return 
+        return "m
     elif tijd >= 720 and tijd <= 780:
         return
     elif tijd >= 1080 and tijd <= 1140:
