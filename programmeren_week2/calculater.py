@@ -6,9 +6,9 @@ def evaluate(x: int, y: str, z: int) -> float:
     12
     >>> evaluate(2,"/",2)
     1
-    >>> evaluate(2,"*",3)
+    >>> evaluate(2 ,"*", 3)
     6
-    >>> evaluate(8,"-",4)
+    >>> evaluate(8 ,"-", 4)
     4
     """
     formule = evaluate.split(x,y,z)
