@@ -14,7 +14,10 @@ def check_letter(password: str) -> bool:
     Gebruik een loop om door password te lopen.
     """
     for letter in password:
-        if letter.isdigit()
+        if letter.isdigit():
+            return True
+        else:
+            return 
 
 def check_number(password: str) -> bool:
     """
