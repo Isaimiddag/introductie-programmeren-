@@ -17,7 +17,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     elif y == "/":
         return float(x/z)
     elif y == "-":
-        return x-z
+        return float(x-z)
     elif y == "+":
         return x+z
     else:
