@@ -53,6 +53,11 @@ def check_number(password: str) -> bool:
 def check_password(password: str) -> bool:
     """
     Controleer of aan alledrie de eisen is voldaan.
+
+    >>> check_password("hoi")
+    False
+    >>> check_password("Aardappel123")
+    True
     """
     return (
         check_letter(password),
