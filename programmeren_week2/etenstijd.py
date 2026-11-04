@@ -1,5 +1,7 @@
 def meal(time: str) -> str:
-    uur, min = time.split(":")
+    uur, minuten = time.split(":")
+    uur = int(uur)
+    
    
     
     
