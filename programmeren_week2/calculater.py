@@ -16,7 +16,8 @@ def evaluate(x: int, y: str, z: int) -> float:
     y = str(y)
     z = int(z)
     if y = "*":
-        return x
+        return x*z
+    elif y = "
     
 
 if __name__ == '__main__':
