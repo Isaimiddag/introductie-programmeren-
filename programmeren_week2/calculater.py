@@ -11,7 +11,7 @@ def evaluate(x: int, y: str, z: int) -> float:
     >>> evaluate(8-4)
     4
     """
-    som = 
+    
     
 
 if __name__ == '__main__':
