@@ -1,6 +1,11 @@
 def check_length(password: str) -> bool:
     """
-    
+    Controleer of het wachtwoord minstens 8 karakters bevat.
+
+    >>> check_length("abc")
+    False
+    >>> check_length("abcdefgh")
+    True
     """
     if len(password) >= 8:
         return True
