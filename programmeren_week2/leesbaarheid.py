@@ -13,7 +13,6 @@ def calculate_grade(text: str) -> int:
     
     """
     CLI = 0.0588 * L - 0.296 * S - 15.8 
-    
 
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
