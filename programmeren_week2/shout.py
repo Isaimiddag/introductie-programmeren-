@@ -7,7 +7,7 @@ def shout(text: str) -> str:
     >>> shout("Goodmorning everyone")
     "GOODMORNING EVERYONE"
     >>> shout(Who the hell put the muffins the freezer?)
-    
+    "WHO THE HELL PUT THE MUFFINS THE FREEZER?"
     """
     result = ""
     for letter in text:
