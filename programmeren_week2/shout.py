@@ -1,1 +1,1 @@
-def shout()
+def shout(text: str)
