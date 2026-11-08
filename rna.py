@@ -28,7 +28,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
             rna += "U"
         elif letter == "G":
             rna += "C"
-        elif letter == ""
+        elif letter == "C"
         
 
 if __name__ == '__main__':
