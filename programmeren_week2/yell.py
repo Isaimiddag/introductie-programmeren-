@@ -19,7 +19,7 @@ def yell(sentence: str) -> str:
         if char == "!" or char == "?":
             result += char * 2
         else:
-            print("No ! or ? in sentence")
+            result += char
     return result
     
 if __name__ == "__main__":
