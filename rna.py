@@ -20,7 +20,7 @@ def transcribe_dna_to_rna(dna: str) -> str:
     >>>transcribe_dna_to_rna("cga")
     "GCU"
     >>> transcribe_dna_to_rna("AGC")
-    
+    UC
 
     """
     rna = ""
