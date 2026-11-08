@@ -1,2 +1,2 @@
 def remove_vowels(text: str) -> str:
-    vowels = "a, e
+    vowels = "a, e, i, 
