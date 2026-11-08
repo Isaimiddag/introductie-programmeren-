@@ -4,6 +4,7 @@ def convert(text: str) -> str:
     "hallo_pizza"
     >>> convert(readFromFile)
     
+    
     result = ""
     for char in text:
         if char.isupper():
