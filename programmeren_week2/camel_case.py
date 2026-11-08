@@ -4,7 +4,9 @@ def convert(text: str) -> str:
     "hallo_pizza"
     >>> convert(readFromFile)
     "read_from_file"
-    >>> convert("helloWorld)
+    >>> convert("helloWorld")
+    "hello_world"
+    >>> convert()
     
     result = ""
     for char in text:
