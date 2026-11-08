@@ -17,7 +17,8 @@ def check_input(dna: str) -> bool:
 
 def transcribe_dna_to_rna(dna: str) -> str:
     """
-    transcribe_dna_to_rna()
+    transcribe_dna_to_rna("cga")
+    
 
     """
     rna = ""
