@@ -17,7 +17,5 @@ def yell(sentence: str) -> str:
     result = ""
     for char in sentence:
         if char not in sentence:
-            return "No ? or ! in sentence."
-        else:
-            return
+          
     
