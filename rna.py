@@ -39,6 +39,6 @@ def transcribe_dna_to_rna(dna: str) -> str:
 
 if __name__ == '__main__':
     dna = input("Vul dna in: ")
-    if check_input(dna)
+    if check_input(dna):
     print(transcribe_dna_to_rna(dna))
     print(rna)
