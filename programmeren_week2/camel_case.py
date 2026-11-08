@@ -2,7 +2,7 @@ def convert(text: str) -> str:
     result = ""
     for char in text:
         if char.isupper():
-            result +="_"+ char.lower()
+            result += "_"+ char.lower()
         else:
             result += char
     return result
