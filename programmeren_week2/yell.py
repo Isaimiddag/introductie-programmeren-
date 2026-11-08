@@ -1,2 +1,3 @@
 def yell(words: str) -> str:
-    for 
+    for ! or ? in sentence:
+        print
