@@ -5,4 +5,4 @@ def shout(text: str) -> str:
         if char == " ":
             capitalize = True
             
-    re
+    return 
