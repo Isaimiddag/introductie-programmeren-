@@ -1,7 +1,7 @@
 def shout(text: str) -> str:
     result = ""
     
-    for char in text:
+    for letter in text:
         result += letter.upper()
     return resultaat
         
