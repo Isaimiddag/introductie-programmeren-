@@ -39,5 +39,5 @@ def transcribe_dna_to_rna(dna: str) -> str:
 
 if __name__ == '__main__':
     dna = input("Vul dna in: ")
-    rna = transcribe_dna_to_rna(dna)
+    rntranscribe_dna_to_rna(dna)
     print(rna)
