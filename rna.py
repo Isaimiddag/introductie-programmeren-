@@ -1,7 +1,8 @@
 def check_input(dna: str) -> bool:
     """
-    if dna 
+    
     """
+    if dna 
 
 def transcribe_dna_to_rna(dna: str) -> str:
     """
