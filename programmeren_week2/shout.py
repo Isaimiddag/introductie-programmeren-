@@ -1,4 +1,6 @@
 def shout(text: str) -> str:
+    """
+    
     result = ""
     
     for letter in text:
