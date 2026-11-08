@@ -8,4 +8,4 @@ def remove_vowels(text: str) -> str:
 
 if __name__ == "__main__":
     text = input("Geef een zin: ")
-    remove_vowels()
+    remove_vowels(rext)
