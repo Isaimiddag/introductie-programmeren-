@@ -1,6 +1,6 @@
 def convert(text: str) -> str:
     """
-    >>> convert("halloPizza)
+    >>> convert("halloPizza")
     "hallo_pizza"
     >>> convert("readFromFile")
     "read_from_file"
