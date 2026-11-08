@@ -18,6 +18,7 @@ def yell(sentence: str) -> str:
     for char in sentence:
         if char == "!" or char == "?":
             result += teken * 2
+        else:
             
           
     
