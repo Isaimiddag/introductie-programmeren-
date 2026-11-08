@@ -1,5 +1,5 @@
-def yell(words: str) -> str:
+def yell(sentence: str) -> str:
     teken = " !, ? "
     result = teken  *2 
-    for char in words
+    for char in words 
     
