@@ -23,7 +23,8 @@ def transcribe_dna_to_rna(dna: str) -> str:
     check aanroepen).
     """
     rna = ""
-    
+    for letter in rna:
+        
 
 if __name__ == '__main__':
     <Hoofdprogramma>
