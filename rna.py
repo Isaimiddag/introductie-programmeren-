@@ -2,7 +2,7 @@ def check_input(dna: str) -> bool:
     """
     >>>check_input("paq")
     False
-    >>>check_input("p")
+    >>>check_input("A")
     False
     
     """
