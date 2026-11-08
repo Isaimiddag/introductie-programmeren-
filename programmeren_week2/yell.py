@@ -8,7 +8,7 @@ def yell(sentence: str) -> str:
     >>> yell("I like football! And you?")
     I like football!! And you??
     >>> yell("I want to play football!")
-    I  want to play football!
+    I want to play football!!
     teken = " !, ? "
     result = teken  *2 
     for char in sentence:
