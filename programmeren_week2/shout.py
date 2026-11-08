@@ -8,4 +8,5 @@ def shout(text: str) -> str:
 if __name__ == "__main__":
     text = input("Geef een zin: ")
     if shout(text):
-        print()
+        print(shout(text))
+    else
