@@ -23,6 +23,8 @@ def calculate_grade(text: str) -> int:
     >>> calculate_grade("There are more things in Heaven and Earth, Horatio, than are dreamt of in your philosophy.")
     9
     
+    >>> calculate_grade("Hello everyone, today is a big day!")
+    
     """
     
     letters = 0
