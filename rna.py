@@ -3,7 +3,7 @@ def check_input(dna: str) -> bool:
     
     """
     for letter in dna:
-        if letter
+        if letter.upper()
 
 def transcribe_dna_to_rna(dna: str) -> str:
     """
