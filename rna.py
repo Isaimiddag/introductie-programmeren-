@@ -1,6 +1,7 @@
 def check_input(dna: str) -> bool:
     """
-    check_input(paq)
+    check_input("paq")
+    False
     
     """
     for letter in dna:
