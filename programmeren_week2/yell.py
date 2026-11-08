@@ -23,6 +23,6 @@ def yell(sentence: str) -> str:
     return result
     
 if __name__ == "__main__":
-    text = input("Wat is uw)
+    text = input("What is your text?)
           
     
