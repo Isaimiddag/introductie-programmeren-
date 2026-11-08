@@ -20,6 +20,6 @@ def yell(sentence: str) -> str:
             result += teken * 2
         else:
             print("No ! or ? in sentence")
-        
+    return result
           
     
