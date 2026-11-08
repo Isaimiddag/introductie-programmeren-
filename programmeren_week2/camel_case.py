@@ -41,7 +41,7 @@ if __name__ == "__main__":
     return result
     
 if __name__ == "__main__":
-    input = input("Geef een camelcase: ")
+    camelcase = input("Geef een camelcase: ")
     print(convert())
             
             
