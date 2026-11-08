@@ -42,4 +42,4 @@ if __name__ == '__main__':
     if check_input(dna):
         print(transcribe_dna_to_rna(dna))
     else:
-        print(")
+        print("That is not a valid DNA string")
