@@ -5,6 +5,8 @@ def check_input(dna: str) -> bool:
     >>>check_input("APT")
     False
     >>>check_input("TAG")
+    True
+    >>>check_input("")
     False
     
     """
