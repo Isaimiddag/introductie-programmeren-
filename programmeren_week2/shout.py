@@ -5,6 +5,3 @@ def shout(text: str) -> str:
         result += letter.upper()
     return resultaat
         
-            
-            
-    return re
