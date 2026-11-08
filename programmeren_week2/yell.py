@@ -18,7 +18,7 @@ def yell(sentence: str) -> str:
     for char in sentence:
         if char == "!" or char == "?":
             result += char * 2
-        elif :
+        elif char is :
             result += char
     return result
     
