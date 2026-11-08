@@ -1,3 +1,3 @@
 def yell(words: str) -> str:
     for ! or ? in sentence:
-        print({!*2})
+        print({sentence}{!*2})
