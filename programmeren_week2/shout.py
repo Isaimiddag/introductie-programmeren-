@@ -6,7 +6,7 @@ def shout(text: str) -> str:
     HELLO WORLD
     >>> shout("Goodmorning everyone")
     "GOODMORNING EVERYONE"
-    
+    >>> shout(Who the hell put the muffins the freezer?)
     """
     result = ""
     for letter in text:
