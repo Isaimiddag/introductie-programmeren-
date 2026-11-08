@@ -20,4 +20,4 @@ def convert(text: str) -> str:
     
 if __name__ == "__main__":
     camelcase = input("Geef een camelcase: ")
-    print(convert(camelcase)
+    print(convert(camelcase))
