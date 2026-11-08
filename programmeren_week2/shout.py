@@ -4,7 +4,7 @@ def shout(text: str) -> str:
     "HALLO"
     >>> shout("Hello world")
     HELLO WORLD
-    
+    >>> shout()
     result = ""
     
     for letter in text:
