@@ -1,3 +1,4 @@
 def convert(text: str) -> str:
     text = ""
-    for char
+    for char in text:
+        if 
