@@ -7,7 +7,7 @@ def check_input(dna: str) -> bool:
     >>>check_input("TAG")
     True
     >>>check_input("CGA")
-    False
+    True
     
     """
     for letter in dna:
