@@ -1,2 +1,2 @@
 def yell(words: str) -> str:
-    if 
+    if sentence
