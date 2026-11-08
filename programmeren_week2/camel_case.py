@@ -6,7 +6,7 @@ def convert(text: str) -> str:
     "read_from_file"
     >>> convert("helloWorld")
     "hello_world"
-    >>> convert()
+    >>> convert("c)
     
     result = ""
     for char in text:
