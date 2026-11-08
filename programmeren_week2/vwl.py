@@ -4,7 +4,7 @@ def remove_vowels(text: str) -> str:
     for char in text:
         if char not in vowels:
             result += char
-        return result
+    return result
 
 if __name__ == "__main__":
     text = input("Geef een zin: ")
