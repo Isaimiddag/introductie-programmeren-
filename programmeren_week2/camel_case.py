@@ -42,6 +42,6 @@ if __name__ == "__main__":
     
 if __name__ == "__main__":
     input = input("Geef een camelcase: ")
-    print(convert(input))))
+    print(convert))
             
             
