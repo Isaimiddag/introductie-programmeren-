@@ -24,7 +24,7 @@ def calculate_grade(text: str) -> int:
     9
     
     >>> calculate_grade("Hello everyone, today is a big day!")
-    
+    3
     """
     
     letters = 0
