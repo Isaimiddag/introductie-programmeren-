@@ -5,3 +5,4 @@ def remove_vowels(text: str) -> str:
         if char in vowels:
             result -= char
         return result
+
