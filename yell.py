@@ -1,1 +1,1 @@
-def yell()
+def yell(words)
