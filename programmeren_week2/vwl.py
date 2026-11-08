@@ -3,7 +3,8 @@ def remove_vowels(text: str) -> str:
     >>>remove_vowels("Hallo")
     "hll"
     >>> remove_vowels("Hello world")
-    "Hll
+    "Hll wrld"
+    >>> remove_vowels(")
     vowels = "a, e, i, o, u"
     result = ""
     for char in text:
