@@ -1,7 +1,7 @@
 def yell(sentence: str) -> str:
     
     """
-    >>> yell(")
+    >>> yell("Hello)
     teken = " !, ? "
     result = teken  *2 
     for char in sentence:
