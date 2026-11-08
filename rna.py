@@ -6,7 +6,7 @@ def check_input(dna: str) -> bool:
     False
     >>>check_input("TAG")
     True
-    >>>check_input("")
+    >>>check_input("CGA")
     False
     
     """
