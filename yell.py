@@ -1,1 +1,2 @@
-def yell(words : str) 
+def yell(words : str) -> str:
+    
