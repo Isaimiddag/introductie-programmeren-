@@ -8,7 +8,7 @@ def remove_vowels(text: str) -> str:
     "jst sttng p my twttr"
     """
     
-    vowels.upper() = "a, e, i, o, u"
+    vowels.upper() == "a, e, i, o, u"
     result = ""
     for char in text:
         if char not in vowels:
