@@ -2,7 +2,7 @@ def convert(text: str) -> str:
     """
     >>> convert("halloPizza)
     "hallo_pizza"
-    >>> convert(readFromFile")
+    >>> convert("readFromFile")
     "read_from_file"
     >>> convert("helloWorld")
     "hello_world"
