@@ -2,6 +2,9 @@ def yell(sentence: str) -> str:
     
     """
     >>> yell("Hello world!")
+    Hello world!!
+    >>> yell("Do you want candy?")
+    Do you want candy??
     
     teken = " !, ? "
     result = teken  *2 
