@@ -24,7 +24,8 @@ def transcribe_dna_to_rna(dna: str) -> str:
     """
     rna = ""
     for letter in dna.upper():
-        if letter == "A"
+        if letter == "A":
+            
         
 
 if __name__ == '__main__':
