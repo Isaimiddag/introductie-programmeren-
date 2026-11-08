@@ -6,4 +6,4 @@ def shout(text: str) -> str:
     return resultaat
         
 if __name__ == "__main__":
-    text = 
+    text = input(")
