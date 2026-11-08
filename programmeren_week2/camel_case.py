@@ -1,7 +1,7 @@
 def convert(text: str) -> str:
     """
     >>> convert("halloPizza)
-    
+    "hallo_pizza
     
     result = ""
     for char in text:
