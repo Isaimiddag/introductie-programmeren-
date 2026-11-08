@@ -6,7 +6,7 @@ def yell(sentence: str) -> str:
     >>> yell("Do you want candy?")
     Do you want candy??
     >>> yell("I like football! And you?")
-    I like football!! And you??"
+    "I like football!! And you??"
     >>> yell("I want to play football!")
     "I want to play football!!"
     >>> yell("Hello")
