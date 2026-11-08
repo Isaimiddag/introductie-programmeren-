@@ -19,6 +19,6 @@ def yell(sentence: str) -> str:
         if char == "!" or char == "?":
             result += teken * 2
         else:
-            
+            print("No ! or ? in sentence")
           
     
