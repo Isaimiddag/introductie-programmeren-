@@ -3,6 +3,7 @@ def convert(text: str) -> str:
     for char in text:
         if char.isupper():
             return "_"+ char.lower()
-        
+        else:
+            return char
             
             
