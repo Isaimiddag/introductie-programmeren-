@@ -4,7 +4,7 @@ def convert(text: str) -> str:
     "hallo_pizza"
     >>> convert(readFromFile)
     "read_from_file"
-    
+    >>> 
     
     result = ""
     for char in text:
