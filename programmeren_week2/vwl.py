@@ -3,7 +3,7 @@ def remove_vowels(text: str) -> str:
     result = ""
     for char in text:
         if char in not vowels:
-            result -= char
+            result += char
         return result
 
 if __name__ == "__main__":
