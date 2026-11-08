@@ -22,6 +22,7 @@ def yell(sentence: str) -> str:
             print("No ! or ? in sentence")
     return result
     
-if
+if __name__ == "__main__":
+    
           
     
