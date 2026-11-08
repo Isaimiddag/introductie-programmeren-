@@ -3,3 +3,4 @@ def convert(text: str) -> str:
     for char in text:
         if char == char.upper():
             
+            
