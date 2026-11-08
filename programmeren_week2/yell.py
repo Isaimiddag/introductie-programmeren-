@@ -25,6 +25,6 @@ def yell(sentence: str) -> str:
 if __name__ == "__main__":
     text = input("Fill in your text? ")
     new_text = yell(text)
-    print()
+    print(new_text)
           
     
