@@ -6,6 +6,7 @@ def convert(text: str) -> str:
         else:
             return char
 if __name__ == "__main__":
-    input = input("Geef een )
+    input = input("Geef een camelcase: ")
+    
             
             
