@@ -5,6 +5,7 @@ def convert(text: str) -> str:
             return "_"+ char.lower()
         else:
             return char
-        
+if __name__ == "__main__":
+    
             
             
