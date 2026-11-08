@@ -1,5 +1,5 @@
 def convert(text: str) -> str:
-    text = ""
+    result = ""
     for char in text:
         if char == char.upper():
             
