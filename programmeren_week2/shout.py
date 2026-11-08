@@ -8,7 +8,6 @@ def shout(text: str) -> str:
     "GOODMORNING EVERYONE"
     """
     result = ""
-    
     for letter in text:
         result += letter.upper()
     return result
