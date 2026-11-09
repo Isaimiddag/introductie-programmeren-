@@ -1,7 +1,7 @@
 def shout(text: str) -> str:
     """
     >>> shout("hallo")
-    "HALLO"
+    'HALLO'
     >>> shout("Hello world")
     HELLO WORLD
     >>> shout("Goodmorning everyone")
