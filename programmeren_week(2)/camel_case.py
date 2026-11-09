@@ -8,6 +8,17 @@ def convert(text: str) -> str:
     "hello_world"
     >>> convert("camelCase")
     "camel_case"
+    >>> convert("myVariableName")
+'my_variable_name'
+
+>>> convert("aB")
+'a_b'
+
+>>> convert("python")
+'python'
+
+>>> convert("FileName")
+'file_name'
     """
     
     result = ""
