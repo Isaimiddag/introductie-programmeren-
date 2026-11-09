@@ -1,22 +1,29 @@
 def remove_vowels(text: str) -> str:
     """
-    >>>remove_vowels("Hallo")
-    'hll'
-    >>> remove_vowels("Hello world")
-    'Hll wrld'
     >>> remove_vowels("just setting up my twitter")
     'jst sttng p my twttr'
-    >>> remove_vowels("Hoi")
-    'H'
+
+    >>> remove_vowels("hallo")
+    'hll'
+
+    >>> remove_vowels("AEIOU")
+    ''
+
+    >>> remove_vowels("Python")
+    'Pythn'
+
+    >>> remove_vowels("aAeEiIoOuU")
+    ''
     """
-    
-    vowels = "a, e, i, o, u"
     result = ""
+
     for char in text:
-        if char not in vowels:
+        if char.lower() not in "aeiou":
             result += char
+
     return result
 
+
 if __name__ == "__main__":
-    text = input("Geef een zin: ")
+    text = input()
     print(remove_vowels(text))
