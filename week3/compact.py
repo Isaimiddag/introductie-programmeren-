@@ -3,5 +3,6 @@ def compact(lst: -> list ) -> list:
 
     for item in lst:
         if item != int:
-            return 
+            return lst.remove(item)
+    return True
         
