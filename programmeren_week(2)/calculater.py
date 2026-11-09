@@ -1,6 +1,5 @@
 def evaluate(x: int, y: str, z: int) -> float:
-    """
-    >>> evaluate( 2, "*", 2)
+ >>> evaluate(2, "*", 2)
     4.0
     >>> evaluate(10, "+", 2)
     12.0
@@ -12,6 +11,17 @@ def evaluate(x: int, y: str, z: int) -> float:
     4.0
     >>> evaluate(4, "*", -6)
     -24.0
+
+    >>> evaluate(7, "+", 3)
+    10.0
+    >>> evaluate(15, "-", 20)
+    -5.0
+    >>> evaluate(-3, "*", 4)
+    -12.0
+    >>> evaluate(-8, "/", 2)
+    -4.0
+    >>> evaluate(-5, "+", -5)
+    -10.0
     """
     
     if y == "*":
