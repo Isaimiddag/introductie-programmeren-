@@ -1,16 +1,23 @@
 def coleman_liau(words: int, sentences: int, letters: int) -> int:
     """
     Berekent de index volgens de Coleman-Liau-formule.
+
+    >>> coleman_liau(8, 4, 29)
+    -1
     """
-    L = letters / words * 100
-    S = sentences / words * 100
+    L = 100 * letters / words
+    S = 100 * sentences / words
 
     index = 0.0588 * L - 0.296 * S - 15.8
+
     return round(index)
 
 
 def calculate_grade(text: str) -> int:
     """
+    Bepaalt aantal letters, woorden en zinnen van de tekst,
+    en roept coleman_liau aan om grade te berekenen.
+
     >>> calculate_grade("One fish. Two fish. Red fish. Blue fish.")
     -1
 
@@ -26,22 +33,21 @@ def calculate_grade(text: str) -> int:
     >>> calculate_grade("The cat sat on the mat.")
     -1
     """
-    
     letters = 0
-    woorden = 1
-    zinnen = 0
+    words = 1
+    sentences = 0
 
-    for teken in text:
-        if teken.isalpha():
+    for char in text:
+        if char.isalpha():
             letters += 1
 
-        if teken == " ":
-            woorden += 1
+        if char == " ":
+            words += 1
 
-        if teken in ".!?":
-            zinnen += 1
+        if char in ".!?":
+            sentences += 1
 
-    return coleman_liau(woorden, zinnen, letters)
+    return coleman_liau(words, sentences, letters)
 
 
 if __name__ == "__main__":
