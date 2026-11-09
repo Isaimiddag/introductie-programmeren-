@@ -9,7 +9,7 @@ def meal(time: str) -> str:
     >>> meal("13:00")
     "lunch"
     >>> meal("18:53")
-    avondeten"
+    "avondeten"
     """
     uur, minuten = time.split(":")
     uur = int(uur)
