@@ -1,2 +1,2 @@
 def compact(lst: -> list ) -> list:
-    lst = []
+    lst = [10, a, b, 20, 12]
