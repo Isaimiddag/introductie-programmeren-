@@ -10,22 +10,22 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
 
 
 def calculate_grade(text: str) -> int:
-    """
-    Bepaalt aantal letters, woorden en zinnen van de tekst,
-    en roept coleman_liau aan om grade te berekenen.
+"""
+>>> calculate_grade("One fish. Two fish. Red fish. Blue fish.")
+-1
 
-    >>> calculate_grade("One fish. Two fish. Red fish. Blue fish.")
-    -1
+>>> calculate_grade("Congratulations! Today is your day. You're off to Great Places! You're off and away!")
+3
 
-    >>> calculate_grade("Congratulations! Today is your day. You're off to Great Places! You're off and away!")
-    3
+>>> calculate_grade("There are more things in Heaven and Earth, Horatio, than are dreamt of in your philosophy.")
+9
 
-    >>> calculate_grade("There are more things in Heaven and Earth, Horatio, than are dreamt of in your philosophy.")
-    9
-    
-    >>> calculate_grade("Hello everyone, today is a big day!")
-    3
-    """
+>>> calculate_grade("Hello everyone, today is a big day!")
+3
+
+>>> calculate_grade("The cat sat on the mat.")
+-1
+"""
     
     letters = 0
     woorden = 1
