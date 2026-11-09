@@ -3,7 +3,7 @@ def convert(text: str) -> str:
     >>> convert("halloPizza")
     'hallo_pizza'
     >>> convert("readFromFile")
-    "read_from_file"
+    "read_from_file'
     >>> convert("helloWorld")
     "hello_world"
     >>> convert("camelCase")
