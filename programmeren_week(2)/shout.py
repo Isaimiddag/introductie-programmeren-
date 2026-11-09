@@ -3,9 +3,9 @@ def shout(text: str) -> str:
     >>> shout("hallo")
     'HALLO'
     >>> shout("Hello world")
-    HELLO WORLD
+    'HELLO WORLD'
     >>> shout("Goodmorning everyone")
-    "GOODMORNING EVERYONE"
+    "GOODMORNING EVERYONE'
     >>> shout(Who the hell put the muffins the freezer?)
     "WHO THE HELL PUT THE MUFFINS THE FREEZER?"
     """
