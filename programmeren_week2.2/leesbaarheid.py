@@ -19,7 +19,8 @@ def calculate_grade(text: str) -> int:
     >>> calculate_grade("One fish. Two fish. Red fish. Blue fish.")
     -1
 
-    >>> calculate_grade("Congratulations! Today is your day. You're off to Great Places! You're off and away!")
+    >>> calculate_grade("Congratulations! Today is your day. 
+    You're off to Great Places! You're off and away!")
     3
 
     >>> calculate_grade("There are more things in Heaven and Earth, Horatio, than are dreamt of in your philosophy.")
