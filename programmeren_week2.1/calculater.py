@@ -41,14 +41,16 @@ def evaluate(x: int, y: str, z: int) -> float:
     elif y == "+":
         return float(x + z)
 
+    return 0.0
+
 
 if __name__ == "__main__":
-    som = input("Geef een som: ")
+    som = input()
 
-    x, y, z = som.split()
+    x_str, y, z_str = som.split()
 
-    x = int(x)
-    z = int(z)
+    x = int(x_str)
+    z = int(z_str)
 
     antwoord = evaluate(x, y, z)
 
