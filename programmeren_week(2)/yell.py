@@ -10,7 +10,7 @@ def yell(sentence: str) -> str:
     >>> yell("I want to play football!")
     "I want to play football!!"
     >>> yell("Hello")
-    "No ! or ? in sentence"
+    'No ! or ? in sentence'
     """
     
    
