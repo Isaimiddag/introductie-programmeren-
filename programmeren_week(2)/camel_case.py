@@ -1,7 +1,7 @@
 def convert(text: str) -> str:
     """
     >>> convert("halloPizza")
-    "hallo_pizza"
+    'hallo_pizza'
     >>> convert("readFromFile")
     "read_from_file"
     >>> convert("helloWorld")
