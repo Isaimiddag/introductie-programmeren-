@@ -10,6 +10,7 @@ def check_input(dna: str) -> bool:
     True
     >>> check_input("agct")
     True
+    """
     for letter in dna:
         if letter.upper() not in "AGCT":
             return False
