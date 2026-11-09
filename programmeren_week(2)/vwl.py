@@ -1,11 +1,12 @@
 def remove_vowels(text: str) -> str:
     """
     >>>remove_vowels("Hallo")
-    "hll"
+    'hll'
     >>> remove_vowels("Hello world")
-    "Hll wrld"
+    'Hll wrld'
     >>> remove_vowels("just setting up my twitter")
-    "jst sttng p my twttr"
+    'jst sttng p my twttr'
+    >>> remove_vowels()
     """
     
     vowels = "a, e, i, o, u"
