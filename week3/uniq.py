@@ -1,1 +1,1 @@
-def uniq()
+def uniq(lis)
