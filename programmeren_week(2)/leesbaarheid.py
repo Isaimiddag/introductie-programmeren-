@@ -10,7 +10,7 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
 
 
 def calculate_grade(text: str) -> int:
-"""
+    """
 >>> calculate_grade("One fish. Two fish. Red fish. Blue fish.")
 -1
 
