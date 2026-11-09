@@ -9,16 +9,16 @@ def convert(text: str) -> str:
     >>> convert("camelCase")
     "camel_case"
     >>> convert("myVariableName")
-'my_variable_name'
+    'my_variable_name'
 
->>> convert("aB")
-'a_b'
+    >>> convert("aB")
+    'a_b'
 
->>> convert("python")
-'python'
+    >>> convert("python")
+    'python'
 
->>> convert("FileName")
-'file_name'
+    >>> convert("FileName")
+    'file_name'
     """
     
     result = ""
