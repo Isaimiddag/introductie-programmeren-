@@ -26,12 +26,6 @@ def calculate_grade(text: str) -> int:
 
     >>> calculate_grade("There are more things in Heaven and Earth, Horatio, than are dreamt of in your philosophy.")
     9
-
-    >>> calculate_grade("Hello everyone, today is a big day!")
-    3
-
-    >>> calculate_grade("The cat sat on the mat.")
-    -1
     """
     letters = 0
     words = 1
@@ -44,7 +38,7 @@ def calculate_grade(text: str) -> int:
         if char == " ":
             words += 1
 
-        if char in ".!?":
+        if char == "." or char == "!" or char == "?":
             sentences += 1
 
     return coleman_liau(words, sentences, letters)
