@@ -18,13 +18,21 @@ def check_input(dna: str) -> bool:
             
 
 def transcribe_dna_to_rna(dna: str) -> str:
-    """
-    >>>transcribe_dna_to_rna("cga")
-    "GCU"
-    >>> transcribe_dna_to_rna("AGC")
-    "UCG"
-    >>> 
+ """
+    >>> transcribe_dna_to_rna("cga")
+    'GCU'
 
+    >>> transcribe_dna_to_rna("AGC")
+    'UCG'
+
+    >>> transcribe_dna_to_rna("TAG")
+    'AUC'
+
+    >>> transcribe_dna_to_rna("TTT")
+    'AAA'
+
+    >>> transcribe_dna_to_rna("ACGT")
+    'UGCA'
     """
     rna = ""
     for letter in dna.upper():
