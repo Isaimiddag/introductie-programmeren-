@@ -1,0 +1,97 @@
+def check_length(password: str) -> bool:
+    """
+    Controleer of het wachtwoord minstens 8 karakters bevat.
+
+    >>> check_length("abc")
+    False
+    >>> check_length("abcdefgh")
+    True
+    >>> check_length("1234567")
+    False
+    >>> check_length("12345678")
+    True
+    """
+    return len(password) >= 8
+
+
+def check_letter(password: str) -> bool:
+    """
+    Controleer of het wachtwoord zowel een grote als een
+    kleine letter bevat.
+
+    >>> check_letter("abc")
+    False
+    >>> check_letter("ABC")
+    False
+    >>> check_letter("Abc")
+    True
+    >>> check_letter("A")
+    False
+    >>> check_letter("a")
+    False
+    """
+    heeft_hoofdletter = False
+    heeft_kleine_letter = False
+
+    for letter in password:
+        if letter.isupper():
+            heeft_hoofdletter = True
+        elif letter.islower():
+            heeft_kleine_letter = True
+
+    return heeft_hoofdletter and heeft_kleine_letter
+
+
+def check_number(password: str) -> bool:
+    """
+    Controleer of het wachtwoord een cijfer bevat.
+
+    >>> check_number("abc")
+    False
+    >>> check_number("abc1")
+    True
+    >>> check_number("123")
+    True
+    >>> check_number("ABC")
+    False
+    """
+    for letter in password:
+        if letter.isdigit():
+            return True
+
+    return False
+
+
+def check_password(password: str) -> bool:
+    """
+    Controleer of aan alledrie de eisen is voldaan.
+
+    >>> check_password("hoi")
+    False
+    >>> check_password("Aardappel123")
+    True
+    >>> check_password("abcdefgh")
+    False
+    >>> check_password("ABCDEFGH")
+    False
+    >>> check_password("Abcdefgh")
+    False
+    >>> check_password("Abcdefg1")
+    True
+    >>> check_password("12345678")
+    False
+    """
+    return (
+        check_letter(password)
+        and check_number(password)
+        and check_length(password)
+    )
+
+
+if __name__ == '__main__':
+    wachtwoord = input("Wat is uw wachtwoord? ")
+
+    if check_password(wachtwoord):
+        print("Uw wachtwoord is valide.")
+    else:
+        print("Uw wachtwoord is niet valide.")
