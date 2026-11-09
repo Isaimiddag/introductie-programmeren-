@@ -5,12 +5,10 @@ def coleman_liau(words: int, sentences: int, letters: int) -> int:
     >>> coleman_liau(8, 4, 29)
     -1
     """
-    L = 100 * letters / words
-    S = 100 * sentences / words
+    L = letters / words * 100
+    S = sentences / words * 100
 
-    index = 0.0588 * L - 0.296 * S - 15.8
-
-    return round(index)
+    return round(0.0588 * L - 0.296 * S - 15.8)
 
 
 def calculate_grade(text: str) -> int:
@@ -34,11 +32,9 @@ def calculate_grade(text: str) -> int:
     for char in text:
         if char.isalpha():
             letters += 1
-
-        if char == " ":
+        elif char == " ":
             words += 1
-
-        if char == "." or char == "!" or char == "?":
+        elif char in ".!?":
             sentences += 1
 
     return coleman_liau(words, sentences, letters)
