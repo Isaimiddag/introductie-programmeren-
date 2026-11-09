@@ -1,1 +1,1 @@
-def compact()
+def compact(lst: )
