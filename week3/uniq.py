@@ -8,3 +8,6 @@ def uniq(lst: list[object]) -> list[object]:
             result.append(lst(item))
     return result
     
+if __name__ == "__main__":
+    
+    
