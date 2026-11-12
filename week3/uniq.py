@@ -14,7 +14,7 @@ def uniq(lst: list[object]) -> list[object]:
     result = []
     for i in range(len(lst)):
         if i not in result:
-            result.append(lst[item])
+            result.append(lst[i])
     return result
     
 if __name__ == "__main__":
