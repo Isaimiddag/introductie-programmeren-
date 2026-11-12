@@ -1,5 +1,4 @@
-def chunk(lst: list[int], lst2: list[int]) -> list:
-    def chunk(lst: list[int], n: int) -> list[list[int]]:
+def chunk(lst: list[int], n: int) -> list[list[int]]:
     """
     >>> chunk([1, 2, 3, 4, 5, 6], 2)
     [[1, 2], [3, 4], [5, 6]]
