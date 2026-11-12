@@ -9,5 +9,6 @@ def uniq(lst: list[object]) -> list[object]:
     return result
     
 if __name__ == "__main__":
-    pep= 
+    pep= input("Wat is uw rij? ")
+    
     
