@@ -9,5 +9,5 @@ def uniq(lst: list[object]) -> list[object]:
     return result
     
 if __name__ == "__main__":
-    inpu
+    
     
