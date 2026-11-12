@@ -13,7 +13,7 @@ def uniq(lst: list[object]) -> list[object]:
     """
     result = []
     for i in range(len(lst)):
-        if item not in result:
+        if i not in result:
             result.append(lst[item])
     return result
     
