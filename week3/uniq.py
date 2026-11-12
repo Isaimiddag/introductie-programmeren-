@@ -6,5 +6,5 @@ def uniq(lst: list[object]) -> list[object]:
     for item in range(len(lst)):
         if item not in result:
             result.append(lst(item))
-            
+    return result
     
