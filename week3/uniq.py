@@ -10,5 +10,5 @@ def uniq(lst: list[object]) -> list[object]:
     
 if __name__ == "__main__":
     pep= input("Wat is uw rij? ")
-    print(uniq(pep)
+    print(uniq(pep))
     
