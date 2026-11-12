@@ -28,7 +28,7 @@ if __name__ == "__main__":
     for i in range(len(rij)):
         rij[i] = int(rij[i])
 
-    n = int(input("Grootte van de stukken: "))
+    n = int(input("Grootte van de rij: "))
 
     print(chunk(rij, n))
     
