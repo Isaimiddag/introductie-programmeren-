@@ -9,4 +9,5 @@ def interleave(lst1: list, lst2: list) -> list:
     return lijst
 if __name__ == "__main__":
     l = input(" geef 2 lijsten: ")
-    ant = 
+    ant = interleave(l)
+    print(ant)
