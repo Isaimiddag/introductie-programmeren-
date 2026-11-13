@@ -7,7 +7,3 @@ def interleave(lst1: list, lst2: list) -> list:
         if item.even:
             lijst.append(item)
     return lijst
-if __name__ == "__main__":
-    l = input(" geef 2 lijsten: ")
-    ant = interleave(l)
-    print(ant)
