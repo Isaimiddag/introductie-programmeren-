@@ -1,4 +1,4 @@
-def interleave(lst1: list, lst2: list, keep) -> list:
+def interleave(lst1: list, lst2: list, keep: bool) -> list:
     lijst = []
     for item in lst1:
         if item.odd:
