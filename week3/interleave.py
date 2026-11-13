@@ -3,4 +3,5 @@ def interleave(lst1: list, lst2: list) -> list:
     for item in lst1:
         if item.odd:
             lst1.append(item)
-    for item in lst2
+    for item in lst2:
+        
