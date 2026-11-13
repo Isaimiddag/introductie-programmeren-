@@ -8,4 +8,4 @@ def interleave(lst1: list, lst2: list) -> list:
             lijst.append(item)
     return lijst
 if __name__ == "__main__":
-    l = input(Geef )
+    l = input(Geef 2)
