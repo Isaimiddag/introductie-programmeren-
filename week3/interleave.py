@@ -1,1 +1,1 @@
-def interleave(lst1:)
+def interleave(lst1: list)
