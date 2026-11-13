@@ -1,1 +1,1 @@
-def longest_word_from_list(ls)
+def longest_word_from_list(lst:)
