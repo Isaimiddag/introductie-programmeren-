@@ -2,7 +2,8 @@ def interleave(lst1: list, lst2: list) -> list:
     lijst = []
     for item in lst1:
         if item.odd:
-            lst1.append(item)
+            lijst.append(item)
     for item in lst2:
         if item.even:
             lijst.append(item)
+    return lijst
