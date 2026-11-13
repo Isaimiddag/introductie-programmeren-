@@ -7,3 +7,4 @@ def interleave(lst1: list, lst2: list) -> list:
         if item.even:
             lijst.append(item)
     return lijst
+print()
