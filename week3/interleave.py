@@ -32,4 +32,5 @@ def interleave(lst1: list, lst2: list, keep: bool) -> list:
         resultaat.extend(lst1[kortste:])
         resultaat.extend(lst2[kortste:])
 
-    return resultaat
+    return resultaat 
+
