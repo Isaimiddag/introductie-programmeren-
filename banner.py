@@ -16,7 +16,7 @@ def count_vowel(s: str) -> int:
     begin_woord = True
 
     for char in s:
-        if begin_woord:
+        if begin_woord =:
             if char in "aeiouAEIOU":
                 count += 1
             begin_woord = False
