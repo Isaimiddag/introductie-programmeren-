@@ -56,7 +56,7 @@ def text_score(s: str) -> float:
         elif char = " ":
             aantal_spaties += 1
     aantal_woorden = aantal_spaties + 1
-    gemidde
+    gemiddelde_lengte = 
         
         
     
