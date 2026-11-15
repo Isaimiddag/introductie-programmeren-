@@ -20,6 +20,8 @@ def count_vowel(s: str) -> int:
             if char in "aeiouAEIOU":
                 count += 1
             begin_woord = False
+            
+def reverse_string()
 
         if char == " ":
             begin_woord = True
