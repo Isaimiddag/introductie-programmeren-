@@ -56,6 +56,7 @@ def text_score(s: str) -> float:
             aantal_klinkers += 1
         elif char = " ":
             aantal_spaties += 1
+    aantal_woorden = aantal_spaties + 1
     
         
         
