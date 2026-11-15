@@ -16,4 +16,4 @@ def count_vowel(s: str) -> int:
     for char in s:
         if s.index[0]:
             count += 1
-            
+    return count
