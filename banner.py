@@ -33,7 +33,7 @@ def reverse_string(s: str) -> str:
 def double_letters(words: list[str]) -> list[str]:
     result = []
     for word in words:
-        for x in range(len(word -1)):
+        for x in range(len(word )):
             if word[x] == word[x+1]:
                 result.append(word)
     return result
