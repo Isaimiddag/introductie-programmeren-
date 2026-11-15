@@ -103,7 +103,8 @@ def word_score(s:str) -> float:
     aantal_klinkers = 0
     aantal_medeklinkers = 0
     aantal_letters = 0
-    aantal_woorden =
+    aantal_spaties = 0
+    
     
             
             
