@@ -36,6 +36,6 @@ def reverse_string(s: str) -> str:
 
 # vraag 4
 def double_letters(words: list[str]) -> list[str]:
-    
+    double_letter
             
             
