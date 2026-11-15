@@ -36,7 +36,7 @@ def double_letters(words: list[str]) -> list[str]:
         for x in range(len(word )-1):
             if word[x] == word[x+1]:
                 result.append(word)
-                bre
+                break
     return result
 
 #vraag 5
