@@ -58,7 +58,7 @@ def text_score(s: str) -> float:
     return round(score, 2)
 
 #vraag1
-def positive_numbers(numbers: list[int])
+def positive_numbers(numbers: list[int]) -> list[int]
 
 #vraag2
 
