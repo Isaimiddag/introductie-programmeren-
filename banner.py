@@ -85,11 +85,8 @@ def next_letter(s: str) -> str:
         result += alfabet[nieuwe_positie]
 
     return result
-
-        
-        
-
 #vraag4
+
 
 #vraag5
     
