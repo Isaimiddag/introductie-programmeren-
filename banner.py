@@ -7,5 +7,5 @@ greater_than_ten(numbers: list[int]) -> list[int]:
             None
     return result
 if __name__ == "__main__":
-    l
+    lijst = in
     
