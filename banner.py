@@ -81,6 +81,7 @@ def next_letter(s: str) -> str:
     for word in s:
         word[]
         
+        
 
 #vraag4
 
