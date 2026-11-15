@@ -44,7 +44,7 @@ def double_letters(words: list[str]) -> list[str]:
     return double_letter_words
 
 #vraag 5
-#Formule:(aantal klinkers)×(gemiddelde woordlengte)
+#Formule:(aantalklinkers)×(gemiddelde_woordlengte)
             
             
             
