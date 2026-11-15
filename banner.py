@@ -47,7 +47,7 @@ def double_letters(words: list[str]) -> list[str]:
 #Formule:(aantal klinkers)×(gemiddelde woordlengte)
 def text_score(s: str) -> float:
     aantal_klinkers = 0
-    aantal_woorden = 0
+    aantal_spaties = 0
     aantal_letters = 0
     gemiddelde_lengte = 0
     for char in s:
