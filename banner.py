@@ -28,3 +28,6 @@ if __name__ == "__main__":
     string = input("Geef wat woorden: ")
     aantal = count_vowel(string)
     print(aantal)
+    
+def reverse_string(s: str) -> str:
+    new_s = " "
