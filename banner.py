@@ -61,7 +61,7 @@ def text_score(s: str) -> float:
 def positive_numbers(numbers: list[int]) -> list[int]:
     new_list = []
     for number in numbers:
-        if 
+        if number
 
 #vraag2
 
