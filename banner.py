@@ -31,7 +31,7 @@ def reverse_string(s: str) -> str:
 
 # vraag 4
 def double_letters(words: list[str]) -> list[str]:
-    double_letter_words = []
+    result = []
     for word in words:
         for x in range(len(words)):
             if word[x] == word[x+1]:
