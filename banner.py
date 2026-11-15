@@ -56,7 +56,8 @@ def text_score(s: str) -> float:
     gemiddelde_lengte = aantal_letters / aantal_woorden
     score = aantal_klinkers * gemiddelde_lengte 
     return round(score, 2)
-        
+
+
     
             
             
