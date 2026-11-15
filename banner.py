@@ -14,7 +14,7 @@ if __name__ == "__main__":
 # vraag 2
 def count_vowel(s: str) -> int:
     count = 0
-    begin
+    begin_woord = True
     for char in s:
         if begin_woord == True:
             if char in "aeiouAEIOU":
