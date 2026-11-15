@@ -89,7 +89,7 @@ def next_letter(s: str) -> str:
 def many_vowels(words: list[str]) -> list[str]:
     klinkers = "aeiuoAEIUO"
     aantal_klinkers = 0
-    aantal
+    aantal_woorden = 0
     for word in words:
         for letter in word:
             if letter in klinkers:
