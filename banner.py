@@ -6,6 +6,7 @@ greater_than_ten(numbers: list[int]) -> list[int]:
         else:
             None
     return result
+    
 if __name__ == "__main__":
     lijst = input("Geef een lijst: ")
     
