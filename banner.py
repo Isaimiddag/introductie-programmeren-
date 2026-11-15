@@ -78,7 +78,8 @@ def count_ending_vowel(s: str) -> int:
 def next_letter(s: str) -> str:
     alfabet = "abcdefghijklmnopqrstuvwxyz"
     word = ""
-    for word in s
+    for word in s:
+        
 
 #vraag4
 
