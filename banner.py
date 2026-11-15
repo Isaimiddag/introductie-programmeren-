@@ -42,6 +42,8 @@ def double_letters(words: list[str]) -> list[str]:
             if char.index[x] == char.index[x+1]:
                 double_letter_words.append(word)
     return double_letter_words
+
+#vraag 5
             
             
             
