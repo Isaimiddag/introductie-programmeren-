@@ -13,11 +13,21 @@ if __name__ == "__main__":
 
 def count_vowel(s: str) -> int:
     count = 0
+    begin_woord = True
+
     for char in s:
-        if s[0] in "aeiouAEIOU":
-            count += 1
+        if begin_woord:
+            if char in "aeiouAEIOU":
+                count += 1
+            begin_woord = False
+
+        if char == " ":
+            begin_woord = True
+
     return count
+
+
 if __name__ == "__main__":
-    string =  input("Geef wat woorden: ")
+    string = input("Geef wat woorden: ")
     aantal = count_vowel(string)
     print(aantal)
