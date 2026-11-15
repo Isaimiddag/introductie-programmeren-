@@ -57,5 +57,5 @@ def text_score(s: str) -> float:
     score = aantal_klinkers * gemiddelde_lengte 
     return round(score, 2)
 
-c
+
     
