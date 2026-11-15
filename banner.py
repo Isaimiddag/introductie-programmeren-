@@ -100,7 +100,7 @@ def many_vowels(words: list[str]) -> list[str]:
 
 #vraag5
 def word_score(s:str) -> float:
-    
+    aantal_kliners = 0
     
             
             
