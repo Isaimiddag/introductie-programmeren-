@@ -77,10 +77,19 @@ def count_ending_vowel(s: str) -> int:
 #vraag3
 def next_letter(s: str) -> str:
     alfabet = "abcdefghijklmnopqrstuvwxyz"
-    word = ""
-    for word in range(len(s)):
-        s[x]
-        
+    result = ""
+
+    for x in range(len(s)):
+        positie = alfabet.index(s[x])
+        nieuwe_positie = (positie + 1) % 26
+        result += alfabet[nieuwe_positie]
+
+    return result
+
+
+if __name__ == "__main__":
+    woord = input("Geef een woord: ")
+    print(next_letter(woord))
         
         
 
