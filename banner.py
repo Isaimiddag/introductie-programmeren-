@@ -57,7 +57,16 @@ def text_score(s: str) -> float:
     score = aantal_klinkers * gemiddelde_lengte 
     return round(score, 2)
 
+#vraag1
+def positive_numbers(numbers: list[inte])
 
+#vraag2
+
+#vraag3
+
+#vraag4
+
+#vraag5
     
             
             
