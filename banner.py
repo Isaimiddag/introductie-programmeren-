@@ -20,3 +20,4 @@ def count_vowel(s: str) -> int:
 if __name__ == "__main__":
     string =  input("Geef wat woorden: ")
     aantal = count_vowel(string)
+    print(aantal)
