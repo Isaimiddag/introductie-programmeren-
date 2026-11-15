@@ -87,7 +87,7 @@ def next_letter(s: str) -> str:
     return result
 #vraag4
 def many_vowels(words: list[str]) -> list[str]:
-    aantal_
+    aantal_klinkers 
 
 #vraag5
     
