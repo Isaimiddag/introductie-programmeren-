@@ -86,10 +86,6 @@ def next_letter(s: str) -> str:
 
     return result
 
-
-if __name__ == "__main__":
-    woord = input("Geef een woord: ")
-    print(next_letter(woord))
         
         
 
