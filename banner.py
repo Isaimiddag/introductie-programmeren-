@@ -49,7 +49,7 @@ def text_score(s: str) -> float:
     aantal_klinkers = 0
     aantal_woorden = 0
     aantal_letters = 0
-    gemiddeld_
+    gemiddeld_lengte
     
             
             
