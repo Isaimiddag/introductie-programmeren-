@@ -1,2 +1,2 @@
-greater_than_ten(numbers: )
+greater_than_ten(numbers: list[int])
     
