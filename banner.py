@@ -69,7 +69,7 @@ def count_ending_vowel(s: str) -> int:
     vorige_letter = ""
     count = 0
     for char in s:
-        if char == vorige_letter:
+        if char == " ":
             if vorige_letter in "aeiouAEIOU":
                 count += 1
     return count
