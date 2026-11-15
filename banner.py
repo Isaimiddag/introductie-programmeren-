@@ -11,4 +11,5 @@ if __name__ == "__main__":
     print(greater_than_ten(lijst))
     
 
-def count_vowel(s: str)
+def count_vowel(s: str) -> int:
+    
