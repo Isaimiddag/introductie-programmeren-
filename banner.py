@@ -26,7 +26,8 @@ def count_vowel(s: str) -> int:
 def reverse_string(s: str) -> str:
     new_s = " "
     for char in s:
-        new_s = char 
+        new_s = char + new_s
+        return new_s
 
 # vraag 4
 def double_letters(words: list[str]) -> list[str]:
