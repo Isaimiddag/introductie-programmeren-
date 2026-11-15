@@ -75,7 +75,7 @@ def count_ending_vowel(s: str) -> int:
     return count
 
 #vraag3
-def next_letter(s)
+def next_letter(s: str)
 
 #vraag4
 
