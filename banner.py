@@ -99,7 +99,7 @@ def many_vowels(words: list[str]) -> list[str]:
     return aantal_woorden
 
 #vraag5
-
+def word_score(s:str)
     
             
             
