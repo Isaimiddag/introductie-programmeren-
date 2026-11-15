@@ -21,7 +21,7 @@ def count_vowel(s: str) -> int:
                 count += 1
             begin_woord = False
             
-def reverse_string()
+def reverse_string(st)
 
         if char == " ":
             begin_woord = True
