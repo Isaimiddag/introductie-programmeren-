@@ -38,6 +38,6 @@ def reverse_string(s: str) -> str:
 def double_letters(words: list[str]) -> list[str]:
     double_letter_words = []
     for char in words:
-        for
+        for 
             
             
