@@ -54,7 +54,9 @@ def text_score(s: str) -> float:
         s.count(char)
         if char in "aeiouAEIOU":
             aantal_klinkers += 1
-        elif char
+        elif char = " ":
+            aantal_woorden += 1
+        elif 
         
     
             
