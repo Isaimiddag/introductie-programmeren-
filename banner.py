@@ -48,7 +48,7 @@ def text_score(s: str) -> float:
         s.count(char)
         if char in "aeiouAEIOU":
             aantal_klinkers += 1
-        elif char = " ":
+        elif char == " ":
             aantal_spaties += 1
     aantal_woorden = aantal_spaties + 1
     gemiddelde_lengte = aantal_letters / aantal_woorden
