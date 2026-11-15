@@ -53,7 +53,7 @@ def text_score(s: str) -> float:
     for char in s:
         if char in "aeiouAEIOU":
             aantal_klinkers += 1
-        elif
+        
         
     
             
