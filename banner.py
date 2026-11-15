@@ -8,6 +8,6 @@ greater_than_ten(numbers: list[int]) -> list[int]:
     return result
 if __name__ == "__main__":
     lijst = input("Geef een lijst: ")
-    greater_than_ten(lijst)
-    print(    greater_than_ten(lijst)
+    
+    print(greater_than_ten(lijst)
 )
