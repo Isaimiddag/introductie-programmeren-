@@ -39,6 +39,6 @@ def double_letters(words: list[str]) -> list[str]:
     double_letter_words = []
     for words in words:
         for char in words:
-            if char.index[] == char.index[:]
+            if char.index[] == char.index[]
             
             
