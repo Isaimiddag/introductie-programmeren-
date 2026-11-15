@@ -95,7 +95,8 @@ def many_vowels(words: list[str]) -> list[str]:
             if letter in klinkers:
                 aantal += 1
                 if aantal >= 3:
-                    aanta
+                    aantal_woorden += 1
+    return aantal
                 
             
         
