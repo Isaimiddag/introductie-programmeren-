@@ -5,5 +5,7 @@ greater_than_ten(numbers: list[int]) -> list[int]:
             numbers.append(char)
         else:
             None
-        
+    return result
+if __name__ == "__main__":
+    
     
