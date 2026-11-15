@@ -90,7 +90,8 @@ def many_vowels(words: list[str]) -> list[str]:
     klinkers = "aeiuoAEIUO"
     for word in words:
         for letter in word:
-            if letter
+            if letter in klinkers:
+                
         
     
 
