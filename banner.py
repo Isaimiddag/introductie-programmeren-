@@ -64,8 +64,7 @@ def positive_numbers(numbers: list[int]) -> list[int]:
         if number >= 0:
             new_list.append(number)
     return new_list
-if __name__ == "__main__":
-    poep = input
+
 
 #vraag2
 
