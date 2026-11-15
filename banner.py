@@ -14,4 +14,4 @@ if __name__ == "__main__":
 def count_vowel(s: str) -> int:
     count = 0
     for char in s:
-        if 
+        if s.index
