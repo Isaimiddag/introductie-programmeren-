@@ -18,4 +18,5 @@ def count_vowel(s: str) -> int:
             count += 1
     return count
 if __name__ == "__main__":
-    string =  input("Geef)
+    string =  input("Geef wat woorden: ")
+    
