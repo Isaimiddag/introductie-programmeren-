@@ -32,4 +32,5 @@ if __name__ == "__main__":
 def reverse_string(s: str) -> str:
     new_s = " "
     for char in s:
-        for i in range(len(s))
+        for i in range(len(s)):
+            
