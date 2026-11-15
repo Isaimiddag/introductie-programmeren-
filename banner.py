@@ -36,7 +36,7 @@ def double_letters(words: list[str]) -> list[str]:
         for x in range(len(words)):
             if word[x] == word[x+1]:
                 double_letter_words.append(word)
-    return double_letter_words
+    return re
 
 #vraag 5
 #Formule:(aantal klinkers)×(gemiddelde woordlengte)
