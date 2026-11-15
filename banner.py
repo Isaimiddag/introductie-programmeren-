@@ -20,14 +20,10 @@ def count_vowel(s: str) -> int:
             if char in "aeiouAEIOU":
                 count += 1
             begin_woord = False
-            
-
         if char == " ":
             begin_woord = True
 
     return count
-
-
 if __name__ == "__main__":
     string = input("Geef wat woorden: ")
     aantal = count_vowel(string)
