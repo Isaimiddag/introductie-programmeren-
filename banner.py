@@ -86,7 +86,7 @@ def next_letter(s: str) -> str:
 
     return result
 #vraag4
-
+many_vowels()
 
 #vraag5
     
