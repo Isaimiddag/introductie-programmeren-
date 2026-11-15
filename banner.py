@@ -97,7 +97,6 @@ def many_vowels(words: list[str]) -> list[str]:
                 if aantal >= 3:
                     aantal_woorden += 1
     return aantal_woorden
-                
             
     
 
