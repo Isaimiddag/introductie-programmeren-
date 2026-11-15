@@ -3,8 +3,7 @@ def greater_than_ten(numbers: list[int]) -> list[int]:
     for char in numbers:
         if char > 10:
             result.append(char)
-        else:
-            None
+
     return result
     
 if __name__ == "__main__":
