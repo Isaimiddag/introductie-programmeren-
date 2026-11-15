@@ -50,7 +50,8 @@ def text_score(s: str) -> float:
     aantal_woorden = 0
     aantal_letters = 0
     gemiddelde_lengte = 0
-    
+    for char in s:
+        
     
             
             
