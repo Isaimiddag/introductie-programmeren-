@@ -34,7 +34,7 @@ def double_letters(words: list[str]) -> list[str]:
     double_letter_words = []
     for word in words:
         for x in range(len(words)):
-            if char.index[x] == char.index[x+1]:
+            if ch[x] == char.index[x+1]:
                 double_letter_words.append(word)
     return double_letter_words
 
