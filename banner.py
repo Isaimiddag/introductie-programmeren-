@@ -69,7 +69,8 @@ def count_ending_vowel(s: str) -> int:
     count = 0
     for letter in s:
         if s[-1] in "aeiouAEIOU":
-            
+            count += 1
+    return count
 
 #vraag3
 
