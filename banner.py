@@ -79,7 +79,7 @@ def next_letter(s: str) -> str:
     alfabet = "abcdefghijklmnopqrstuvwxyz"
     word = ""
     for word in s:
-        
+        word
 
 #vraag4
 
