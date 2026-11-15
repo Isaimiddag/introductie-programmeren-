@@ -63,7 +63,7 @@ def positive_numbers(numbers: list[int]) -> list[int]:
     for number in numbers:
         if number >= 0:
             new_list.append(number)
-    return 
+    return new_list
 
 #vraag2
 
