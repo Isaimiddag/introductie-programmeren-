@@ -45,6 +45,7 @@ def text_score(s: str) -> float:
     aantal_spaties = 0
     aantal_letters = 0
     for char in s:
+        
         if char in "aeiouAEIOU":
             aantal_klinkers += 1
         elif char == " ":
