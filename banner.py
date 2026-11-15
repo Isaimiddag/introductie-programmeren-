@@ -46,7 +46,7 @@ def double_letters(words: list[str]) -> list[str]:
 #vraag 5
 #Formule:
 
-(aantal klinkers)×(gemiddelde woordlengte)(\text{aantal klinkers}) \times (\text{gemiddelde woordlengte})(aantal klinkers)×(gemiddelde woordlengte)
+(aantal klinkers)×(gemiddelde woordlengte)
             
             
             
