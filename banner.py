@@ -65,7 +65,8 @@ def positive_numbers(numbers: list[int]) -> list[int]:
             new_list.append(number)
     return new_list
 #vraag2
-def count_ending_vowel(str:)
+def count_ending_vowel(s: str) -> int:
+    
 
 #vraag3
 
