@@ -19,6 +19,7 @@ def count_vowel(s: str) -> int:
             begin_woord = False
         if char == " ":
             begin_woord = True
+    ret
 
 
 # vraag 3   
