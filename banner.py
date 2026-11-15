@@ -52,7 +52,6 @@ def text_score(s: str) -> float:
     gemiddelde_lengte = 0
     for char in s:
         s.count(char)
-
         if char in "aeiouAEIOU":
             aantal_klinkers += 1
         
