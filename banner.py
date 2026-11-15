@@ -92,7 +92,8 @@ def many_vowels(words: list[str]) -> list[str]:
     for word in words:
         for letter in word:
             if letter in klinkers:
-                
+                aantal += 1
+            
         
     
 
