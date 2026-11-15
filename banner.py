@@ -57,55 +57,5 @@ def text_score(s: str) -> float:
     score = aantal_klinkers * gemiddelde_lengte 
     return round(score, 2)
 
-#vraag1
-def positive_numbers(numbers: list[int]) -> list[int]:
-    new_list = []
-    for number in numbers:
-        if number >= 0:
-            new_list.append(number)
-    return new_list
-#vraag2
-def count_ending_vowel(s: str) -> int:
-    vorige_letter = ""
-    count = 0
-    for char in s:
-        if char == " ":
-            if vorige_letter in "aeiouAEIOU":
-                count += 1
-    return count
-
-#vraag3
-def next_letter(s: str) -> str:
-    alfabet = "abcdefghijklmnopqrstuvwxyz"
-    result = ""
-
-    for x in range(len(s)):
-        positie = alfabet.index(s[x])
-        nieuwe_positie = (positie + 1) % 26
-        result += alfabet[nieuwe_positie]
-
-    return result
-#vraag4
-def many_vowels(words: list[str]) -> list[str]:
-    klinkers = "aeiuoAEIUO"
-    aantal_klinkers = 0
-    aantal_woorden = 0
-    for word in words:
-        for letter in word:
-            if letter in klinkers:
-                aantal += 1
-                if aantal >= 3:
-                    aantal_woorden += 1
-    return aantal_woorden
-
-#vraag5
-def word_score(s:str) -> float:
-    aantal_klinkers = 0
-    aantal_medeklinkers = 0
-    aantal_letters = 0
-    aantal_spaties = 0
+c
     
-    
-            
-            
-            
