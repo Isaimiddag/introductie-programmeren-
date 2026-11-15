@@ -40,7 +40,7 @@ def double_letters(words: list[str]) -> list[str]:
     return result
 
 #vraag 5
-#Formule:(aantal klinkers)×(gemiddelde woordlengte)
+#Formule:(aantal klinkers)Ã—(gemiddelde woordlengte)
 def text_score(s: str) -> float:
     aantal_klinkers = 0
     aantal_spaties = 0
@@ -99,6 +99,7 @@ def many_vowels(words: list[str]) -> list[str]:
     return aantal_woorden
 
 #vraag5
+
     
             
             
