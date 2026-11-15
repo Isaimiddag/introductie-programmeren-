@@ -17,3 +17,5 @@ def count_vowel(s: str) -> int:
         if s[0] in "aeiou":
             count += 1
     return count
+if __name__ == "__main__":
+    
