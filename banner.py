@@ -67,7 +67,8 @@ def positive_numbers(numbers: list[int]) -> list[int]:
 #vraag2
 def count_ending_vowel(s: str) -> int:
     count = 0
-    for letter in s:
+    for word in s:
+        if
         
         if s[-1] in "aeiouAEIOU":
             count += 1
