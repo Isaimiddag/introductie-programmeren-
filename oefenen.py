@@ -143,7 +143,8 @@ def sum_even(n: int) ->int:
     even = []
     for n in range(0, n, 1):
         if n % 2 == 0:
-            
+            even.append(n)
+        
             
     
 
