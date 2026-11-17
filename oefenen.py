@@ -145,7 +145,8 @@ def sum_even(n: int) ->int:
         if n % 2 == 0:
             even.append(n)
     return sum(even)
-    
+
+
             
     
 
