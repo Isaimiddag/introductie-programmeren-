@@ -114,7 +114,7 @@ def is_palindrome(word: str) -> bool:
     for char in word:
         # leg deze opgave heel duidelijk uit
 # 9
-
+def second_largest(numbers: list[int])
     
     
     
