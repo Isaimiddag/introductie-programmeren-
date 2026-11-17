@@ -90,7 +90,8 @@ def long_words(words: list[str]) -> list[str]:
 #5
 def passed(grades: list[float]) -> bool:
     for grade in grades:
-        if grade 
+        if grade < 4:
+            return
     if grades.sum() / len(grades) >= 5.5:
         return True
     
