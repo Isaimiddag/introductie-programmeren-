@@ -140,6 +140,7 @@ def first_a(text: str) -> int:
 #2
 def sum_even(n: int) ->int:
     for n in range(0, n, 1)
+    
 
     
     
