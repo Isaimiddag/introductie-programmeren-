@@ -113,9 +113,8 @@ def sum_to_n_while(n: int) -> int:
     return total
 #8
 def is_palindrome(word: str) -> bool:
-    for char in word:
-        if word[::-1] == word:
-            return True
+    if word[::-1] == word:
+        return True
         
 # 9
 def second_largest(numbers: list[int]) -> int:
