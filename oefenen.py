@@ -1,1 +1,1 @@
-def 
+def absolute_difference()
