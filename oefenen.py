@@ -152,7 +152,7 @@ def index_of_min(numbers: list[int]) -> int:
 #4
 def count_max(numbers: list[int]) -> int:
     count = 0
-    maximum = max
+    maximum = max(numbers)
     for number in numbers:
         if number == maximum
 #5
