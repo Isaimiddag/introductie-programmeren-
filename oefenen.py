@@ -67,3 +67,4 @@ def count_a(text: str) -> int:
         if "a" in text:
             count += 1
     return count
+#2
