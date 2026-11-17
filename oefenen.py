@@ -163,8 +163,8 @@ def countdown(n:int) -> list[int]:
     new_list = n.sort()
     new_list.reverse()
     while n >= 1:
-        return n.sort()
-        n.sort
+        return n
+        
     
         
 
