@@ -74,4 +74,4 @@ def average(numbers: list[int]) -> float:
     average = totaal / aantal
     return round(average, 2)
 #3
-def 
+def index
