@@ -41,4 +41,5 @@ def even_numbers(numbers: list[int]) -> list[int]:
     even_numbers = []
     for number in numbers: 
         if number % 2 == 0:
-            number 
+            number += even_numbers
+    return even_numbers
