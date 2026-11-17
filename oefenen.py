@@ -8,4 +8,4 @@ def is_even(n: int) ->bool:
     else:
         return False
         
-def 
+def discount()
