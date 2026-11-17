@@ -19,3 +19,5 @@ def discount(age: int) -> bool:
 def sum(n: int) -> int:
     for range(len(n)):
         return n + n
+
+def count_words()
