@@ -161,7 +161,7 @@ def count_max(numbers: list[int]) -> int:
 def countdown(n:int) -> list[int]:
     result = []
     while n >= 1:
-        return final
+        result.append
 #6
 def middle(numbers: list[int]) -> int:
     for number in numbers:
