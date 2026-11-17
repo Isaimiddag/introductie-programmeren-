@@ -51,5 +51,5 @@ def meal(time: str) -> str:
         return "breakfast"
     elif time >= 720 and time <= 780:
         return "lunch"
-    elif time >= 720 and time <= 780:
+    elif time >= 7 and time <= 780:
 
