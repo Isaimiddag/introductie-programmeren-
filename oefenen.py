@@ -47,6 +47,7 @@ def even_numbers(numbers: list[int]) -> list[int]:
 def meal(time: str) -> str:
     uur, minuten = time.split(":")
     tijd = uur * 60 + min
-    if time >= 420 and <= 480:
+    if time >= 420 and time <= 480:
         return "breakfast"
-    elif time >= 720 and time
+    elif time >= 720 and time <= 780:
+        return 
