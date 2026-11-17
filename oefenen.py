@@ -175,6 +175,7 @@ def reverse_list(numbers: list[int]) -> list[int]:
     result = [] 
     i = len(numbers) -1
     while i >= 0:
+        result.append(numbers[i])
         
     
         
