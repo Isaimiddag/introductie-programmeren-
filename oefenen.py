@@ -32,7 +32,7 @@ def count_words(words: list[str], target: str) -> int:
     return count
 #6
 def maximum(numbers: list[int]) -> int:
-    huidige_max = numbers[0
+    huidige_max = numbers[0]
     for number in numbers:
         if number > huidige_max:
             huidige_max = number
