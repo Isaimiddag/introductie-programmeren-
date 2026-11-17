@@ -36,4 +36,5 @@ def maximum(numbers: list[int]) -> int:
             huidige_max == number
     return huidige_max
     
+#7
 
