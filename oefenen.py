@@ -155,7 +155,8 @@ def count_max(numbers: list[int]) -> int:
     maximum = max(numbers)
     for number in numbers:
         if number == maximum:
-            return 
+            count +=1
+    return count
 #5
 def countdown(n:int) -> list[int]:
     new_list = n.sort()
