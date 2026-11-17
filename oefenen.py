@@ -83,4 +83,4 @@ def index_max(numbers: list[int]) -> int:
 #4
 def long_words(words: list[str]) -> list[str]:
     new_list = []
-    for 
+    for word in words
