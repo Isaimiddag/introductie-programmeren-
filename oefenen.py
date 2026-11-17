@@ -132,6 +132,7 @@ def discounted_price(price: float, age: int) -> float:
         
     return price
 #1
-def first_a( text: s)
+def first_a( text: str) -> int:
+    
     
     
