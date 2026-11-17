@@ -168,6 +168,7 @@ def countdown(n:int) -> list[int]:
 def middle(numbers: list[int]) -> int:
     for number in numbers:
         return len(number.mid())
+
     
         
 
