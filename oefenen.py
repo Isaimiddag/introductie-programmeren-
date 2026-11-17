@@ -92,7 +92,7 @@ def passed(grades: list[float]) -> bool:
     for grade in grades:
         if grade < 4:
             return False
-    if sum(grades / len(grades) >= 5.5:
+    if sum(grades) / len(grades) >= 5.5:
         return True
 #6
 def count_words(sentence: str) -> str:
