@@ -7,7 +7,7 @@ def is_even(n: int) ->bool:
         return True
     else:
         return False
-        
+ #3      
 def discount(age: int) -> bool:
     if age < 12: 
         return True
@@ -15,7 +15,7 @@ def discount(age: int) -> bool:
         return True
     else:
         return False
-#5   
+#4   
 def sum(n: int) -> int:
     for range(len(n)):
         return n + n
