@@ -44,4 +44,5 @@ def even_numbers(numbers: list[int]) -> list[int]:
             number += even_numbers
     return even_numbers
 #8
-def meal(time: str) -
+def meal(time: str) -> str:
+    
