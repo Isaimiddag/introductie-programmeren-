@@ -43,7 +43,7 @@ def even_numbers(numbers: list[int]) -> list[int]:
     even_numbers = []
     for number in numbers: 
         if number % 2 == 0:
-            even_numbers
+            even_numbers.append(number)
     return even_numbers
 #8
 def meal(time: str) -> str:
