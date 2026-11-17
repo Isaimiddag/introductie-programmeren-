@@ -79,7 +79,7 @@ def index_max(numbers: list[int]) -> int:
     for number in numbers:
         if number > huidige_max:
             huidige_max = number
-    return numbers.index()
+    return numbers.index(huidige_max)
 #4
 def long_words(words: list[str]) -> list[str]:
     new_list = []
