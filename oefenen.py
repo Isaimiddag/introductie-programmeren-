@@ -109,6 +109,7 @@ def sum_to_n_while(n: int) -> int:
     while i in range(1, n+1):
         total += i
     return total
+#8
 
     
     
