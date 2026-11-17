@@ -79,4 +79,4 @@ def index_max(numbers: list[int]) -> int:
     for number in numbers:
         if number > huidige_max:
             huidige_max = number
-    return huidige_max.index()
+    return huidige_max.index[]
