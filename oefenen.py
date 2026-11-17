@@ -1,5 +1,5 @@
 def absolute_difference(a : int, b: int) ->:
-    difference = a - b
+    difference = abs(a - b)
     return difference
 
 def 
