@@ -139,7 +139,7 @@ def first_a(text: str) -> int:
         return text.index(char_a)
 #2
 def sum_even(n: int) ->int:
-    for n in range
+    for n in range(0, n)
 
     
     
