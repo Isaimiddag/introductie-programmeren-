@@ -40,4 +40,5 @@ def maximum(numbers: list[int]) -> int:
 def even_numbers(numbers: list[int]) -> list[int]:
     even_numbers = []
     for number in numbers: 
-        if number 
+        if number % 2 == 0:
+            return
