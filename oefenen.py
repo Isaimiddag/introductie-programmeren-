@@ -161,6 +161,7 @@ def count_max(numbers: list[int]) -> int:
 #5
 def countdown(n:int) -> list[int]:
     new_list = n.sort()
+    new_list.reverse()
     while n >= 1:
         return n.sort()
         n.sort
