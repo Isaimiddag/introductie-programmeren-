@@ -113,7 +113,7 @@ def sum_to_n_while(n: int) -> int:
     return total
 #8
 def is_palindrome(word: str) -> bool:
-    if word[::-1] == word:
+    if word == word:
         return True
         
 # 9
