@@ -159,7 +159,8 @@ def count_max(numbers: list[int]) -> int:
     for i in range(numbers):
         return len(max(i))
 #5
-
+def countdown(n:int) -> list[int]:
+    
     
         
 
