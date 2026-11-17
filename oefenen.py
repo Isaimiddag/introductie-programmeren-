@@ -61,4 +61,5 @@
 #         return "unknown"
 
 #1
-def count_a()
+def count_a(text: str) -> int:
+    
