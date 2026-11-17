@@ -146,7 +146,7 @@ def sum_even(n: int) ->int:
             even.append(n)
     return sum(even)
 #3
-
+def index_of_min(numbers: int)
 
             
     
