@@ -18,6 +18,7 @@ def discount(age: int) -> bool:
         return False
 #4   
 def sum(n: int) -> int:
+    total = 0
     for i in range(1, n + 1):
         total += i
         return n + n
