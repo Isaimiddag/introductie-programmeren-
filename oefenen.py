@@ -13,4 +13,6 @@ def discount(age: int) -> bool:
         return True
     elif age > 65:
         return True
+    else:
+        return False
     
