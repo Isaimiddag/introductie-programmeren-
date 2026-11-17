@@ -27,4 +27,4 @@ def count_words(words: list[str], target: str) -> int:
     for word in words:
         if word == target:
             count += 1
-            
+    return count
