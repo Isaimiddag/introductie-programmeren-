@@ -9,4 +9,5 @@ def is_even(n: int) ->bool:
         return False
         
 def discount(age: int) -> bool:
-    if age > 
+    if age < 12: 
+        
