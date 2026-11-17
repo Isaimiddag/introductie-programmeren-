@@ -2,4 +2,4 @@ def absolute_difference(a : int, b: int) ->:
     difference = abs(a - b)
     return difference
 
-def 
+def is_even()
