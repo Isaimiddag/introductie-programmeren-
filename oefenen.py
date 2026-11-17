@@ -25,4 +25,5 @@ def sum(n: int) -> int:
 def count_words(words: list[str], target: str) -> int:
     count = 0 
     for word in words:
-        if word == target
+        if word == target:
+            
