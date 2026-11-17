@@ -94,8 +94,7 @@ def passed(grades: list[float]) -> bool:
             return False
     if sum(grades) / len(grades) >= 5.5:
         return True
-    
-        False
+    return False
 #6
 def count_words(sentence: str) -> str:
     spaties = " "
