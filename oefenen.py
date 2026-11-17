@@ -48,6 +48,8 @@ def even_numbers(numbers: list[int]) -> list[int]:
 #8
 def meal(time: str) -> str:
     uur, minuten = time.split(":")
+    uur = int(uur)
+    minuten = int(minuten)
     tijd = uur * 60 + min
     if time >= 420 and time <= 480:
         return "breakfast"
