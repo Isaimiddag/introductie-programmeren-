@@ -37,4 +37,5 @@ def maximum(numbers: list[int]) -> int:
     return huidige_max
     
 #7
-def even_numbers(numbers: list[int]) -> list[int]
+def even_numbers(numbers: list[int]) -> list[int]:
+    
