@@ -104,6 +104,6 @@ def count_words(sentence: str) -> str:
     aantal_woorden = spaties + 1
     return aantal_woorden
 #7
-def
+def sum_to
     
     
