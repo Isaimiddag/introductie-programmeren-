@@ -88,5 +88,6 @@ def long_words(words: list[str]) -> list[str]:
             new_list.append(word)
     return new_list
 #5
-def passed(grades: list[float]) -
+def passed(grades: list[float]) -> bool:
+    
     
