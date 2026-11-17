@@ -3,4 +3,5 @@ def absolute_difference(a : int, b: int) ->:
     return difference
 
 def is_even(n: int) ->bool:
-    if n 
+    if n % 2 == 0:
+        
