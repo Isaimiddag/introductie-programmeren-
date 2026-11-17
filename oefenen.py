@@ -98,6 +98,6 @@ def passed(grades: list[float]) -> bool:
 def count_words(sentence: str) -> str:
     spaties = " "
     for word in sentence:
-        if 
+        if word =
     
     
