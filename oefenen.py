@@ -28,3 +28,5 @@ def count_words(words: list[str], target: str) -> int:
         if word == target:
             count += 1
     return count
+if __name__ == "__main__":
+    
