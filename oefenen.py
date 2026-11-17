@@ -82,4 +82,4 @@ def index_max(numbers: list[int]) -> int:
     return huidige_max.index()
 #4
 def long_words(words: list[str]) -> list[str]:
-    
+    new_list = []
