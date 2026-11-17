@@ -150,7 +150,7 @@ def index_of_min(numbers: list[int]) -> int:
     huidige_min = numbers[0]
     for number in numbers:
         if number < huidige_min:
-            huidige_min = numbers
+            huidige_min = number
     return 
 
             
