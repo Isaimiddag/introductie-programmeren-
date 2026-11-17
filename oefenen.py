@@ -50,7 +50,7 @@ def meal(time: str) -> str:
     uur, minuten = time.split(":")
     uur = int(uur)
     minuten = int(minuten)
-    tijd = uur * 60 + min
+    tijd = uur * 60 + minuten
     if time >= 420 and time <= 480:
         return "breakfast"
     elif time >= 720 and time <= 780:
