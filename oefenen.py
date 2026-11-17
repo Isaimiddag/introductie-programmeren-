@@ -48,4 +48,5 @@ def meal(time: str) -> str:
     uur, minuten = time.split(":")
     tijd = uur * 60 + min
     if time >= 420 and <= 480:
-        return "
+        return "breakfast"
+    elif time >= 
