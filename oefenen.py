@@ -51,9 +51,9 @@ def meal(time: str) -> str:
     uur = int(uur)
     minuten = int(minuten)
     tijd = uur * 60 + minuten
-    if tijd >= 420 and time <= 480:
+    if tijd >= 420 and tijd <= 480:
         return "breakfast"
-    elif time >= 720 and time <= 780:
+    elif ti >= 720 and time <= 780:
         return "lunch"
     elif time >= 1080 and time <= 1140:
         return "dinner"
