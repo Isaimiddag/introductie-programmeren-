@@ -68,4 +68,4 @@ def count_a(text: str) -> int:
             count += 1
     return count
 #2
-def average(numbers: )
+def average(numbers: list[int])
