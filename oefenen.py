@@ -63,4 +63,5 @@
 #1
 def count_a(text: str) -> int:
     count = 0
-    for 
+    for char in text: 
+        if "a
