@@ -162,6 +162,7 @@ def countdown(n:int) -> list[int]:
     result = []
     while n >= 1:
         result.append(n)
+        
 #6
 def middle(numbers: list[int]) -> int:
     for number in numbers:
