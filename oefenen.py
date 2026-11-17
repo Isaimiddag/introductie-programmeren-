@@ -49,4 +49,4 @@ def meal(time: str) -> str:
     tijd = uur * 60 + min
     if time >= 420 and <= 480:
         return "breakfast"
-    elif time >= 720 and
+    elif time >= 720 and time
