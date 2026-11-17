@@ -135,6 +135,6 @@ def discounted_price(price: float, age: int) -> float:
 def first_a(text: str) -> int:
     for char in text:
         if char == "a":
-            char = 
+            char = char
     
     
