@@ -148,7 +148,7 @@ def index_of_min(numbers: list[int]) -> int:
     for number in numbers:
         if number < huidige_min:
             huidige_min = number
-    return huidige_min.index(number)
+    return .index(number)
 #4
 def count_max(numbers: list[int]) -> int:
     count = 0
