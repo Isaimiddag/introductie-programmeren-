@@ -47,4 +47,4 @@ def even_numbers(numbers: list[int]) -> list[int]:
 def meal(time: str) -> str:
     uur, minuten = time.split(":")
     tijd = uur * 60 + min
-    if time 
+    if time > 
