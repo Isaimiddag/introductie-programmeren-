@@ -100,6 +100,7 @@ def count_words(sentence: str) -> str:
     for word in sentence:
         if word == " ":
             spaties += 1
-        
+    return spaties
+    
     
     
