@@ -157,7 +157,7 @@ def count_max(numbers: list[int]) -> int:
     count = 0
     huidige_max = numbers[0]
     for i in range(numbers):
-        return max(number)
+        return max(numbers)
         
 
             
