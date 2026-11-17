@@ -167,7 +167,7 @@ def countdown(n:int) -> list[int]:
 
 #6
 def middle(numbers: list[int]) -> int:
-    for number in numbers:
+    len(numbers)
         return len(number.mid())
 #9
 def reverse_list(numbers: list[int]) -> list[int]:
