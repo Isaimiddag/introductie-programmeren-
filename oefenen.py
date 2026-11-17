@@ -1,5 +1,5 @@
 #1
-def absolute_difference(a : int, b: int) ->:
+def absolute_difference(a : int, b: int) -> int:
     difference = abs(a - b)
     return difference
 #2
