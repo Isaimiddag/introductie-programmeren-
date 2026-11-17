@@ -119,7 +119,7 @@ def second_largest(numbers: list[int]) -> int:
     for number in numbers:
         if number # leg deze opgave heel duidelijk uit 
 #10
-def discounted_price
+def discounted_price(price: float, age: int)
     
     
     
