@@ -164,7 +164,7 @@ def countdown(n:int) -> list[int]:
     final = new_list.reverse()
     while n >= 1:
         return final
-        
+
     
         
 
