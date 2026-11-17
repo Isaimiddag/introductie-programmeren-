@@ -70,4 +70,5 @@ def count_a(text: str) -> int:
 #2
 def average(numbers: list[int]) -> float:
     totaal = numbers.sum()
+    aantal = len(numbers)
     
