@@ -174,6 +174,7 @@ def middle(numbers: list[int]) -> int:
 def reverse_list(numbers: list[int]) -> list[int]:
     result = [] 
     i = len(numbers) -1
+    while
     
         
 
