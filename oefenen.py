@@ -140,7 +140,7 @@ def first_a(text: str) -> int:
 #2
 def sum_even(n: int) ->int:
     total = 0
-    even = 
+    even = []
     for n in range(0, n, 1):
         if n % 2 == 0:
             
