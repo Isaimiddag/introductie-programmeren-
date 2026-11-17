@@ -90,5 +90,5 @@ def long_words(words: list[str]) -> list[str]:
 #5
 def passed(grades: list[float]) -> bool:
     for grade in grades:
-        if 
+        if grades.
     
