@@ -152,9 +152,8 @@ def index_of_min(numbers: list[int]) -> int:
 #4
 def count_max(numbers: list[int]) -> int:
     count = 0
-    huidige_max = numbers[0]
-    for i in range(numbers):
-        return len(max(i))
+    for number in numbers:
+        if number == maximum
 #5
 def countdown(n:int) -> list[int]:
     new_list = n.sort()
