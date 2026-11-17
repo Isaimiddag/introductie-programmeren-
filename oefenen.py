@@ -30,4 +30,4 @@ def count_words(words: list[str], target: str) -> int:
     return count
 if __name__ == "__main__":
     poep = input("geef iets: ")
-    
+    count_words(poep)
