@@ -31,4 +31,4 @@ def count_words(words: list[str], target: str) -> int:
 if __name__ == "__main__":
     words = input("woorden: ")
     target = input("target: ")
-    count_words(poep)
+    count_words(woorden, tag)
