@@ -1,1 +1,2 @@
-def absolute_difference(a : int, b: int) ->
+def absolute_difference(a : int, b: int) ->:
+    
