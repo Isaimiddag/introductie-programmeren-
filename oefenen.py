@@ -165,7 +165,7 @@ def countdown(n:int) -> list[int]:
     while n >= 1:
         return final
 #6
-
+def middle()
     
         
 
