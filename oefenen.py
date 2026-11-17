@@ -107,6 +107,6 @@ def count_words(sentence: str) -> str:
 def sum_to_n_while(n: int) -> int:
     total = 0
     while i in range(1, n+1):
-        return range(1, n+1)
+        return 
     
     
