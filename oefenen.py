@@ -139,5 +139,6 @@ def first_a(text: str) -> int:
         return text.index(char_a)
 #2
 
+
     
     
