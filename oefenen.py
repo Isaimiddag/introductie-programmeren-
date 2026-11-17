@@ -69,7 +69,7 @@ def count_a(text: str) -> int:
     return count
 #2
 def average(numbers: list[int]) -> float:
-    totaal = numbers.sum()
+    totaal = sum(numbers)
     aantal = len(numbers)
     average = totaal / aantal
     return round(average, 2)
