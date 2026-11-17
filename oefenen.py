@@ -20,4 +20,4 @@ def sum(n: int) -> int:
     for range(len(n)):
         return n + n
 
-def count_words(words: list[str], target)
+def count_words(words: list[str], target: str)
