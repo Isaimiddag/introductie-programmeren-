@@ -155,7 +155,8 @@ def index_of_min(numbers: list[int]) -> int:
 #4
 def count_max(numbers: list[int]) -> int:
     count = 0
-    huidige_max = 
+    huidige_max = numbers[0]
+    
 
             
     
