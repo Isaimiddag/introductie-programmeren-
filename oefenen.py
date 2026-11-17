@@ -21,4 +21,5 @@ def sum(n: int) -> int:
         return n + n
 
 def count_words(words: list[str], target: str) -> int:
-    
+    for word in words:
+        if 
