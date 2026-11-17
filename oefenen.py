@@ -131,6 +131,6 @@ def discounted_price(price: float, age: int) -> float:
         price = price
         
     return price
-    
+
     
     
