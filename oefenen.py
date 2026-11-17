@@ -29,5 +29,6 @@ def count_words(words: list[str], target: str) -> int:
             count += 1
     return count
 if __name__ == "__main__":
-    words = input("woorden")
+    words = input("woorden: ")
+    target = input("target: ")
     count_words(poep)
