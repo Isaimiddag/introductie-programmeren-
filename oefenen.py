@@ -16,4 +16,5 @@ def discount(age: int) -> bool:
     else:
         return False
     
-def sum(n: int)
+def sum(n: int) -> int:
+    
