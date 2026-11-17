@@ -75,4 +75,5 @@ def average(numbers: list[int]) -> float:
     return round(average, 2)
 #3
 def index_max(numbers: list[int]) -> int:
+    huidige_max = numbers[0]
     
