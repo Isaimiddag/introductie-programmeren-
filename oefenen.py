@@ -86,4 +86,5 @@ def long_words(words: list[str]) -> list[str]:
     for word in words:
         if len(word) > 4:
             new_list.append(word)
-        
+    return new_list
+    
