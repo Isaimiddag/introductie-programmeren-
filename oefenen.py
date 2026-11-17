@@ -158,6 +158,8 @@ def count_max(numbers: list[int]) -> int:
     huidige_max = numbers[0]
     for i in range(numbers):
         return len(max(i))
+#5
+
     
         
 
