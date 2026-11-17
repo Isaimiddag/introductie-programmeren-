@@ -15,7 +15,7 @@ def discount(age: int) -> bool:
         return True
     else:
         return False
-    
+#5   
 def sum(n: int) -> int:
     for range(len(n)):
         return n + n
