@@ -77,4 +77,5 @@ def average(numbers: list[int]) -> float:
 def index_max(numbers: list[int]) -> int:
     huidige_max = numbers[0]
     for number in numbers:
-        if number > huidige_max
+        if number > huidige_max:
+            huidige
