@@ -1,7 +1,7 @@
 def absolute_difference(a : int, b: int) ->:
     difference = abs(a - b)
     return difference
-
+#2
 def is_even(n: int) ->bool:
     if n % 2 == 0:
         return True
