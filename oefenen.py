@@ -21,7 +21,7 @@ def sum(n: int) -> int:
     total = 0
     for i in range(1, n + 1):
         total += i
-        return n + n
+    return total
 
 #5
 def count_words(words: list[str], target: str) -> int:
