@@ -46,4 +46,4 @@ def even_numbers(numbers: list[int]) -> list[int]:
 #8
 def meal(time: str) -> str:
     time.split(:)
-    min = 60
+     = 60
