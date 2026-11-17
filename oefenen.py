@@ -119,9 +119,7 @@ def is_palindrome(word: str) -> bool:
         
 # 9
 def second_largest(numbers: list[int]) -> int:
-    huidige_second_largest = numbers[0]
-    for number in numbers:
-        if number # leg deze opgave heel duidelijk uit 
+    numbers.sort 
 #10
 def discounted_price(price: float, age: int) -> float:
     if age < 12: 
