@@ -64,4 +64,4 @@
 def count_a(text: str) -> int:
     count = 0
     for char in text: 
-        if "a
+        if "aA" in text
