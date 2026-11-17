@@ -133,10 +133,7 @@ def discounted_price(price: float, age: int) -> float:
     return price
 #1
 def first_a(text: str) -> int:
-    for char in text:
-        if char == "a":
-            
-        return text.index(char)
+    return text.index("a")
 #2
 def sum_even(n: int) ->int:
     total = 0
