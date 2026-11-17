@@ -72,6 +72,6 @@ def average(numbers: list[int]) -> float:
     totaal = numbers.sum()
     aantal = len(numbers)
     average = totaal / aantal
-    return average.float()
+    return round(average, 2)
 #3
 def 
