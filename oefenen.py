@@ -149,7 +149,7 @@ def sum_even(n: int) ->int:
 def index_of_min(numbers: list[int]) -> int:
     huidige_min = numbers[0]
     for number in numbers:
-        if number < 
+        if number < huidi
 
             
     
