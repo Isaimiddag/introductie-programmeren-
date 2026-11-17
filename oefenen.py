@@ -121,7 +121,8 @@ def second_largest(numbers: list[int]) -> int:
 #10
 def discounted_price(price: float, age: int) -> float:
     if age < 12: 
-        price = price * 0
+        price = price * 0.8
+    elif age
     
     
     
