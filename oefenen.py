@@ -195,6 +195,7 @@ def vowely_words(words: list[str]) -> list[str]:
     new_list = []
     for char in words:
         if char != " ":
+            huidig_woord += char
             aantal_klinkers += 1
             
             
