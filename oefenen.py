@@ -421,7 +421,9 @@ def compute_word_score(word: str) -> int:
             score += 0
     return score
 
-
+#10
+def same_letters(a:str, b:str) -> bool:
+    
 
         
     
