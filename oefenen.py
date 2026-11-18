@@ -185,6 +185,7 @@ def encrypt(s: str) -> str:
     for letter in s:
         for i in range(len(alfabet)):
             if letter == alfabet[i]:
+                positie = i
                 
         
         
