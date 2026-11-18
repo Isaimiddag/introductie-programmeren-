@@ -402,8 +402,8 @@ def two_vowel(words: list[str]) -> list[str]:
         for letter in word:
             if letter in klinkers:
                 aantal_klinkers +=1
-            if aantal_klinkers == 2:
-                new_list.append(word)
+        if aantal_klinkers == 2:
+            new_list.append(word)
     return new_list
 #9
 POINTS = [1,2,3,4,5]
