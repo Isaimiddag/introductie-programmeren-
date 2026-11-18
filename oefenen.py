@@ -482,7 +482,8 @@ def totaal_letters(words: list[str]) -> int:
     >>> totaal_letters(["kat", "pap"])
     6
     """
-    totaal = 
+    totaal = 0
+    
             
         
     
