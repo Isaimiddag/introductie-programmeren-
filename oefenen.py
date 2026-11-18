@@ -532,7 +532,7 @@ def three_consonant_words(words: list[str]) -> list[str]:
                 aantal_medeklinkers += 1
         if aantal_medeklinkers == 3:
             new_list.append(word)
-print(["hallo, "ppppppp",  ])
+print(["hallo, "ppppppp", "poep" ])
                 
     return new_list
 
