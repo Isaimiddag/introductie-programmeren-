@@ -503,7 +503,7 @@ def shortest_vowel_word(words: list[str]) -> str:
         if len(word) < shortest:
             shortest = word
     return shortest
-         
+print         
             
         
 
