@@ -498,7 +498,7 @@ def shortest_vowel_word(words: list[str]) -> str:
         for letter in word:
             if letter in klinkers:
                 woorden_klinker.append(word)
-            
+        
                 
             
         
