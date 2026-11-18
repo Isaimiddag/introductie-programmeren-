@@ -312,7 +312,7 @@
 #1
 def count_long_words(words: list[str], minimum: int) -> int:
     for word in words:
-        if word
+        if len(word) <
 
     
             
