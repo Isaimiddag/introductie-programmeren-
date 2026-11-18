@@ -294,7 +294,8 @@ def word_score(word: str) ->int:
     return score
 #6
 def same_letter(a: str, b:str) -> bool:
-        alfabet = "abcdefghijklmnopqrstuvwxyz"
+    alfabet = "abcdefghijklmnopqrstuvwxyz"
+    
 
     
             
