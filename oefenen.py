@@ -404,7 +404,7 @@ def two_vowel(words: list[str]) -> list[str]:
 
 POINTS = [1,2,3,4,5]
 LETTERS = "abcde"
-def 
+def compute_letter_score()
     
             
         
