@@ -382,7 +382,9 @@ def shift_by_one(word: str) -> str:
     alfabet = "abcdefghijklmnopqrstuvwxyz"
     new_word = ""
     for letter in s:
-    for i in range(len(alfabet)):
+        for i in range(len(alfabet)):
+            if i == letter:
+                
         
             
             
