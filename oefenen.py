@@ -290,7 +290,7 @@ def word_score(word: str) ->int:
         else:
             medeklinkers +=1
         
-    score = 
+    score = (aantal_klinkers )
             
             
             
