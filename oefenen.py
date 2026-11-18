@@ -193,7 +193,7 @@ def encrypt(s: str) -> str:
 def vowely_words(words: list[str]) -> list[str]:
     klinkers = "aeiouAEIOU"
     new_list = []
-    for 
+    for char in words
 
             
         
