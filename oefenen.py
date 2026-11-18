@@ -384,7 +384,8 @@ def shift_by_one(word: str) -> str:
     for letter in s:
         for i in range(len(alfabet)):
             if i == letter:
-                postie = alfabet[i]
+                postie = alfabet[i+1]
+    
             
         
             
