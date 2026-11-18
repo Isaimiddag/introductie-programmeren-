@@ -310,7 +310,8 @@
 #             return True
                 
 #1
-def count_long_words(words: list[str])
+def count_long_words(words: list[str], minimum: int) -> int:
+    
 
     
             
