@@ -520,6 +520,8 @@ def shift_by_two(word: str) -> str:
                 new_letter = (i + 2) % 26
                 new_word.append(new_letter)
     return new_word
+    
+def 
             
  
         
