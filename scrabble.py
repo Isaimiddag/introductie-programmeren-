@@ -3,7 +3,6 @@ POINTS = [
     1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10
 ]
 
-
 def compute_score(word: str) -> int:
     """
     Bereken en return de score voor het woord.
