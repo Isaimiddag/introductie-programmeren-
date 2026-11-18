@@ -407,13 +407,13 @@ LETTERS = "abcde"
 def compute_word_score(word: str) -> int:
     score = 0
     for letter in word:
-        if letter = "a":
+        if letter == "a":
             score +=1
-        elif letter = "b":
+        elif letter == "b":
             score += 2
-        elif letter = "c":
+        elif letter == "c":
             score += 3
-        elif letter = "d":
+        elif letter == "d":
             score+= 4
         elif letter = "e":
             score += 5
