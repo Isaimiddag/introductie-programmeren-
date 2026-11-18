@@ -409,8 +409,8 @@ def compute_letter_score(word: str) -> int:
     for letter in word:
         if letter = "a":
             score +=1
-        elif letter == "b":
-            score
+        elif letter = "b":
+            score 
         
     
             
