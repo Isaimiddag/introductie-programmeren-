@@ -440,7 +440,7 @@ def same_letters(a:str, b:str) -> bool:
         if aantal_a != aantal_b:
             return False
         else:
-        return True
+            return True
 
 
         
