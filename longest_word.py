@@ -22,6 +22,7 @@ def string_to_list(words: str) -> list[str]:
             huidig_woord += teken
         else:
             lijst.append(huidig_woord)
+            
     
         
     
