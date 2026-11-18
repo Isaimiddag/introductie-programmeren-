@@ -425,7 +425,8 @@ def compute_word_score(word: str) -> int:
 def same_letters(a:str, b:str) -> bool:
     woord_a = ""
     woord_b = ""
-    for 
+    for letter in a:
+        if 
 
         
     
