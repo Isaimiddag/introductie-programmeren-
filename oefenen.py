@@ -260,7 +260,7 @@ def longer_than_average(words: list[str]) -> list[str]:
         
         for letter in word:
             if letter.isalpha():
-                aantal_letter += 1
+                aantal_letters += 1
         totaal_letters += aantal_letters
         totaal_woorden += 1
     gemiddelde = totaal_letters / aantal_woorden
