@@ -491,7 +491,7 @@ def totaal_letters(words: list[str]) -> int:
     return totaal
     
 def shortest_vowel_word(words: list[str]) -> str:
-    
+    klinkers = 
 
 
             
