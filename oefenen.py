@@ -410,7 +410,7 @@ def compute_letter_score(word: str) -> int:
         if letter = "a":
             score +=1
         elif letter == "b":
-            
+            score
         
     
             
