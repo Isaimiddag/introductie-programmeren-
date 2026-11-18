@@ -21,7 +21,7 @@ def string_to_list(words: str) -> list[str]:
         if teken != " ":
             huidig_woord += teken
         else:
-            lijst.append()
+            lijst.append(huidig_woord)
     
         
     
