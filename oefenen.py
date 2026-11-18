@@ -368,7 +368,7 @@ def longest_consonant_word(words: list[str]) -> str:
             if letter not in klinkers:
                 huidig_woord = word
                 count +=1
-            if 
+            
                 
             
 
