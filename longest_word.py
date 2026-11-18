@@ -18,8 +18,8 @@ def string_to_list(words: str) -> list[str]:
     lijst = []
     huidig_woord = ""
     for char in words:
-        if teken != " ":
-            huidig_woord += teken
+        if char != " ":
+            huidig_woord += char
         else:
             lijst.append(huidig_woord)
             huidig_woord = ""
