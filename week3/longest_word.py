@@ -29,13 +29,11 @@ def print_banner(lst: list[str]) -> str:
     #####
     Hallo
     #####
-
     >>> print_banner(["kat", "hond"])
     ####
     kat
     hond
     ####
-
     >>> print_banner(["abc", "defg", "hi"])
     ####
     abc
