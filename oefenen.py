@@ -523,6 +523,7 @@ def shift_by_two(word: str) -> str:
     
 three_consonant_words(words: list[str]) -> list[str]:
     klinkers = "aeiouAEIOU"
+    aantal_medeklinkers
     new_list = []
     for word in words:
         for letter in word:
