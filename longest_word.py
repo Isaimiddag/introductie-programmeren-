@@ -9,7 +9,7 @@ def longest_word_from_list(lst: list[str]) - > str:
 def print_banner(lst: list[str]) -> str:
     aantal_hekjes = longest_word_from_list(langste)
     print(aantal_hekjes)
-    fprint(word[0])
+    for i in rangeprint(word[0])
     
         
         
