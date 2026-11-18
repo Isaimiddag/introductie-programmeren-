@@ -420,6 +420,7 @@ def compute_word_score(word: str) -> int:
     return score
     
 compute_word_score("bella")
+
         
     
             
