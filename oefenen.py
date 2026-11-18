@@ -309,138 +309,138 @@
 #         else:
 #             return True
                 
-#1
-def count_long_words(words: list[str], minimum: int) -> int:
-    """
-    >>> count_long_words(["kat", "hallo", "ik", "poep"], 5)
-    1
-    >>> count_long_words(["HALLO", "ik", "hoi"], 2)
-    3
-    >>> count_long_words(["poep", "bal", "vless"], 8)
-    0
-    """
-    aantal_woorden = 0
-    for word in words:
-        if len(word) >= minimum:
-            aantal_woorden +=1 
-    return aantal_woorden
-#2            
-def replace_vowels(word: str) -> str:
-    """
-    >>> replace_vowels("Hallo")
-    'H*ll*'
-    >>> replace_vowels("ho")
-    'h*'
-    >>> replace_vowels("a")
-    '*'
-    >>> replace_vowels("b")
-    'b'
-    """
-    new_word = ""
-    klinkers = "aeiouAEIOU"
-    for letter in word:
-        if letter in klinkers:
-            letter = "*"
-        else:
-            letter = letter
-        new_word += letter
+# #1
+# def count_long_words(words: list[str], minimum: int) -> int:
+#     """
+#     >>> count_long_words(["kat", "hallo", "ik", "poep"], 5)
+#     1
+#     >>> count_long_words(["HALLO", "ik", "hoi"], 2)
+#     3
+#     >>> count_long_words(["poep", "bal", "vless"], 8)
+#     0
+#     """
+#     aantal_woorden = 0
+#     for word in words:
+#         if len(word) >= minimum:
+#             aantal_woorden +=1 
+#     return aantal_woorden
+# #2            
+# def replace_vowels(word: str) -> str:
+#     """
+#     >>> replace_vowels("Hallo")
+#     'H*ll*'
+#     >>> replace_vowels("ho")
+#     'h*'
+#     >>> replace_vowels("a")
+#     '*'
+#     >>> replace_vowels("b")
+#     'b'
+#     """
+#     new_word = ""
+#     klinkers = "aeiouAEIOU"
+#     for letter in word:
+#         if letter in klinkers:
+#             letter = "*"
+#         else:
+#             letter = letter
+#         new_word += letter
             
-    return new_word
-#3
-def average_word_length(words: list[str]) -> float:
-    aantal_woorden = len(words)
-    aantal_letters = 0 
-    for word in words:
-        for letter in word:
-            if letter.isalpha():
-                aantal_letters +=1
+#     return new_word
+# #3
+# def average_word_length(words: list[str]) -> float:
+#     aantal_woorden = len(words)
+#     aantal_letters = 0 
+#     for word in words:
+#         for letter in word:
+#             if letter.isalpha():
+#                 aantal_letters +=1
     
-    score = aantal_letters / aantal_woorden
-    return score
+#     score = aantal_letters / aantal_woorden
+#     return score
     
-#4
-def longest_consonant_word(words: list[str]) -> str:
-    klinkers = "aeiouAEIOU"
-    langste = ""
-    for word in words:
-        bevat_klinker = False
-        for letter in word:
-            if letter in klinkers:
-                bevat_klinker = True
-        if not bevat_klinker: 
-            if len(word) > len(langste):
-                    langste = word
+# #4
+# def longest_consonant_word(words: list[str]) -> str:
+#     klinkers = "aeiouAEIOU"
+#     langste = ""
+#     for word in words:
+#         bevat_klinker = False
+#         for letter in word:
+#             if letter in klinkers:
+#                 bevat_klinker = True
+#         if not bevat_klinker: 
+#             if len(word) > len(langste):
+#                     langste = word
                     
-    return langste
-#5
-def word_count(sentence: str) -> int:
-    aantal_spaties = 0
-    for char in sentence:
-        if char == " ":
-            aantal_spaties += 1
-    aantal_woorden = aantal_spaties + 1
-    return aantal_woorden
+#     return langste
+# #5
+# def word_count(sentence: str) -> int:
+#     aantal_spaties = 0
+#     for char in sentence:
+#         if char == " ":
+#             aantal_spaties += 1
+#     aantal_woorden = aantal_spaties + 1
+#     return aantal_woorden
     
-#6
-def shift_by_one(word: str) -> str:
-    alfabet = "abcdefghijklmnopqrstuvwxyz"
-    resultaat = ""
-    for letter in word:
-        for i in range(len(alfabet)):
-            if letter == alfabet[i]:
-                positie = i
-                nieuwe_positie = (positie + 1) % 26 
-                nieuwe_letter = alfabet[nieuwe_positie]
-                resultaat += nieuwe_letter
-    return resultaat
-#7
-def two_vowel(words: list[str]) -> list[str]:
-    klinkers= "aeiouAEIOU"
-    new_list = []
-    for word in words:
-        aantal_klinkers = 0
-        for letter in word:
-            if letter in klinkers:
-                aantal_klinkers +=1
-        if aantal_klinkers == 2:
-            new_list.append(word)
-    return new_list
-#9
-POINTS = [1,2,3,4,5]
-LETTERS = "abcde"
-def compute_word_score(word: str) -> int:
-    score = 0
-    for letter in word:
-        if letter == "a":
-            score +=1
-        elif letter == "b":
-            score += 2
-        elif letter == "c":
-            score += 3
-        elif letter == "d":
-            score+= 4
-        elif letter =="e":
-            score += 5
-        else:
-            score += 0
-    return score
+# #6
+# def shift_by_one(word: str) -> str:
+#     alfabet = "abcdefghijklmnopqrstuvwxyz"
+#     resultaat = ""
+#     for letter in word:
+#         for i in range(len(alfabet)):
+#             if letter == alfabet[i]:
+#                 positie = i
+#                 nieuwe_positie = (positie + 1) % 26 
+#                 nieuwe_letter = alfabet[nieuwe_positie]
+#                 resultaat += nieuwe_letter
+#     return resultaat
+# #7
+# def two_vowel(words: list[str]) -> list[str]:
+#     klinkers= "aeiouAEIOU"
+#     new_list = []
+#     for word in words:
+#         aantal_klinkers = 0
+#         for letter in word:
+#             if letter in klinkers:
+#                 aantal_klinkers +=1
+#         if aantal_klinkers == 2:
+#             new_list.append(word)
+#     return new_list
+# #9
+# POINTS = [1,2,3,4,5]
+# LETTERS = "abcde"
+# def compute_word_score(word: str) -> int:
+#     score = 0
+#     for letter in word:
+#         if letter == "a":
+#             score +=1
+#         elif letter == "b":
+#             score += 2
+#         elif letter == "c":
+#             score += 3
+#         elif letter == "d":
+#             score+= 4
+#         elif letter =="e":
+#             score += 5
+#         else:
+#             score += 0
+#     return score
 
-#10
-def same_letters(a:str, b:str) -> bool:
-    alfabet = "abcdefghijklmnopqrstuvwxyz"
-    for letter in alfabet:
-        aantal_a = 0
-        aantal_b = 0
-        for teken in a:
-            if teken == letter:
-                aantal_a +=1
-        for teken in b:
-            if teken == letter:
-                aantal_b +=1
-        if aantal_a != aantal_b:
-            return False
-        else:
-            return True
+# #10
+# def same_letters(a:str, b:str) -> bool:
+#     alfabet = "abcdefghijklmnopqrstuvwxyz"
+#     for letter in alfabet:
+#         aantal_a = 0
+#         aantal_b = 0
+#         for teken in a:
+#             if teken == letter:
+#                 aantal_a +=1
+#         for teken in b:
+#             if teken == letter:
+#                 aantal_b +=1
+#         if aantal_a != aantal_b:
+#             return False
+#         else:
+#             return True
 
 
         
