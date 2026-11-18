@@ -293,7 +293,8 @@ def word_score(word: str) ->int:
     score = (aantal_klinkers *2) + medeklinkers
     return score
 #6
-def same_letters(a: str, b:str)
+def same_letters(a: str, b: str) -> bool:
+    
             
             
             
