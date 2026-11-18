@@ -391,7 +391,8 @@ def shift_by_one(word: str) -> str:
     return resultaat
 #7
 def two_vowel(words: list[str]) -> list[str]:
-    klinkers= aeiouAEIOU"
+    klinkers= "aeiouAEIOU"
+    
     
             
         
