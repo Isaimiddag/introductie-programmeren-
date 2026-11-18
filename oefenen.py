@@ -329,7 +329,8 @@ def replace_vowels(word: str) -> str:
     new_word = ""
     klinkers = "aeiouAEIOU"
     for letter in word:
-        if letter in 
+        if letter in klinkers:
+            
     
             
             
