@@ -495,7 +495,7 @@ def shortest_vowel_word(words: list[str]) -> str:
     shortest = ""
     for word in words:
         for letter in word:
-            if letter = 
+            if letter in 
         
 
 
