@@ -208,7 +208,9 @@ def vowely_words(words: list[str]) -> list[str]:
 #1
 def shortest_word_length(s: str) ->:
     count = 0
-    huidig_woord = ""
+    huidig_woord = 0
+kortste_woord = 0
+aantal_woorden = 0
     for char in s:
         if char != " ":
             count += 1
