@@ -533,7 +533,7 @@ three_consonant_words(words: list[str]) -> list[str]:
                 if aantal_medeklinkers == 3:
                     new_list.append(word)
     return new_list
-print
+print (three_consonant_words)
             
  
         
