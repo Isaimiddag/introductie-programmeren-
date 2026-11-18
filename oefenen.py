@@ -501,7 +501,7 @@ def shortest_vowel_word(words: list[str]) -> str:
     for word in woorden_klinker:
         woorden_klinker[0] = shortest
         if len(word) < shortest:
-            
+            word 
                 
             
         
