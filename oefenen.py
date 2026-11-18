@@ -244,6 +244,7 @@ def three_vowel_words(words: list[str]) -> list[str]:
             aantal_klinkers += 1
             if aantal_klinkers == 3:
                 lijst.append(word)
+    return lijst
                 
         
                 
