@@ -500,7 +500,7 @@ def shortest_vowel_word(words: list[str]) -> str:
                 woorden_klinker.append(word)
     for word in woorden_klinker:
         woorden_klinker[0] = shortest
-        if len(word) < shortest:
+        if len(word) < len(shortest):
             shortest = word
     return shortest
 print(shortest_vowel_word(["hallo", "ppppppp", "voetbaaa", "plplplplplplp"]))       
