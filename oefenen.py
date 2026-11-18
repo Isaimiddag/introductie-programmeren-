@@ -197,7 +197,7 @@ def vowely_words(words: list[str]) -> list[str]:
         if char != " ":
             huidig_woord += char
         else:
-            new_list += hui
+            new_list += huidig_woord
             aantal_klinkers += 1
             
             
