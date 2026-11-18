@@ -443,7 +443,7 @@
 #             return True
 
 def count_short_words(words: list[str], maximum: int) -> int:
-    
+    aantal_woorden = ""
         
     
             
