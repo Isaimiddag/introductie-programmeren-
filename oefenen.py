@@ -362,7 +362,7 @@ def longest_consonant_word(words: list[str]) -> str:
     klinkers = "aeiouAEIOU"
     for word in words:
         for letter in word:
-            if letter =!
+            if letter =! 
 
         
 
