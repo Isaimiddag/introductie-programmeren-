@@ -237,7 +237,9 @@ def shift_forward(s: str) ->:
 #3
 def three_vowel_words(words: list[str]) -> list[str]:
     lijst = []
-    for 
+    klinkers = "aeiouAEIOU"
+    for word in words: 
+        
                 
             
             
