@@ -10,6 +10,7 @@ def compute_score(word: str) -> int:
     alfabet == "abcdefghijklmnopqrstuvwxyz"
     for char in word: 
         
+        
 
 def compute_letter_score(letter: str) -> int:
     """
