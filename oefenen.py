@@ -223,7 +223,7 @@ def shortest_word_length(s: str) -> int:
 
     return kortste_woord
 #2
-def shift_forward(s: str) ->:
+def shift_forward(s: str) ->str :
     alfabet = "abcdefghijklmnopqrstuvwxyz"
     resultaat = ""
     for letter in s:
