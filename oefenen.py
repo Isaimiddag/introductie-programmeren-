@@ -511,7 +511,7 @@ def space_count(sentence: str) -> int:
             aantal_spaties += 1
     return aantal_spaties
 
-def 
+def shift_by_two(word: str)
             
         
 
