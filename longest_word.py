@@ -10,7 +10,8 @@ def print_banner(lst: list[str]) -> str:
     aantal_hekjes = longest_word_from_list(langste)
     print(aantal_hekjes)
     
-def string_to_list(words: str) -> list[str]
+def string_to_list(words: str) -> list[str]:
+    
 if __name__ == "__main__":
     banner = input("geef wat woorden: ")
     print(print_banner(banner))
