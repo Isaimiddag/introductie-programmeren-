@@ -459,6 +459,7 @@ def count_short_words(words: list[str], maximum: int) -> int:
 
 def remove_vowels(word: str) -> str:
     klinkers = "aeiouAEIOU"
+    new_word = ""
     for letter in word:
         if letter not in klinkers:
             new_word.append(letter)
