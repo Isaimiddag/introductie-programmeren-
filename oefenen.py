@@ -206,7 +206,7 @@ def vowely_words(words: list[str]) -> list[str]:
             resultaat.append(woord)
 
 #1
-def shortest_word_lenght 
+def shortest_word_length(s: str) 
             
             
 
