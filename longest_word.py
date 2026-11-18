@@ -12,7 +12,7 @@ def print_banner(lst: list[str]) -> str:
     print(banner)
     for woord in lst:
         print(woord)
-    print
+    print_banner
     
 def string_to_list(words: str) -> list[str]:
     lijst = []
