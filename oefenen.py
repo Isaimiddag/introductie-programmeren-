@@ -356,6 +356,8 @@ def average_word_length(words: list[str]) -> float:
     
     score = aantal_letters / aantal_woorden
     return round(score, 2)
+    
+#3
 
         
 
