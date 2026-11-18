@@ -488,7 +488,7 @@ def totaal_letters(words: list[str]) -> int:
             if letter.isalpha():
                 totaal += 1
     return totaal
-print(totaal_letters(["hoi", "doei"]))
+
             
             
         
