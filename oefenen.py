@@ -428,7 +428,8 @@ def same_letters(a:str, b:str) -> bool:
     for letter in a:
         if a[0] == b[0]:
             continue
-        
+        else:
+            return 
 
         
     
