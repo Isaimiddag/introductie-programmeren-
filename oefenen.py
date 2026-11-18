@@ -426,7 +426,7 @@ def same_letters(a:str, b:str) -> bool:
     woord_a = ""
     woord_b = ""
     for letter in a:
-        if 
+        if letter
         else:
             return False
 
