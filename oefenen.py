@@ -399,8 +399,7 @@ def two_vowel(words: list[str]) -> list[str]:
     aantal_klinkers = 0
     new_list = []
     for word in words:
-            aantal_klinkers = 0
-
+        aantal_klinkers = 0
         for letter in word:
             if letter in klinkers:
                 aantal_klinkers +=1
