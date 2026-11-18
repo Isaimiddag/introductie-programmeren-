@@ -69,5 +69,3 @@ if __name__ == "__main__":
     else:
         print("Gelijkspel!")
 
-if __name__ == '__main__':
-    <Hoofdprogramma>
