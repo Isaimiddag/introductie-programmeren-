@@ -490,7 +490,7 @@ def totaal_letters(words: list[str]) -> int:
                 totaal += 1
     return totaal
     
-def 
+def shortest_vowel_word(words: list[str])
 
 
             
