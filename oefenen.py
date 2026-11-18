@@ -289,7 +289,8 @@ def word_score(word: str) ->int:
             aantal_klinkers += 1
         else:
             medeklinkers +=1
-        aantal_letters = 
+        aantal_letters = aantal_klinkers + medeklinkers
+    
             
             
             
