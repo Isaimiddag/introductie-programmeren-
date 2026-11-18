@@ -264,7 +264,7 @@ def longer_than_average(words: list[str]) -> list[str]:
         totaal_letters += aantal_letters
         totaal_woorden += 1
     gemiddelde = totaal_letters / aantal_woorden
-        lijst = []
+    lijst = []
                 
             
                 
