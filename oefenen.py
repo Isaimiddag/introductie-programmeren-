@@ -343,7 +343,7 @@ def replace_vowels(word: str) -> str:
             letter = "*"
         else:
             letter = letter
-        new_word += letter)
+        new_word += letter
             
     return new_word
 #3
