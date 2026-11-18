@@ -463,7 +463,9 @@ def remove_vowels(word: str) -> str:
     'hll'
     >>> remove_vowels("ho")
     'h'
-    >>> remove_vowels
+    >>> remove_vowels("ik")
+    'k'
+    """
     klinkers = "aeiouAEIOU"
     new_word = ""
     for letter in word:
