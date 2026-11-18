@@ -472,7 +472,7 @@ def remove_vowels(word: str) -> str:
         if letter not in klinkers:
             new_word.append(letter)
     return new_word
-
+print(new_word())
 def totaal_letters(words: list[str]) -> int:
     """
     >>> total_letters(["hoi", "doei"])
