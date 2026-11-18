@@ -10,7 +10,7 @@ def compute_score(word: str) -> int:
     positie = 0
     for char in alfabet:
         if teken == letter:
-            
+            return POINTS[positie]
         
         
         
