@@ -6,7 +6,7 @@ def longest_word_from_list(lst: list[str]) - > str:
             langste = word
     return langste
 
-def 
+def print_banner(lst)
         
         
     
