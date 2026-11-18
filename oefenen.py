@@ -423,8 +423,6 @@ def compute_word_score(word: str) -> int:
 
 #10
 def same_letters(a:str, b:str) -> bool:
-    woord_a = ""
-    woord_b = ""
     for letter in a:
         if letter not in b:
             return False
