@@ -434,7 +434,9 @@ def same_letters(a:str, b:str) -> bool:
         for teken in a:
             if teken == letter:
                 aantal +=1
-            
+        for teken in b:
+            if teken == letter:
+                aantal
         else:
             return True
 
