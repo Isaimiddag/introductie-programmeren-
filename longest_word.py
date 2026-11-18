@@ -29,5 +29,8 @@ lijst.append(huidig_woord)
         
     
 if __name__ == "__main__":
-    banner = input("geef wat woorden: ")
-    print(print_banner(banner))
+    banner = input("Geef wat woorden: ")
+
+    woordenlijst = string_to_list(banner)
+
+    print_banner(woordenlijst)
