@@ -429,7 +429,7 @@ def same_letters(a:str, b:str) -> bool:
         if a[0] == b[0]:
             continue
         else:
-            return 
+            return False
 
         
     
