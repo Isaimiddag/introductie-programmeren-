@@ -383,7 +383,7 @@ def shift_by_one(word: str) -> str:
     resultaat = ""
     for letter in word:
         for i in range(len(alfabet)):
-            if i == letter:
+            if letter == letter:
                 positie = i
                 nieuwe_positie = (positie + 1) % 26 
                 nieuwe_letter = alfabet[nieuwe_positie]
