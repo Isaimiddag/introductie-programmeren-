@@ -381,7 +381,7 @@ def word_count(sentence: str) -> int:
 def shift_by_one(word: str) -> str:
     alfabet = "abcdefghijklmnopqrstuvwxyz"
     new_word = ""
-    for 
+    f
             
             
                 
