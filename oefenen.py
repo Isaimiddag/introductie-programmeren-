@@ -213,7 +213,8 @@ def shortest_word_length(s: str) ->:
     for char in s:
         if char != " ":
             huidig_woord += 1
-        else:
+        if aantal_woorden == 0 or huidig_woord < kortste_woord:
+    kortste_woord = huidig_woord
             
             
             
