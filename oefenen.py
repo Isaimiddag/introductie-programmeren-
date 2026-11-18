@@ -407,7 +407,7 @@ LETTERS = "abcde"
 def compute_letter_score(word: str) -> int:
     score = 0
     for letter in word:
-        if letter in L
+        if letter = 
     
             
         
