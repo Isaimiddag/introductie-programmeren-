@@ -510,7 +510,8 @@ def space_count(sentence: str) -> int:
         if char == " ":
             aantal_spaties += 1
     return aantal_spaties
-print(space_count("Hallo alle maal ik ben isai"))
+
+def 
             
         
 
