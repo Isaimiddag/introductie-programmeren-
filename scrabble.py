@@ -44,9 +44,7 @@ def compute_letter_score(letter: str) -> int:
     """
     alphabet = "abcdefghijklmnopqrstuvwxyz"
     letter = letter.lower()
-
     positie = 0
-
     for teken in alphabet:
         if teken == letter:
             return POINTS[positie]
