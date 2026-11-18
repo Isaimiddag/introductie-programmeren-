@@ -204,7 +204,9 @@ def vowely_words(words: list[str]) -> list[str]:
 
         if aantal_klinkers >= 2:
             resultaat.append(woord)
-def 
+
+#1
+def shortest_word_lenght 
             
             
 
