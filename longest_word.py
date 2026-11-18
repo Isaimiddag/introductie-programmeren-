@@ -14,7 +14,7 @@ def print_banner(lst: list[str]) -> str:
     
 def string_to_list(words: str) -> list[str]:
     lijst = []
-    
+    words.split()
     for word in words: 
         lijst.append(word)
         
