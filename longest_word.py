@@ -23,7 +23,7 @@ def string_to_list(words: str) -> list[str]:
         else:
             lijst.append(huidig_woord)
             huidig_woord = ""
-lijst.append(huidig_woord)
+    lijst.append(huidig_woord)
     return lijst
     
         
