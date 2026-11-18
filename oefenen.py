@@ -506,7 +506,8 @@ def shortest_vowel_word(words: list[str]) -> str:
 
 def space_count(sentence: str) -> int:
     aantal_spaties = 0
-    for w
+    for char in sentence:
+        if char =
             
         
 
