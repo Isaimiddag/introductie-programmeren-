@@ -312,7 +312,7 @@
 #1
 def count_long_words(words: list[str], minimum: int) -> int:
     """
-    >>> count_long_words(["kat", "hallo", "ik", "poep], 5)
+    >>> count_long_words(["kat", "hallo", "ik", "poep"], 5)
     1
     >>> count_long_words(["HALLO", "ik", "hoi"], 2)
     3
