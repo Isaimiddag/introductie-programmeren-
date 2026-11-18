@@ -429,7 +429,7 @@ def same_letters(a:str, b:str) -> bool:
         if letter not in b:
             return False
         else:
-            return False
+            return True
 
         
     
