@@ -64,19 +64,14 @@ def print_banner(lst: list[str]) -> str:
 def string_to_list(words: str) -> list[str]:
     """
     Zet een string met spaties om naar een lijst met woorden.
-
     >>> string_to_list("Hallo wereld")
     ['Hallo', 'wereld']
-
     >>> string_to_list("Python is leuk")
     ['Python', 'is', 'leuk']
-
     >>> string_to_list("a b c d")
     ['a', 'b', 'c', 'd']
-
     >>> string_to_list("Margherita Tutta la Vita")
     ['Margherita', 'Tutta', 'la', 'Vita']
-
     >>> string_to_list("Ik hou van programmeren")
     ['Ik', 'hou', 'van', 'programmeren']
     """
