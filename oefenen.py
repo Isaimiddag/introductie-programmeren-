@@ -249,7 +249,7 @@ def three_vowel_words(words: list[str]) -> list[str]:
                 lijst.append(word)
     return lijst
 #4
-def longer_than_average(words: list[str])
+def longer_than_average(words: list[str]) -> list[str]
                 
         
                 
