@@ -418,6 +418,7 @@ def compute_letter_score(word: str) -> int:
         elif letter = "e":
             score += 5
     return score
+compute
         
     
             
