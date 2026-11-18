@@ -470,7 +470,7 @@ def remove_vowels(word: str) -> str:
     new_word = ""
     for letter in word:
         if letter not in klinkers:
-            new_word.append(letter)
+            new_word +=
     return new_word
     
 
