@@ -358,7 +358,8 @@ def average_word_length(words: list[str]) -> float:
     return round(score, 2)
     
 #3
-def longest_consonant_word(words: list[str]) -> str
+def longest_consonant_word(words: list[str]) -> str:
+    
 
         
 
