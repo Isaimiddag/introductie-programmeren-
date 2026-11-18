@@ -10,7 +10,8 @@ def print_banner(lst: list[str]) -> str:
     aantal_hekjes = longest_word_from_list(lst)
     banner = "#" * len(aantal_hekjes)
     print(banner)
-    print(aantal_hekjes)
+    for woord in lst:
+        print
     
 def string_to_list(words: str) -> list[str]:
     lijst = []
