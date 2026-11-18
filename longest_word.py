@@ -1,1 +1,1 @@
-longest_word_from list
+longest_word_from_list
