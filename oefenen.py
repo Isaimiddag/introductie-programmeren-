@@ -204,6 +204,7 @@ def vowely_words(words: list[str]) -> list[str]:
 
         if aantal_klinkers >= 2:
             resultaat.append(woord)
+def 
             
             
 
