@@ -19,7 +19,8 @@ def string_to_list(words: str) -> list[str]:
     huidig_woord = ""
     for char in words:
         if teken != " ":
-            
+            huidig_woord += teken
+    
         
     
 if __name__ == "__main__":
