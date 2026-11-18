@@ -324,7 +324,7 @@ def count_long_words(words: list[str], minimum: int) -> int:
         if len(word) >= len(minimum):
             aantal_woorden +=1 
     return aantal_woorden
-            
+#2            
 def replace_vowels(word: str) -> str:
     """
     >>> replace_vowels("Hallo")
