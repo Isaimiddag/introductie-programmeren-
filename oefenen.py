@@ -233,7 +233,7 @@ def shift_forward(s: str) ->:
                 nieuwe_positie = (positie + 1) % 26 
                 nieuwe_letter = alfabet[nieuwe_postie]
                 resultaat += nieuwe_letter
-    return nieuwe_letter
+    return resultaat
                 
             
             
