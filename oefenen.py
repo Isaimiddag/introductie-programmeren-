@@ -362,7 +362,7 @@ def average_word_length(words: list[str]) -> float:
 def longest_consonant_word(words: list[str]) -> str:
     klinkers = "aeiouAEIOU"
     count = 0
-    huidig_woord = ""
+    langste = ""
     for word in words:
         for letter in word:
             if letter not in klinkers:
