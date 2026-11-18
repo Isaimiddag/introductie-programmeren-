@@ -213,6 +213,7 @@ def shortest_word_length(s: str) ->:
         if char != " ":
             count += 1
             
+            
         
             
             
