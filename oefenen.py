@@ -317,7 +317,7 @@ def count_long_words(words: list[str], minimum: int) -> int:
             aantal_woorden +=1 
     return aantal_woorden
             
-
+def replace_vowels(word: str)
     
             
             
