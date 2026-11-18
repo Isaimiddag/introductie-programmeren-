@@ -534,7 +534,7 @@ def three_consonant_words(words: list[str]) -> list[str]:
             new_list.append(word)
             
 print(three_consonant_words(["hallo, "ppppppp", "poep", "ppp"]))
-                
+
     return new_list
 
             
