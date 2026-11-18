@@ -321,7 +321,7 @@ def count_long_words(words: list[str], minimum: int) -> int:
     """
     aantal_woorden = 0
     for word in words:
-        if len(word) >= len(minimum):
+        if len(word) >= minimum:
             aantal_woorden +=1 
     return aantal_woorden
 #2            
