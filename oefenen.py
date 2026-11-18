@@ -445,6 +445,8 @@
 def count_short_words(words: list[str], maximum: int) -> int:
     """
     count_short_words(["hallo", "ik", "jo"], 1)
+    0
+    
     aantal_woorden = 0
     for word in words: 
         if len(word) <= maximum:
