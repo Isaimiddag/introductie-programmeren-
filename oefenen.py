@@ -263,6 +263,7 @@ def longer_than_average(words: list[str]) -> list[str]:
                 aantal_letter += 1
         totaal_letters += aantal_letters
         totaal_woorden += 1
+    
         lijst = []
                 
             
