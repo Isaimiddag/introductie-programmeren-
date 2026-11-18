@@ -389,7 +389,8 @@ def shift_by_one(word: str) -> str:
                 nieuwe_letter = alfabet[nieuwe_positie]
                 resultaat += nieuwe_letter
     return resultaat
-
+#7
+def
     
             
         
