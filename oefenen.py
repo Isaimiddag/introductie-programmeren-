@@ -232,6 +232,7 @@ def shift_forward(s: str) ->:
             
             
             
+            
         
         
             
