@@ -351,7 +351,7 @@ def average_word_length(words: list[str]) -> float:
    aantal_woorden = len(words)
    aantal_letters = 0 
    for word in words:
-       for letter in word
+       for letter in word:
         if word.isalpha():
            aantal_letters +=1
     
