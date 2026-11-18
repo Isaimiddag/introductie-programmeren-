@@ -400,6 +400,7 @@ def two_vowel(words: list[str]) -> list[str]:
                 aantal_klinkers +=1
             if aantal_klinkers = 2:
                 new_list.append(word)
+    return new_list
                 
     
             
