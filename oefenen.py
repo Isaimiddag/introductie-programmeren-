@@ -526,7 +526,7 @@ three_consonant_words(words: list[str]) -> list[str]:
     aantal_medeklinkers
     new_list = []
     for word in words:
-        
+        aantal_medin
         for letter in word:
             if letter not in klinkers:
                 aantal_medeklinkers += 1
