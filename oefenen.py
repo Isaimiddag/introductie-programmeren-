@@ -299,7 +299,8 @@ def same_letter(a: str, b:str) -> bool:
         count_a = 0
         count_b = 0
         for teken in a:
-            if 
+            if teken == letter:
+                
 
     
             
