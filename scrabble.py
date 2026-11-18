@@ -7,7 +7,7 @@ def compute_score(word: str) -> int:
     """
     alfabet == "abcdefghijklmnopqrstuvwxyz"
     letter = letter.lower()
-    for char in word:
+    for char in w:
         
         
         
