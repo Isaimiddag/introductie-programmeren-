@@ -24,7 +24,40 @@ def longest_word_from_list(lst: list[str]) -> str:
     return langste
 
 def print_banner(lst: list[str]) -> str:
-    
+    """
+    >>> print_banner(["Hallo"])
+    #####
+    Hallo
+    #####
+
+    >>> print_banner(["kat", "hond"])
+    ####
+    kat
+    hond
+    ####
+
+    >>> print_banner(["abc", "defg", "hi"])
+    ####
+    abc
+    defg
+    hi
+    ####
+
+    >>> print_banner(["Python", "is", "leuk"])
+    ######
+    Python
+    is
+    leuk
+    ######
+
+    >>> print_banner(["Margherita", "Tutta", "la", "Vita"])
+    ##########
+    Margherita
+    Tutta
+    la
+    Vita
+    ##########
+    """
     aantal_hekjes = longest_word_from_list(lst)
     banner = "#" * len(aantal_hekjes)
     print(banner)
