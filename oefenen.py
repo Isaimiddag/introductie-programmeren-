@@ -419,7 +419,7 @@ def compute_word_score(word: str) -> int:
             score += 5
     return score
     
-compute_word_score("bella")
+
 
         
     
