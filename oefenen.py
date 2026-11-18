@@ -187,7 +187,8 @@ def encrypt(s: str) -> str:
             if letter == alfabet[i]:
                 positie = i
                 nieuwe_postie = 25 - i
-                nieuwe letter =
+                nieuwe letter = alfabet[nieuwe_postie]
+                print
             
         
         
