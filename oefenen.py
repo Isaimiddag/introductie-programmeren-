@@ -318,6 +318,7 @@ def count_long_words(words: list[str], minimum: int) -> int:
     3
     >>> count_long_words(["poep", "bal", "vless"], 8)
     0
+    """
     aantal_woorden = 0
     for word in words:
         if len(word) >= len(minimum):
