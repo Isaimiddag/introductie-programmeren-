@@ -492,7 +492,7 @@ def totaal_letters(words: list[str]) -> int:
     
 def shortest_vowel_word(words: list[str]) -> str:
     klinkers = "aeiouAEIOU"
-    new
+    shor
 
 
             
