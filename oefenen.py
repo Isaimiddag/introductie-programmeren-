@@ -483,7 +483,8 @@ def totaal_letters(words: list[str]) -> int:
     6
     """
     totaal = 0
-    for 
+    for word in words:
+        totaal 
             
         
     
