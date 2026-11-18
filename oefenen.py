@@ -370,7 +370,7 @@ def longest_consonant_word(words: list[str]) -> str:
                 ?
 def word_count(sentence: str) -> int:
     aantal_spaties = 0
-    for 
+    for word in senten
                 
             
             
