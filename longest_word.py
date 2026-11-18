@@ -13,6 +13,7 @@ def print_banner(lst: list[str]) -> str:
     print(aantal_hekjes)
     
 def string_to_list(words: str) -> list[str]:
+    for 
     
 if __name__ == "__main__":
     banner = input("geef wat woorden: ")
