@@ -234,6 +234,8 @@ def shift_forward(s: str) ->:
                 nieuwe_letter = alfabet[nieuwe_postie]
                 resultaat += nieuwe_letter
     return resultaat
+#3
+
                 
             
             
