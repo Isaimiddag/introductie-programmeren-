@@ -2,7 +2,7 @@ def longest_word_from_list(lst: list[str]) -> str:
     lst = lst.split()
     langste = len(lst[0])
     for word in lst:
-        if len(word) > langste:
+        if len(word) > len(langste:
             langste = word
     return langste
 
