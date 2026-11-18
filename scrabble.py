@@ -6,7 +6,6 @@ POINTS = [
 def compute_score(word: str) -> int:
     """
     Bereken en return de score voor het woord.
-
     >>> compute_score("a")
     1
     >>> compute_score("cat")
