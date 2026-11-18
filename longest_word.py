@@ -13,6 +13,7 @@ def print_banner(lst: list[str]) -> str:
     for woord in lst:
         print(woord)
     
+    
 def string_to_list(words: str) -> list[str]:
     lijst = []
     words.split()
