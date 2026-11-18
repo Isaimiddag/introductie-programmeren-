@@ -6,7 +6,8 @@ def compute_score(word: str) -> int:
     Bereken en return de score voor het woord.
     """
     alfabet == "abcdefghijklmnopqrstuvwxyz"
-    for char in word: 
+    for char in word:
+        
         
         
 
