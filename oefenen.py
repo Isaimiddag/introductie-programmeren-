@@ -242,7 +242,7 @@ def three_vowel_words(words: list[str]) -> list[str]:
     for char in words: 
         if char in klinkers:
             aantal_klinkers += 1
-            if
+            if aantal
         
                 
             
