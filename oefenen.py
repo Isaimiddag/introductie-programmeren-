@@ -420,7 +420,7 @@ def compute_word_score(word: str) -> int:
         else:
             score += 0
     return score
-    
+
 
 
         
