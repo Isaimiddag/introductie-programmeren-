@@ -333,7 +333,9 @@ def replace_vowels(word: str) -> str:
     'h*'
     >>> replace_vowels("a")
     '*'
-    >>> replace_vowels
+    >>> replace_vowels("b")
+    'b'
+    """
     new_word = ""
     klinkers = "aeiouAEIOU"
     for letter in word:
