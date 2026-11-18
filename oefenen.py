@@ -179,7 +179,7 @@
 #         i -+ 1
 #     return result
 
-def encrypt()
+def encrypt(s: str) -> str
         
 
             
