@@ -457,7 +457,7 @@ def count_short_words(words: list[str], maximum: int) -> int:
             aantal_woorden +=1
     return aantal_woorden
 
-def remove_vowels()
+def remove_vowels(word: str)
         
     
             
