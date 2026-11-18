@@ -346,6 +346,7 @@ def replace_vowels(word: str) -> str:
         new_word.append(letter)
             
     return new_word
+
         
     
             
