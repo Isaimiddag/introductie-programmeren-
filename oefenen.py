@@ -533,7 +533,7 @@ def three_consonant_words(words: list[str]) -> list[str]:
                 if aantal_medeklinkers != 3:
                     reurn None
                 else:
-                    return 
+                    new_list.append()
                 
     return new_list
 print(three_consonant_words(["hallop", "ik", "ppp" ,"hallo"]))
