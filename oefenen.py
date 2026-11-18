@@ -493,6 +493,7 @@ def totaal_letters(words: list[str]) -> int:
 def shortest_vowel_word(words: list[str]) -> str:
     klinkers = "aeiouAEIOU"
     shortest = ""
+    woorden_klinker
     for word in words:
         for letter in word:
             if letter in klinkers:
