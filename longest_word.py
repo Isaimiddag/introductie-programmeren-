@@ -14,7 +14,7 @@ def print_banner(lst: list[str]) -> str:
     
 def string_to_list(words: str) -> list[str]:
     for word in words: 
-        
+        word.append()
     
 if __name__ == "__main__":
     banner = input("geef wat woorden: ")
