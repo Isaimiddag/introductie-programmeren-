@@ -19,7 +19,6 @@ def compute_score(word: str) -> int:
     13
     """
     score = 0
-
     for letter in word:
         score += compute_letter_score(letter)
 
