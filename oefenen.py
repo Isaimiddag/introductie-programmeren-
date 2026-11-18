@@ -182,7 +182,7 @@
 def encrypt(s: str) -> str:
     alfabet = "abcdefghijklmnopqrstuvwxyz"
     resultaat = ""
-    for letter in alfabet:
+    for letter in s:
         if 
         
 
