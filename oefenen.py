@@ -241,6 +241,7 @@ def three_vowel_words(words: list[str]) -> list[str]:
     klinkers = "aeiouAEIOU"
     aantal_klinkers = 0 
     for word in words: 
+        aantal_klinkers = 0
         for letter in word:
             if letter in klinkers:
                 aantal_klinkers += 1
