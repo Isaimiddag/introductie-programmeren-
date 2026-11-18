@@ -390,7 +390,8 @@ def shift_by_one(word: str) -> str:
                 resultaat += nieuwe_letter
     return resultaat
 #7
-def two_vowel(words: list[str]) -> list[str]
+def two_vowel(words: list[str]) -> list[str]:
+    
     
             
         
