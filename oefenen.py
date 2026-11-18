@@ -442,7 +442,8 @@
 #         else:
 #             return True
 
-def count_short_words(words: list[str], maximum: int) ->
+def count_short_words(words: list[str], maximum: int) -> int:
+    
         
     
             
