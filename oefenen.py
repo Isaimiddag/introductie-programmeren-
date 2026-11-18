@@ -227,7 +227,7 @@ def shift_forward(s: str) ->:
     alfabet = "abcdefghijklmnopqrstuvwxyz"
     for letter in s:
         for letter in alfabet:
-            if letter in alfabet
+            
             
             
         
