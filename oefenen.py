@@ -359,7 +359,7 @@ def average_word_length(words: list[str]) -> float:
     
 #3
 def longest_consonant_word(words: list[str]) -> str:
-    
+    klinkers = 
 
         
 
