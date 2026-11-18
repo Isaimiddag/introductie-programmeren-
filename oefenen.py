@@ -530,7 +530,7 @@ def three_consonant_words(words: list[str]) -> list[str]:
         for letter in word:
             if letter not in klinkers:
                 aantal_medeklinkers += 1
-                if aantal_medeklinkers != 3:
+                if aantal_medeklinkers == 3:
                     return None
                 else:
                     new_list.append(word)
