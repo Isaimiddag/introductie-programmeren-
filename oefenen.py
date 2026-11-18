@@ -392,6 +392,7 @@ def shift_by_one(word: str) -> str:
 #7
 def two_vowel(words: list[str]) -> list[str]:
     klinkers= "aeiouAEIOU"
+    aantal_klinkers = 0
     new_list = []
     for word in words:
         for letter in word:
