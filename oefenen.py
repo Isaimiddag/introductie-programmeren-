@@ -522,7 +522,7 @@ def shift_by_two(word: str) -> str:
     return new_word
     
 three_consonant_words(words: list[str]) -> list[str]:
-    
+    klinkers = "aeiou
             
  
         
