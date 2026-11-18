@@ -531,7 +531,9 @@ def three_consonant_words(words: list[str]) -> list[str]:
             if letter not in klinkers:
                 aantal_medeklinkers += 1
                 if aantal_medeklinkers != 3:
-                    
+                    reurn None
+                else:
+                    return
                 
     return new_list
 print(three_consonant_words(["hallop", "ik", "ppp" ,"hallo"]))
