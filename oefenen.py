@@ -181,7 +181,7 @@
 
 def encrypt(s: str) -> str:
     alfabet = "abcdefghijklmnopqrstuvwxyz"
-    positie = ""
+    resultaat = ""
     for letter in alfabet:
         if 
         
