@@ -181,7 +181,7 @@
 
 def encrypt(s: str) -> str:
     alfabet = "abcdefghijklmnopqrstuvwxyz"
-    for 
+    for letter in al
 
         
 
