@@ -328,7 +328,9 @@ def count_long_words(words: list[str], minimum: int) -> int:
 def replace_vowels(word: str) -> str:
     """
     >>> replace_vowels("Hallo")
-    'H
+    'H*ll*'
+    >>> replace_vowels("ho")
+    
     new_word = ""
     klinkers = "aeiouAEIOU"
     for letter in word:
