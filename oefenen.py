@@ -179,135 +179,135 @@
 #         i -+ 1
 #     return result
 
-def encrypt(s: str) -> str:
-    alfabet = "abcdefghijklmnopqrstuvwxyz"
-    resultaat = ""
-    for letter in s:
-        for i in range(len(alfabet)):
-            if letter == alfabet[i]:
-                positie = i
-                nieuwe_postie = 25 - i
-                nieuwe_letter = alfabet[nieuwe_postie]
-                resultaat += nieuwe_letter
-    return resultaat
+# def encrypt(s: str) -> str:
+#     alfabet = "abcdefghijklmnopqrstuvwxyz"
+#     resultaat = ""
+#     for letter in s:
+#         for i in range(len(alfabet)):
+#             if letter == alfabet[i]:
+#                 positie = i
+#                 nieuwe_postie = 25 - i
+#                 nieuwe_letter = alfabet[nieuwe_postie]
+#                 resultaat += nieuwe_letter
+#     return resultaat
     
-def vowely_words(words: list[str]) -> list[str]:
-    resultaat = []
-    klinkers = "aeiou"
+# def vowely_words(words: list[str]) -> list[str]:
+#     resultaat = []
+#     klinkers = "aeiou"
 
-    for woord in words:
-        aantal_klinkers = 0
+#     for woord in words:
+#         aantal_klinkers = 0
 
-        for letter in woord:
-            if letter.lower() in klinkers:
-                aantal_klinkers += 1
+#         for letter in woord:
+#             if letter.lower() in klinkers:
+#                 aantal_klinkers += 1
 
-        if aantal_klinkers >= 2:
-            resultaat.append(woord)
+#         if aantal_klinkers >= 2:
+#             resultaat.append(woord)
 
-#1
-def shortest_word_length(s: str) -> int:
-    huidig_woord = 0
-    kortste_woord = 0
-    aantal_woorden = 0
-    for letter in s:
-        if letter != " ":
-            huidig_woord += 1
-        else:
-            if aantal_woorden == 0 or huidig_woord < kortste_woord:
-                kortste_woord = huidig_woord
-            aantal_woorden += 1
-            huidig_woord = 0
-    if aantal_woorden == 0 or huidig_woord < kortste_woord:
-        kortste_woord = huidig_woord
+# #1
+# def shortest_word_length(s: str) -> int:
+#     huidig_woord = 0
+#     kortste_woord = 0
+#     aantal_woorden = 0
+#     for letter in s:
+#         if letter != " ":
+#             huidig_woord += 1
+#         else:
+#             if aantal_woorden == 0 or huidig_woord < kortste_woord:
+#                 kortste_woord = huidig_woord
+#             aantal_woorden += 1
+#             huidig_woord = 0
+#     if aantal_woorden == 0 or huidig_woord < kortste_woord:
+#         kortste_woord = huidig_woord
 
-    return kortste_woord
-#2
-def shift_forward(s: str) ->str :
-    alfabet = "abcdefghijklmnopqrstuvwxyz"
-    resultaat = ""
-    for letter in s:
-        for i in range(len(alfabet)):
-            if letter == alfabet[i]:
-                positie = i
-                nieuwe_positie = (positie + 1) % 26 
-                nieuwe_letter = alfabet[nieuwe_positie]
-                resultaat += nieuwe_letter
-    return resultaat
+#     return kortste_woord
+# #2
+# def shift_forward(s: str) ->str :
+#     alfabet = "abcdefghijklmnopqrstuvwxyz"
+#     resultaat = ""
+#     for letter in s:
+#         for i in range(len(alfabet)):
+#             if letter == alfabet[i]:
+#                 positie = i
+#                 nieuwe_positie = (positie + 1) % 26 
+#                 nieuwe_letter = alfabet[nieuwe_positie]
+#                 resultaat += nieuwe_letter
+#     return resultaat
     
-#3
-def three_vowel_words(words: list[str]) -> list[str]:
-    lijst = []
-    klinkers = "aeiouAEIOU"
-    for word in words: 
-        aantal_klinkers = 0
-        for letter in word:
-            if letter in klinkers:
-                aantal_klinkers += 1
+# #3
+# def three_vowel_words(words: list[str]) -> list[str]:
+#     lijst = []
+#     klinkers = "aeiouAEIOU"
+#     for word in words: 
+#         aantal_klinkers = 0
+#         for letter in word:
+#             if letter in klinkers:
+#                 aantal_klinkers += 1
                 
-        if aantal_klinkers == 3:
-            lijst.append(word)
-    return lijst
+#         if aantal_klinkers == 3:
+#             lijst.append(word)
+#     return lijst
     
     
-#4
-def longer_than_average(words: list[str]) -> list[str]:
-    lijst = []
-    totaal_letters = 0
-    aantal_woorden = 0
-    for word in words:
-        aantal_letters = 0
+# #4
+# def longer_than_average(words: list[str]) -> list[str]:
+#     lijst = []
+#     totaal_letters = 0
+#     aantal_woorden = 0
+#     for word in words:
+#         aantal_letters = 0
         
-        for letter in word:
-            if letter.isalpha():
-                aantal_letters += 1
-        totaal_letters += aantal_letters
-        aantal_woorden += 1
-    gemiddelde = totaal_letters / aantal_woorden
+#         for letter in word:
+#             if letter.isalpha():
+#                 aantal_letters += 1
+#         totaal_letters += aantal_letters
+#         aantal_woorden += 1
+#     gemiddelde = totaal_letters / aantal_woorden
     
-    lijst = []
-    for word in words:
-        aantal_letter = 0
+#     lijst = []
+#     for word in words:
+#         aantal_letter = 0
 
-        for letter in word:
-            if letter.isalpha():
-                aantal_letter += 1
+#         for letter in word:
+#             if letter.isalpha():
+#                 aantal_letter += 1
 
-        if aantal_letter > gemiddelde:
-            lijst.append(word)
+#         if aantal_letter > gemiddelde:
+#             lijst.append(word)
 
-    return lijst
+#     return lijst
 
-#5
-# (aantal klinkers × 2) + aantal medeklinkers
-def word_score(word: str) ->int:
-    klinkers = "aeiouAEIOU"
-    aantal_klinkers = 0 
-    medeklinkers = 0
-    for letter in word:
-        if letter in klinkers:
-            aantal_klinkers += 1
-        else:
-            medeklinkers +=1
+# #5
+# # (aantal klinkers Ã— 2) + aantal medeklinkers
+# def word_score(word: str) ->int:
+#     klinkers = "aeiouAEIOU"
+#     aantal_klinkers = 0 
+#     medeklinkers = 0
+#     for letter in word:
+#         if letter in klinkers:
+#             aantal_klinkers += 1
+#         else:
+#             medeklinkers +=1
         
-    score = (aantal_klinkers *2) + medeklinkers
-    return score
-#6
-def same_letter(a: str, b:str) -> bool:
-    alfabet = "abcdefghijklmnopqrstuvwxyz"
-    for letter in alfabet:
-        count_a = 0
-        count_b = 0
-        for teken in a:
-            if teken == letter:
-                count_a += 1
-        for teken in b:
-            if teken == letter:
-                count_b += 1
-        if count_a != count_b:
-            return False
-        else:
-            return True
+#     score = (aantal_klinkers *2) + medeklinkers
+#     return score
+# #6
+# def same_letter(a: str, b:str) -> bool:
+#     alfabet = "abcdefghijklmnopqrstuvwxyz"
+#     for letter in alfabet:
+#         count_a = 0
+#         count_b = 0
+#         for teken in a:
+#             if teken == letter:
+#                 count_a += 1
+#         for teken in b:
+#             if teken == letter:
+#                 count_b += 1
+#         if count_a != count_b:
+#             return False
+#         else:
+#             return True
                 
 
     
