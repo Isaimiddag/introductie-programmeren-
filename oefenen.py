@@ -377,8 +377,8 @@ def word_count(sentence: str) -> int:
     aantal_woorden = aantal_spaties + 1
     return aantal_woorden
     
-        
-                
+#5
+def shift_by_one(word: str)
             
             
                 
