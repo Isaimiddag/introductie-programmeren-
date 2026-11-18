@@ -20,6 +20,8 @@ def string_to_list(words: str) -> list[str]:
     for char in words:
         if teken != " ":
             huidig_woord += teken
+        else:
+            
     
         
     
