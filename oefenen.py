@@ -348,7 +348,7 @@ def replace_vowels(word: str) -> str:
     return new_word
 #3
 def average_word_length(words: list[str]) -> float:
-   aantal_woorden == len(words)
+   aantal_woorden = len(words)
    aantal_letters = 0 
    for word in words:
         for letter in word:
