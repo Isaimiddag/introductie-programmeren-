@@ -279,7 +279,7 @@ def longer_than_average(words: list[str]) -> list[str]:
     return lijst
 
 #5
-
+word_score(word: str)
                 
             
                 
