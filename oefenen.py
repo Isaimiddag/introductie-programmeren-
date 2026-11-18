@@ -279,7 +279,7 @@ def longer_than_average(words: list[str]) -> list[str]:
     return lijst
 
 #5
-
+# (aantal klinkers × 2) + aantal medeklinkers
 def word_score(word: str) ->int:
     
                 
