@@ -377,7 +377,7 @@ def word_count(sentence: str) -> int:
     aantal_woorden = aantal_spaties + 1
     return aantal_woorden
     
-#5
+#6
 def shift_by_one(word: str) -> str:
     alfabet = "abcdefghijklmnopqrstuvwxyz"
     new_word = ""
