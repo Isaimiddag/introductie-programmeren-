@@ -510,9 +510,10 @@ def space_count(sentence: str) -> int:
         if char == " ":
             aantal_spaties += 1
     return aantal_spaties
-print(len("abcdefghijklmnopqrstuvwxyz"))
+
 def shift_by_two(word: str) -> str:
     alfabet = "abcdefghijklmnopqrstuvwxyz"
+    
        
         
 
