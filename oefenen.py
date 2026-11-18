@@ -206,19 +206,26 @@ def vowely_words(words: list[str]) -> list[str]:
             resultaat.append(woord)
 
 #1
-def shortest_word_length(s: str) ->:
+def shortest_word_length(s: str) -> int:
     huidig_woord = 0
     kortste_woord = 0
     aantal_woorden = 0
-    for char in s:
-        if char != " ":
+
+    for letter in s:
+        if letter != " ":
             huidig_woord += 1
-        if aantal_woorden == 0 or huidig_woord < kortste_woord:
-    kortste_woord = huidig_woord
-            
-            
-            
-        
+
+        else:
+            if aantal_woorden == 0 or huidig_woord < kortste_woord:
+                kortste_woord = huidig_woord
+
+            aantal_woorden += 1
+            huidig_woord = 0
+
+    if aantal_woorden == 0 or huidig_woord < kortste_woord:
+        kortste_woord = huidig_woord
+
+    return kortste_woord
             
             
         
