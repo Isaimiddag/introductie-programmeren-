@@ -295,7 +295,7 @@ def word_score(word: str) ->int:
 #6
 def same_letters(a: str, b: str) -> bool:
     alfabet = "abcdefghijklmnopqrstuvwxyz"
-    for a 
+    for 
             
             
             
