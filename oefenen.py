@@ -253,7 +253,7 @@ def three_vowel_words(words: list[str]) -> list[str]:
 #4
 def longer_than_average(words: list[str]) -> list[str]:
     lijst = []
-    aantal_letters = 0
+    totaal_letters = 0
     aantal_woorden = 0
     for word in words:
         aantal_letters = 0
