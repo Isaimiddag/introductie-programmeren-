@@ -49,7 +49,6 @@ def compute_letter_score(letter: str) -> int:
         if teken == letter:
             return POINTS[positie]
         positie += 1
-
     return 0
 
 
