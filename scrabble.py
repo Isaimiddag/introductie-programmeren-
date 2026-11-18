@@ -9,6 +9,7 @@ def compute_score(word: str) -> int:
     letter = letter.lower()
     positie = 0
     for char in alfabet:
+        if teken == letter
         
         
         
