@@ -474,6 +474,7 @@ def remove_vowels(word: str) -> str:
     return new_word
 
 def totaal_letters(words: list[str]) -> int:
+    """
     
             
         
