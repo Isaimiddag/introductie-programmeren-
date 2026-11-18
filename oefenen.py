@@ -283,7 +283,7 @@ def longer_than_average(words: list[str]) -> list[str]:
 def word_score(word: str) ->int:
     klinkers = "aeiouAEIOU"
     aantal_klinkers = 0 
-    mede = 0
+    medeklinkers = 0
     for letter in word:
         if letter in klinkers:
             aantal_klinkers += 1
