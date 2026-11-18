@@ -508,7 +508,8 @@ def space_count(sentence: str) -> int:
     aantal_spaties = 0
     for char in sentence:
         if char == " ":
-            
+            aantal_spaties += 1
+    return aantal
             
         
 
