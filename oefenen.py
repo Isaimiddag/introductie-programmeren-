@@ -285,6 +285,7 @@ def word_score(word: str) ->int:
     aantal_klinkers = 0 
     aantal_letters = 0
     for letter in word:
+        if 
         if letter in klinkers:
             aantal_klinkers +=1
             
