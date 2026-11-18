@@ -517,7 +517,7 @@ def shift_by_two(word: str) -> str:
     for letter in word:
         for i in range(len(alfabet)):
             if i == letter:
-                new_letter = (i + 1) % 26
+                new_letter = (i + 2) % 26
                 
             
  
