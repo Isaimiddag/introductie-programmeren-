@@ -190,15 +190,20 @@ def encrypt(s: str) -> str:
                 nieuwe_letter = alfabet[nieuwe_postie]
                 resultaat += nieuwe_letter
     return resultaat
+    
 def vowely_words(words: list[str]) -> list[str]:
-    klinkers = "aeiouAEIOU"
-    new_list = []
-    for char in words:
-        if char != " ":
-            huidig_woord += char
-        else:
-            new_list += huidig_woord
-        
+    resultaat = []
+    klinkers = "aeiou"
+
+    for woord in words:
+        aantal_klinkers = 0
+
+        for letter in woord:
+            if letter.lower() in klinkers:
+                aantal_klinkers += 1
+
+        if aantal_klinkers >= 2:
+            resultaat.append(woord)
             
             
 
