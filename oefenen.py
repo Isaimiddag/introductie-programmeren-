@@ -521,7 +521,8 @@ def shift_by_two(word: str) -> str:
                 new_word.append(new_letter)
     return new_word
     
-def three_
+three_consonant_words(words: list[str]) -> list[str]:
+    
             
  
         
