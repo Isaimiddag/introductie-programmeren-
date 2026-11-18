@@ -225,6 +225,7 @@ def shortest_word_length(s: str) -> int:
 #2
 def shift_forward(s: str) ->:
     alfabet = "abcdefghijklmnopqrstuvwxyz"
+    resultaat = ""
     for letter in s:
         for letter in alfabet:
             
