@@ -513,7 +513,7 @@ def space_count(sentence: str) -> int:
 
 def shift_by_two(word: str) -> str:
     alfabet = "abcdefghijklmnopqrstuvwxyz"
-    for word
+    for 
        
         
 
