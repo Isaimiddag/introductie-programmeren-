@@ -261,6 +261,7 @@ def longer_than_average(words: list[str]) -> list[str]:
         for letter in word:
             if letter.isalpha():
                 aantal_letter += 1
+        
         lijst = []
                 
             
