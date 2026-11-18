@@ -418,6 +418,7 @@ def compute_word_score(word: str) -> int:
         elif letter =="e":
             score += 5
         else:
+            score += 0
     return score
     
 
