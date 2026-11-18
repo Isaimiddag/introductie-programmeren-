@@ -402,7 +402,8 @@ def two_vowel(words: list[str]) -> list[str]:
                 new_list.append(word)
     return new_list
 
-POINTS = 
+POINTS = [1,2,3,4,5]
+def 
     
             
         
