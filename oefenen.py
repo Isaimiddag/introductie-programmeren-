@@ -291,6 +291,7 @@ def word_score(word: str) ->int:
             medeklinkers +=1
         
     score = (aantal_klinkers *2) + medeklinkers
+    return score
             
             
             
