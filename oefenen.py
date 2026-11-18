@@ -416,7 +416,8 @@ def compute_letter_score(word: str) -> int:
         elif letter = "d":
             score+= 4
         elif letter = "e":
-            score
+            score += 5
+    return score
         
     
             
