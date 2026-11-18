@@ -42,14 +42,12 @@ def print_banner(lst: list[str]) -> str:
     defg
     hi
     ####
-
     >>> print_banner(["Python", "is", "leuk"])
     ######
     Python
     is
     leuk
     ######
-
     >>> print_banner(["Margherita", "Tutta", "la", "Vita"])
     ##########
     Margherita
