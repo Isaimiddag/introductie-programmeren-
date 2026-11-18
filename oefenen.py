@@ -401,7 +401,7 @@ def two_vowel(words: list[str]) -> list[str]:
             if aantal_klinkers == 2:
                 new_list.append(word)
     return new_list
-#8
+#9
 POINTS = [1,2,3,4,5]
 LETTERS = "abcde"
 def compute_word_score(word: str) -> int:
