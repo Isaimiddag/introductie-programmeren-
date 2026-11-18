@@ -239,7 +239,7 @@ def three_vowel_words(words: list[str]) -> list[str]:
     lijst = []
     klinkers = "aeiouAEIOU"
     for char in words: 
-        if word 
+        if char in  
         
                 
             
