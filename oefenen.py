@@ -252,7 +252,7 @@ def three_vowel_words(words: list[str]) -> list[str]:
 def longer_than_average(words: list[str]) -> list[str]:
     lijst = []
     for word in words:
-        aantal_letters = 0
+        aantal_woorden = 0
         for letter in word:
             if letter.isalpha():
                 aantal_letter += 1
