@@ -487,7 +487,7 @@ def totaal_letters(words: list[str]) -> int:
         for letter in word:
             if letter.isalpha():
                 totaal += 1
-            
+    return totaal
             
             
         
