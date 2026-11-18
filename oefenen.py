@@ -504,7 +504,8 @@ def shortest_vowel_word(words: list[str]) -> str:
             shortest = word
     return shortest
 
-def space_count(sentence: str)
+def space_count(sentence: str) -> int:
+    
             
         
 
