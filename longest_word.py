@@ -14,4 +14,4 @@ def print_banner(lst: list[str]) -> str:
     
 if __name__ == "__main__":
     banner = input("geef wat woorden: ")
-    
+    print(print_banner(banner))
