@@ -368,7 +368,8 @@ def longest_consonant_word(words: list[str]) -> str:
         for letter in word:
             if letter in klinkers:
                 bevat_klinker = True
-            
+            if not bevat_klinker: 
+                
                 #?
 #5
 def word_count(sentence: str) -> int:
