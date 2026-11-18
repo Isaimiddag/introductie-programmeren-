@@ -222,6 +222,7 @@ def shortest_word_length(s: str) -> int:
         kortste_woord = huidig_woord
 
     return kortste_woord
+#2
 
             
             
