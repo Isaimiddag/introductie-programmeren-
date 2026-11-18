@@ -11,7 +11,7 @@ def print_banner(lst: list[str]) -> str:
     banner = "#" * len(aantal_hekjes)
     print(banner)
     for woord in lst:
-        print
+        print(woord)
     
 def string_to_list(words: str) -> list[str]:
     lijst = []
