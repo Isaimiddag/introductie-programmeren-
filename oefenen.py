@@ -310,7 +310,7 @@
 #             return True
                 
 #1
-def count_long_words()
+def count_long_words(words: )
 
     
             
