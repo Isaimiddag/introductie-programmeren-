@@ -222,7 +222,14 @@ def shortest_word_length(s: str) -> int:
         kortste_woord = huidig_woord
 
     return kortste_woord
+print(shortest_word_length("hallo dit is leuk"))
+# 2
 
+print(shortest_word_length("python programmeren"))
+# 6
+
+print(shortest_word_length("ik ben student"))
+# 2
             
             
         
