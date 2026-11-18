@@ -198,7 +198,7 @@ def vowely_words(words: list[str]) -> list[str]:
             huidig_woord += char
         else:
             new_list += huidig_woord
-        
+        for 
             
             
 
