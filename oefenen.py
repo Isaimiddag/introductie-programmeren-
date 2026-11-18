@@ -375,6 +375,7 @@ def word_count(sentence: str) -> int:
             aantal_spaties += 1
     aantal_woorden = aantal_spaties + 1
     return aantal_woorden
+    
         
                 
             
