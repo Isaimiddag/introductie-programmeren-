@@ -427,6 +427,7 @@ def compute_word_score(word: str) -> int:
 
 #10
 def same_letters(a:str, b:str) -> bool:
+    alfabet = "abcdefghijklmnopqrstuvwxyz"
     for letter in a:
         if letter not in b:
             return False
