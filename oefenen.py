@@ -228,7 +228,8 @@ def shift_forward(s: str) ->:
     resultaat = ""
     for letter in s:
         for i in range(len(alfabet)):
-            if letter == alfabet[i]
+            if letter == alfabet[i]:
+                positie = i
             
             
             
