@@ -1,19 +1,14 @@
 def longest_word_from_list(lst: list[str]) -> str:
       """
     Geeft het langste woord uit een lijst terug.
-
     >>> longest_word_from_list(["hond", "kat", "olifant"])
     'olifant'
-
     >>> longest_word_from_list(["fiets", "auto", "trein"])
     'fiets'
-
     >>> longest_word_from_list(["abc"])
     'abc'
-
     >>> longest_word_from_list(["a", "ab", "abc", "abcd"])
     'abcd'
-
     >>> longest_word_from_list(["pizza", "pasta", "salade"])
     'salade'
     """
