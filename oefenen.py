@@ -191,7 +191,8 @@ def encrypt(s: str) -> str:
                 resultaat += nieuwe_letter
     return resultaat
 def vowely_words(list[str]) -> list[str]:
-    klinkers = "aeiou"
+    klinkers = "aeiouAEIOU"
+    
 
             
         
