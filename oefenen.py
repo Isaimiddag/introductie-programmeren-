@@ -475,7 +475,11 @@ def remove_vowels(word: str) -> str:
 
 def totaal_letters(words: list[str]) -> int:
     """
-    >>> total_letters
+    >>> total_letters(["hoi", "doei"])
+    7
+    >>> totaal_letters(["ik"])
+    2
+    >>> totaal_letters
             
         
     
