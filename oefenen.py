@@ -545,7 +545,8 @@ def count_uppercase(word:str) -> int:
             count += 1
     return count
 
-def words_with_four_letters(words: list[str]) -> list[str]
+def words_with_four_letters(words: list[str]) -> list[str]:
+    result = []
             
        
         
