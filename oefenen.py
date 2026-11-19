@@ -555,7 +555,7 @@ def words_with_four_letters(words: list[str]) -> list[str]:
             result.append(word)
     return result
 print(words_with_four_letters(["hallo", "boom", "auto" ]))
-def 
+
             
        
         
