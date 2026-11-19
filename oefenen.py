@@ -575,6 +575,7 @@ def one_vowel_words(words: list[str]) -> list:
                 aantal_klinkers +=1
         if aantal_klinkers == 1:
             result.append(word)
+    return result
         
 
             
