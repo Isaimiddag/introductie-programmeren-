@@ -573,7 +573,8 @@ def one_vowel_words(words: list[str]) -> list:
         for letter in word:
             if letter in klinkers:
                 aantal_klinkers +=1
-            if aantal 
+        if aantal_klinkers == 1:
+            
         
 
             
