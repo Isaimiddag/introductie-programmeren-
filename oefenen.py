@@ -556,7 +556,7 @@ def words_with_four_letters(words: list[str]) -> list[str]:
     return result
 print(words_with_four_letters(["hallo", "boom", "auto" ]))
 
-def 
+def shortest_word()
 
             
        
