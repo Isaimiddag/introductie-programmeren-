@@ -550,7 +550,8 @@ def words_with_four_letters(words: list[str]) -> list[str]:
     for word in word:
         aantal_letters = 0
         for letter in word:
-            if letter 
+            aantal_letter +=1
+        if aantal
             
        
         
