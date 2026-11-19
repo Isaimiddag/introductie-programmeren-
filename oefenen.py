@@ -566,12 +566,7 @@ def three_consonant_words(words: list[str]) -> list[str]:
                 
         
                 
-            
-            
-            
-            
         
-
             
             
 
