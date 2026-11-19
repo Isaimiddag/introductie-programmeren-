@@ -564,7 +564,7 @@ def shortest_word(words: list[str]) -> str:
         if len(word) < len(kortste):
             kortste = word
     return kortste
-    
+
         
 
             
