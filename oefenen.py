@@ -567,9 +567,13 @@ def shortest_word(words: list[str]) -> str:
 
 def one_vowel_words(words: list[str]) -> list:
     klinkers = "aeiou"
-    result = 
+    result = []
     for word in words:
         aantal_klinkers = 0 
+        for letter in word:
+            if letter in klinkers:
+                aantal_klinkers +=1
+                
         
 
             
