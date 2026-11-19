@@ -538,9 +538,13 @@ def three_consonant_words(words: list[str]) -> list[str]:
             
  
 def count_uppercase(word:str) -> int:
+    count = 0
     uppercases = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     for letter in word:
         if letter in uppercases:
+            count += 1
+    return count
+    
             
        
         
