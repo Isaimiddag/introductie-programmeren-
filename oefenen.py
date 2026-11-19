@@ -565,7 +565,8 @@ def shortest_word(words: list[str]) -> str:
             kortste = word
     return kortste
 
-def one_vowel_words(words: list[str]) -> list
+def one_vowel_words(words: list[str]) -> list:
+    
         
 
             
