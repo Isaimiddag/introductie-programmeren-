@@ -559,7 +559,7 @@ print(words_with_four_letters(["hallo", "boom", "auto" ]))
 def shortest_word(words: list[str]) -> str:
     kortste = words[0]
     for word in words:
-        if len
+        if len(word) < 
 
             
        
