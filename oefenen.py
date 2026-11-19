@@ -548,6 +548,7 @@ def count_uppercase(word:str) -> int:
 def words_with_four_letters(words: list[str]) -> list[str]:
     result = []
     for word in word:
+        aantal_letters = 0
         for letter in word:
             if letter 
             
