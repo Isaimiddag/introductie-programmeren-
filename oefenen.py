@@ -554,7 +554,7 @@ def words_with_four_letters(words: list[str]) -> list[str]:
         if aantal_letters == 4:
             result.append(word)
     return result
-print(())
+print(words_with_four_letters())
 def 
             
        
