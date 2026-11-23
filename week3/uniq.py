@@ -17,7 +17,5 @@ def uniq(lst: list[object]) -> list[object]:
             result.append(lst[i])
     return result
     
-if __name__ == "__main__":
-    rij = input("Wat is uw rij? ").split()
-    antwoord = uniq(rij)
+\
     print(antwoord)
