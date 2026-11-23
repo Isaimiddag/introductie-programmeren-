@@ -1,1 +1,0 @@
-#Om een sjoelspel te simuleren nemen we aan dat per geschoven schijf de kans 25% is dat die in een van de vier gleuven komt (en 75% dat het mis is). Wanneer een schijf in een bak komt is de kans 30% dat die in een bak met 1 punt komt, 30% voor 2 punten, 20% voor 3 punten, en 20% voor 4 punten.
