@@ -15,7 +15,8 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
     [[5]]
     """
     result = []
-    for word in 
+    for word in lst:
+        
 
 
 
