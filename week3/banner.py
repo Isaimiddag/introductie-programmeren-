@@ -6,7 +6,7 @@ def longest_word_from_list(lst: list[str]) -> str:
     'voetbal'
     >>> longest_word_from_list(["hallo"])
     'hallo'
-    >>> longest_word_from_list(["hallo", "ik"])
+    >>> longest_word_from_list(["hallo", "papa"])
 
 
 
