@@ -16,15 +16,4 @@ def interleave(lst1: list[int], lst2: list[int], keep: bool) -> list[int]:
     """
     resultaat = []
 
-    kortste = min(len(lst1), len(lst2))
-
-    for i in range(kortste):
-        resultaat.append(lst1[i])
-        resultaat.append(lst2[i])
-
-    if keep:
-        resultaat.extend(lst1[kortste:])
-        resultaat.extend(lst2[kortste:])
-
-    return resultaat 
-
+    
