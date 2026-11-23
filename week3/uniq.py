@@ -17,5 +17,3 @@ def uniq(lst: list[object]) -> list[object]:
             result.append(lst[i])
     return result
     
-\
-    print(antwoord)
