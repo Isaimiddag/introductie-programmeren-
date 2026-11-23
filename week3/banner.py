@@ -1,3 +1,5 @@
 def longest_word_from_list(lst: list[str]) -> str:
-    for word in longest
+    huidig_langste = 
+    for word in longest_word_from_list:
+        if word
 
