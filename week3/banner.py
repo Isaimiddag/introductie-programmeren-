@@ -13,6 +13,6 @@ def print_banner(lst: list[str]) -> str:
         print(word)
     for char in longest_word_from_list(huidig_langste):
         char == "*"
-print()
+print(print_banner)
     
 
