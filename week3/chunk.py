@@ -14,7 +14,7 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
     >>> chunk([5], 2)
     [[5]]
     """
-    result = []
+    result = 
     current_chunk = []
     for word in lst:
         current_chunk = []
