@@ -16,7 +16,7 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
     """
     result = []
     for word in lst:
-        result.appen
+        if result
 
 
 
