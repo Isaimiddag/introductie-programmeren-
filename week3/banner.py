@@ -1,2 +1,2 @@
-def banner()
+def longest_word()
 
