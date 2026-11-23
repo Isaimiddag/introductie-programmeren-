@@ -18,6 +18,6 @@ def compact(lst: list[object]) -> list[object]:
     result = []
     for x in lst: 
         if x:
-            result.append(char)
+            result.append(x)
     return result
 print(compact([0, 1, 0, 2]))
