@@ -12,7 +12,7 @@ def selection_sort(l: list[int]) -> list[int]:
     >>> l([1,2])
     [1,2]
     """
-    new_list = l.sort
+    new_list = []
     return new_list
 if __name__ == "__main__":
     p = input("geef een lijst: ")
