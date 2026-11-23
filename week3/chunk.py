@@ -27,7 +27,7 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
         result.append(current_chunk)
 
     return result
-print()
+print(chunk([1, 2, 3, 4, 5, 6, 7], 3))
             
             
             
