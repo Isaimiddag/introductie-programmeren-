@@ -8,4 +8,5 @@ def selection_sort(l: list[int]) -> list[int]:
     >>> ([2,1,3])
     [1,2,3]
     >>> ([3,4,1,2])
+    [1,2,3,4]
     """
