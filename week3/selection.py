@@ -13,7 +13,8 @@ def selection_sort(l: list[int]) -> list[int]:
     [1,2]
     """
     new_list = []
-    for nummer in range(len(l:
+    for nummer in range(len(l)):
+        if nummer 
         
     
     return new_list
