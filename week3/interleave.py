@@ -30,17 +30,13 @@ def interleave(list1, list2, keep=False):
     []
     """
     result = []
-
     min_len = min(len(list1), len(list2))
-
     for i in range(min_len):
         result.append(list1[i])
         result.append(list2[i])
-
     if keep:
         result.extend(list1[min_len:])
         result.extend(list2[min_len:])
-
     return result
     
     
