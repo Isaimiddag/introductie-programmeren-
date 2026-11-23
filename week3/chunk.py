@@ -21,6 +21,7 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
         if len(current_chunk) == n:
             result.append(current_chunk)
             current_chunk = []
+        
     return result
 print(chunk([1, 2, 3], 1))
             
