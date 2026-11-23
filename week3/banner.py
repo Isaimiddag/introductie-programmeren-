@@ -3,5 +3,7 @@ def longest_word_from_list(lst: list[str]) -> str:
     for word in lst:
         if len(word) > len(huidig_langste)
         huidig_langste = word
-    return
+    return huidig_langste
+
+def print_banner()
 
