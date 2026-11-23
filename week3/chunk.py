@@ -22,13 +22,5 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
     return result
 
 
-if __name__ == "__main__":
-    rij = input("Geef getallen gescheiden door spaties: ").split()
 
-    for i in range(len(rij)):
-        rij[i] = int(rij[i])
-
-    n = int(input("Grootte van de rij: "))
-
-    print(chunk(rij, n))
     
