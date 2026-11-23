@@ -20,4 +20,4 @@ def uniq(lst: list[object]) -> list[object]:
 if __name__ == "__main__":
     rij = input("Wat is uw rij? ").split()
     antoowrd = uniq(rij)
-    
+    print(antwoord)
