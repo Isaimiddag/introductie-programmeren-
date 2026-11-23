@@ -14,7 +14,7 @@ def selection_sort(l: list[int]) -> list[int]:
     """
     kleinste_nummer = l[0]
     for i in range(len(l)):
-        if nummer is < kleinste_nummer:
+        if  is < kleinste_nummer:
             kleinste_nummer = nummer
             
         
