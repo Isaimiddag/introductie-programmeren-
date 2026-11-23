@@ -13,4 +13,4 @@ def selection_sort(l: list[int]) -> list[int]:
     [1,2]
     """
     for nummer in l:
-        if 
+        if nummer 
