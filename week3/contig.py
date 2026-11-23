@@ -25,5 +25,4 @@ def contig(lst):
             groep = [lst[i]]
 
     result.append(groep)
-
     return result
