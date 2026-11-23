@@ -11,13 +11,10 @@ def selection_sort(l: list[int]) -> list[int]:
 
     >>> selection_sort([1, 2, 3])
     [1, 2, 3]
-
     >>> selection_sort([7])
     [7]
-
     >>> selection_sort([])
     []
-
     >>> selection_sort([4, 2, 4, 1])
     [1, 2, 4, 4]
     """
