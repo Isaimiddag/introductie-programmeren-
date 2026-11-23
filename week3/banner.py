@@ -7,7 +7,7 @@ def longest_word_from_list(lst: list[str]) -> str:
 
 def print_banner(lst: list[str]) -> str:
     banner = ""
-    woord = p
+   
     for char in longest_word_from_list():
         char == "*"
     for word in lst:
