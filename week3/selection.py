@@ -12,7 +12,7 @@ def selection_sort(l: list[int]) -> list[int]:
     >>> l([1,2])
     [1,2]
     """
-    kleinste_nummer = l
+    kleinste_nummer = l[0]
     for nummer in range(len(l)):
         if nummer is 
         
