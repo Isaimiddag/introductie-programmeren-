@@ -16,4 +16,4 @@ def compact(lst: list[object]) -> list[object]:
     ['python', 5]
     """
     result = []
-    
+    for 
