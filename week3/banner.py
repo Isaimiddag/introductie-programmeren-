@@ -11,4 +11,5 @@ def print_banner(lst: list[str]) -> str:
         char == "*"
      for word in lst:
          print(word)
+    
 
