@@ -18,8 +18,6 @@ def merge_lists(lst1, lst2):
 
     i = 0
     j = 0
-
-    # Loop zolang beide lijsten nog elementen bevatten
     while i < len(lst1) and j < len(lst2):
         if lst1[i] <= lst2[j]:
             result.append(lst1[i])
