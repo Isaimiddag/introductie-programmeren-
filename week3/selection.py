@@ -13,7 +13,7 @@ def selection_sort(l: list[int]) -> list[int]:
     [1,2]
     """
     new_list = []
-    for nummer in l:
+    for nummer in rangel:
         
     
     return new_list
