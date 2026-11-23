@@ -1,0 +1,19 @@
+def uniq(lst: list[object]) -> list[object]:
+    """
+    >>> uniq([1, 2, 3])
+    [1, 2, 3]
+    >>> uniq([1, 1, 2, 2, 3])
+    [1, 2, 3]
+    >>> uniq([3, 1, 3, 2, 1])
+    [3, 1, 2]
+    >>> uniq([])
+    []
+    >>> uniq(["a", "a", "b", "a"])
+    ['a', 'b']
+    """
+    result = []
+    for i in range(len(lst)):
+        if lst[i] not in result:
+            result.append(lst[i])
+    return result
+    
