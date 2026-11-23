@@ -30,7 +30,6 @@ def merge_lists(lst1, lst2):
     for k in range(i, len(lst1)):
         result.append(lst1[k])
 
-    # Voeg resterende elementen van lst2 toe
     for k in range(j, len(lst2)):
         result.append(lst2[k])
 
