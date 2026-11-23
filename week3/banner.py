@@ -12,4 +12,5 @@ def print_banner(lst: list[str]) -> str:
      for word in lst:
          print(word)
     
+    
 
