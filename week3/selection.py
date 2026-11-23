@@ -9,7 +9,7 @@ def selection_sort(l: list[int]) -> list[int]:
     [1,2,3]
     >>> l([3,4,1,2])
     [1,2,3,4]
-    >>> ([1,2])
+    >>> l([1,2])
     [1,2]
     """
     new_list = []
