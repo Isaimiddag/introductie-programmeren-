@@ -5,7 +5,7 @@ def selection_sort(l: list[int]) -> list[int]:
     Moet wel `l` returnen.
     >>> l([1,2,5,3])
     [1,2,3,4,5]
-    >>> ([2,1,3])
+    >>> l([2,1,3])
     [1,2,3]
     >>> ([3,4,1,2])
     [1,2,3,4]
