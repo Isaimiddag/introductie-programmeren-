@@ -16,6 +16,7 @@ def selection_sort(l: list[int]) -> list[int]:
     
     
     return new_list
+    
 if __name__ == "__main__":
     p = input("geef een lijst: ")
     print(selection_sort(p))
