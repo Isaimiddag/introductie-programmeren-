@@ -5,5 +5,6 @@ def longest_word_from_list(lst: list[str]) -> str:
         huidig_langste = word
     return huidig_langste
 
-def print_banner(lst: list[str]) -> str
+def print_banner(lst: list[str]) -> str:
+    for 
 
