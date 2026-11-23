@@ -12,7 +12,7 @@ def print_banner(lst: list[str]) -> str:
     for word in lst:
         banner += word + "\n"
     for char in longest_word_from_list(lst):
-        char = "*"
+        banner = "*"
 print(print_banner)
     
 
