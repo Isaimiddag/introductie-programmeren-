@@ -9,8 +9,10 @@ def print_banner(lst: list[str]) -> str:
     banner = ""
     for char in longest_word_from_list:
         char == "*"
-     for word in lst:
-         print(word)
+    for word in lst:
+        print(word)
+    for char in longest_word_from_list:
+        char == "*"
     
     
 
