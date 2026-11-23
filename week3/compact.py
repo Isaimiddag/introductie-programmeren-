@@ -18,4 +18,4 @@ def compact(lst: list[object]) -> list[object]:
     result = []
     for char in lst: 
         if x:
-            char.append()
+            result.append()
