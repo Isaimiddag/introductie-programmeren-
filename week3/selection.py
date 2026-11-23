@@ -12,6 +12,8 @@ def selection_sort(l: list[int]) -> list[int]:
     >>> l([1,2])
     [1,2]
     """
-    new_list = []
-    for nummer in l:
-        if nummer 
+    new_list = l.sort()
+    return new_list
+if __name__ == "__main__":
+    
+    
