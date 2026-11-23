@@ -16,7 +16,7 @@ def compact(lst: list[object]) -> list[object]:
     ['python', 5]
     """
     result = []
-    for char in lst: 
+    for x in lst: 
         if not x / if x:
             result.append(char)
     return result
