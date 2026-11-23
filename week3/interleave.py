@@ -1,7 +1,6 @@
 def interleave(lst1: list[int], lst2: list[int], keep: bool) -> list[int]:
     """
     Maak een nieuwe lijst met afwisselend elementen uit lst1 en lst2.
-
     >>> interleave([1, 2, 3], [4, 5, 6], False)
     [1, 4, 2, 5, 3, 6]
 
