@@ -15,6 +15,6 @@ def print_banner(lst: list[str]) -> str:
         banner += "*"
     return banner
 
-print(print_banner(["hallo", "ik", "voetbal"])
+print(print_banner(["hallo", "ik", "voetbal"]))
     
 
