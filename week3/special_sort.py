@@ -1,1 +1,1 @@
-def special_sort()
+def special_sort(l: list[int]) -> list[int]:
