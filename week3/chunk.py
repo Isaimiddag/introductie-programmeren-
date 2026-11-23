@@ -17,8 +17,6 @@ def chunk(lst: list[int], n: int) -> list[list[int]]:
     result = []
     current_chunk = []
     for word in lst:
-        current_chunk = []
-        if len(current_chunk) < n:
             current_chunk.append(word)
         result.append(current_chunk)
 
