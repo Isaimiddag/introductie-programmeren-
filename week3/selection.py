@@ -4,7 +4,7 @@ def selection_sort(l: list[int]) -> list[int]:
     Er wordt geen nieuwe lijst gemaakt.
     Moet wel `l` returnen.
 
-    >>> selection_sort([  [1, 2, 3]
+    >>> selection_sort([1, 2, 3])
     >>> selection_sort([5, 4, 3, 2, 1])
     [1, 2, 3, 4, 5]
     >>> selection_sort([1, 2, 3])
