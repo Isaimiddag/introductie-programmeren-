@@ -1,6 +1,6 @@
-def merge_lists(lst1, lst2):
+def merge_lists(lst1: , lst2):
     """
-    Voegt twee gesorteerde lijsten samen tot één gesorteerde lijst.
+    Voegt twee gesorteerde lijsten samen tot Ã©Ã©n gesorteerde lijst.
 
     >>> merge_lists([1, 2, 5], [4, 5, 6])
     [1, 2, 4, 5, 5, 6]
