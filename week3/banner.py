@@ -2,7 +2,10 @@ def longest_word_from_list(lst: list[str]) -> str:
     """
     >>> longest_word_from_list(["hallo", "ik"])
     'hallo'
+    >>> longest_word_from_list(["hallo", "ik", "voetbal"])
+    'voetbal'
     >>> longest_word_from_list(["hallo", "ik"])
+
 
     huidig_langste = lst[0]
     for word in lst:
