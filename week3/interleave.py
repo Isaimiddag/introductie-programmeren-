@@ -1,4 +1,4 @@
-def interleave(lst1: list[int], lst2: list[int], keep: bool) -> list:
+def interleave(lst1: list[int], lst2: list[int], keep: bool) -> list[int]:
     """
     Maak een nieuwe lijst met afwisselend elementen uit lst1 en lst2.
 
