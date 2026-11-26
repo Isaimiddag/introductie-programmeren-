@@ -637,7 +637,8 @@ print(posities_van_a("halloa"))
 def posities_van_klinkers(woord):
     lijst = []
     klinkers = "aeiou"
-    for i in range(len(woord))
+    for i in range(len(woord)):
+        if i 
         
 
 
