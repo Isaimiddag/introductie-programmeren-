@@ -594,7 +594,7 @@ def print_getallen():
         print(i)
         
 def som_tot_vijf(getal):
-    for i in range(len(getal)):
+    for i in range(getal)):
         return getal.sum()
 
 def tel_letters(woord):
