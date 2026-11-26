@@ -680,7 +680,7 @@ print(woorden_met_hoofdletter(["Amsterdam", "fiets", "Utrecht", "boot"]))
     
 def alle_klinkers(woord):
     lijst = []
-    
+    klinkers = 
 
             
             
