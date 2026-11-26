@@ -655,8 +655,8 @@ print(hoofdletters_posities(["Hallo", "hoi", "Hha", "pp", "Poeo"]))
 
 def eerste_letter(woorden: list) -> list[str]:
     lijst = []
-        for letter in woorden:
-            lijst.append(letter[0])
+    for letter in woorden:
+        lijst.append(letter[0])
     return lijst
 
 print(eerste_letter(["fiets", "auto", "trein"]))
