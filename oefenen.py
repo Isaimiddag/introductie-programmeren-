@@ -683,7 +683,8 @@ def alle_klinkers(woord):
     klinkers = "aeiou"
     for letter in woord:
         if letter in klinkers:
-            lijst.append()
+            lijst.append(letter)
+    return lijst
 
             
             
