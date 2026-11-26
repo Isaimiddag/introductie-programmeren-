@@ -437,145 +437,145 @@
 #         for teken in b:
 #             if teken == letter:
 #                 aantal_b +=1
-#         if aantal_a != aantal_b:
-#             return False
-#         else:
-#             return True
+# #         if aantal_a != aantal_b:
+# #             return False
+# #         else:
+# #             return True
 
-def count_short_words(words: list[str], maximum: int) -> int:
-    """
-    >>> count_short_words(["hallo", "ik", "jo"], 1)
-    0
-    >>> count_short_words(["Ha", "hoi"] ,5)
-    2
-    >>> count_short_words(["ik"], 4)
-    1
-    """
-    aantal_woorden = 0
-    for word in words: 
-        if len(word) <= maximum:
-            aantal_woorden +=1
-    return aantal_woorden
+# def count_short_words(words: list[str], maximum: int) -> int:
+#     """
+#     >>> count_short_words(["hallo", "ik", "jo"], 1)
+#     0
+#     >>> count_short_words(["Ha", "hoi"] ,5)
+#     2
+#     >>> count_short_words(["ik"], 4)
+#     1
+#     """
+#     aantal_woorden = 0
+#     for word in words: 
+#         if len(word) <= maximum:
+#             aantal_woorden +=1
+#     return aantal_woorden
 
-def remove_vowels(word: str) -> str:
-    """
-    >>> remove_vowels("hallo")
-    'hll'
-    >>> remove_vowels("ho")
-    'h'
-    >>> remove_vowels("ik")
-    'k'
-    """
-    klinkers = "aeiouAEIOU"
-    new_word = ""
-    for letter in word:
-        if letter not in klinkers:
-            new_word += letter
-    return new_word
+# def remove_vowels(word: str) -> str:
+#     """
+#     >>> remove_vowels("hallo")
+#     'hll'
+#     >>> remove_vowels("ho")
+#     'h'
+#     >>> remove_vowels("ik")
+#     'k'
+#     """
+#     klinkers = "aeiouAEIOU"
+#     new_word = ""
+#     for letter in word:
+#         if letter not in klinkers:
+#             new_word += letter
+#     return new_word
 
 
-def totaal_letters(words: list[str]) -> int:
-    """
-    >>> total_letters(["hoi", "doei"])
-    7
-    >>> totaal_letters(["ik"])
-    2
-    >>> totaal_letters(["kat", "pap"])
-    6
-    """
-    totaal = 0
-    for word in words:
-        for letter in word:
-            if letter.isalpha():
-                totaal += 1
-    return totaal
+# def totaal_letters(words: list[str]) -> int:
+#     """
+#     >>> total_letters(["hoi", "doei"])
+#     7
+#     >>> totaal_letters(["ik"])
+#     2
+#     >>> totaal_letters(["kat", "pap"])
+#     6
+#     """
+#     totaal = 0
+#     for word in words:
+#         for letter in word:
+#             if letter.isalpha():
+#                 totaal += 1
+#     return totaal
     
-def shortest_vowel_word(words: list[str]) -> str:
-    klinkers = "aeiouAEIOU"
-    shortest = ""
-    woorden_klinker = []
-    for word in words:
-        for letter in word:
-            if letter in klinkers:
-                woorden_klinker.append(word)
-    for word in woorden_klinker:
-        woorden_klinker[0] = shortest
-        if len(word) < len(shortest):
-            shortest = word
-    return shortest
+# def shortest_vowel_word(words: list[str]) -> str:
+#     klinkers = "aeiouAEIOU"
+#     shortest = ""
+#     woorden_klinker = []
+#     for word in words:
+#         for letter in word:
+#             if letter in klinkers:
+#                 woorden_klinker.append(word)
+#     for word in woorden_klinker:
+#         woorden_klinker[0] = shortest
+#         if len(word) < len(shortest):
+#             shortest = word
+#     return shortest
 
-def space_count(sentence: str) -> int:
-    aantal_spaties = 0
-    for char in sentence:
-        if char == " ":
-            aantal_spaties += 1
-    return aantal_spaties
+# def space_count(sentence: str) -> int:
+#     aantal_spaties = 0
+#     for char in sentence:
+#         if char == " ":
+#             aantal_spaties += 1
+#     return aantal_spaties
 
-def shift_by_two(word: str) -> str:
-    alfabet = "abcdefghijklmnopqrstuvwxyz"
-    new_word = ""
-    for letter in word:
-        for i in range(len(alfabet)):
-            if i == letter:
-                new_letter = (i + 2) % 26
-                new_word.append(new_letter)
-    return new_word
+# def shift_by_two(word: str) -> str:
+#     alfabet = "abcdefghijklmnopqrstuvwxyz"
+#     new_word = ""
+#     for letter in word:
+#         for i in range(len(alfabet)):
+#             if i == letter:
+#                 new_letter = (i + 2) % 26
+#                 new_word.append(new_letter)
+#     return new_word
     
-def three_consonant_words(words: list[str]) -> list[str]:
-    klinkers = "aeiouAEIOU"
-    aantal_medeklinkers = 0
-    new_list = []
-    for word in words:
-        aantal_medeklinkers = 0
-        for letter in word:
-            if letter not in klinkers:
-                aantal_medeklinkers += 1
-        if aantal_medeklinkers == 3:
-            new_list.append(word)
+# def three_consonant_words(words: list[str]) -> list[str]:
+#     klinkers = "aeiouAEIOU"
+#     aantal_medeklinkers = 0
+#     new_list = []
+#     for word in words:
+#         aantal_medeklinkers = 0
+#         for letter in word:
+#             if letter not in klinkers:
+#                 aantal_medeklinkers += 1
+#         if aantal_medeklinkers == 3:
+#             new_list.append(word)
         
-    return new_list
+#     return new_list
 
             
  
-def count_uppercase(word:str) -> int:
-    count = 0
-    uppercases = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    for letter in word:
-        if letter in uppercases:
-            count += 1
-    return count
+# def count_uppercase(word:str) -> int:
+#     count = 0
+#     uppercases = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+#     for letter in word:
+#         if letter in uppercases:
+#             count += 1
+#     return count
 
-def words_with_four_letters(words: list[str]) -> list[str]:
-    result = []
-    for word in words:
-        aantal_letters = 0
-        for letter in word:
-            aantal_letters +=1
-        if aantal_letters == 4:
-            result.append(word)
-    return result
-print(words_with_four_letters(["hallo", "boom", "auto" ]))
+# def words_with_four_letters(words: list[str]) -> list[str]:
+#     result = []
+#     for word in words:
+#         aantal_letters = 0
+#         for letter in word:
+#             aantal_letters +=1
+#         if aantal_letters == 4:
+#             result.append(word)
+#     return result
+# print(words_with_four_letters(["hallo", "boom", "auto" ]))
 
-def shortest_word(words: list[str]) -> str:
-    kortste = words[0]
-    for word in words:
-        if len(word) < len(kortste):
-            kortste = word
-        if len(word) < len(kortste):
-            kortste = word
-    return kortste
+# def shortest_word(words: list[str]) -> str:
+#     kortste = words[0]
+#     for word in words:
+#         if len(word) < len(kortste):
+#             kortste = word
+#         if len(word) < len(kortste):
+#             kortste = word
+#     return kortste
 
-def one_vowel_words(words: list[str]) -> list:
-    klinkers = "aeiou"
-    result = []
-    for word in words:
-        aantal_klinkers = 0 
-        for letter in word:
-            if letter in klinkers:
-                aantal_klinkers +=1
-        if aantal_klinkers == 1:
-            result.append(word)
-    return result
+# def one_vowel_words(words: list[str]) -> list:
+#     klinkers = "aeiou"
+#     result = []
+#     for word in words:
+#         aantal_klinkers = 0 
+#         for letter in word:
+#             if letter in klinkers:
+#                 aantal_klinkers +=1
+#         if aantal_klinkers == 1:
+#             result.append(word)
+#     return result
         
 
             
