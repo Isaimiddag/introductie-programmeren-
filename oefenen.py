@@ -672,7 +672,7 @@ print(posities_van_e("element"))
 def woorden_met_hoofdletter(woorden: list) -> list[str]:
     lijst = []
     for i in range(len(woorden)):
-        if woorden[0].isupper():
+        if woorden[].isupper():
             lijst.append(i)
     return lijst
 print(woorden_met_hoofdletter(["Amsterdam", "fiets", "Utrecht", "boot"]))
