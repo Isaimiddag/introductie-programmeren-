@@ -690,6 +690,17 @@ print(alle_klinkers("programmeren"))
 
 
 
+
+
+
+
+
+
+
+
+
+
+
             
             
         
