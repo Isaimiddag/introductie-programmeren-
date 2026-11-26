@@ -676,7 +676,7 @@ def woorden_met_hoofdletter(woorden: list) -> list[str]:
             if letter[0].isupper():
                 lijst.append(i)
     return lijst
-print(woorden_met_hoofdletter(["Amsterdam", "fiets", "Utrecht", "boot"])
+print(woorden_met_hoofdletter(["Amsterdam", "fiets", "Utrecht", "boot"]))
     
     
 
