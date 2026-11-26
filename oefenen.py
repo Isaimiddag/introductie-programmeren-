@@ -675,6 +675,7 @@ def woorden_met_hoofdletter(woorden: list) -> list[str]:
         for letter in woorden:
             if letter[0].isupper():
                 lijst.append(i)
+    return lijst
     
     
 
