@@ -580,7 +580,7 @@ def one_vowel_words(words: list[str]) -> list:
 
             
        
-def tweede_letter() 
+def tweede_letter(woord) 
 
 
             
