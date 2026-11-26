@@ -610,7 +610,7 @@ def alle_letters(woord):
 
 def posities(woord):
     for i in range(len(woord)):
-        return i
+    return i
         
 def letters_met_index(woord):
     for i in range(len(woord)):
