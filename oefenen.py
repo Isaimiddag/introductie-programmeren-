@@ -647,7 +647,7 @@ def hoofdletters_posities(woorden):
     lijst = []
     
     for i in range(len(woorden)):
-        if woorden[i].isupper():
+        if woorden[i][0].isupper():
             lijst.append(i)
     return lijst
 
