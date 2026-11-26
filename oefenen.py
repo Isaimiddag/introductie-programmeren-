@@ -598,7 +598,9 @@ def som_tot_vijf(getal):
         return getal.sum()
 
 def tel_letters(woord):
-    
+    return len(woord)
+
+def 
 
 
 
