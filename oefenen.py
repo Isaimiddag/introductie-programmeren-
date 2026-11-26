@@ -583,6 +583,8 @@ def one_vowel_words(words: list[str]) -> list:
 def tweede_letter(woord):
     return woord[1]
 
+def laatste_woord
+
 
             
             
