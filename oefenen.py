@@ -642,6 +642,7 @@ def posities_van_klinkers(woord):
             lijst.append(i)
     return lijst
 
+#
         
 
 
