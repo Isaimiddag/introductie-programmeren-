@@ -670,6 +670,9 @@ def posities_van_e(woord: str) -> list[str]:
 print(posities_van_e("element"))
 
 def woorden_met_hoofdletter(woorden: list) -> list[str]:
+    lijst = []
+    for i in range(len(woorden)):
+        for 
     
     
 
