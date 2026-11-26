@@ -661,6 +661,7 @@ def eerste_letter(woorden: list) -> list[str]:
 
 print(eerste_letter(["fiets", "auto", "trein"]))
 
+def posities_van_e(woord)
 
 
             
