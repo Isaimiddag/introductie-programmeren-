@@ -590,7 +590,7 @@ def derde_getal(getallen):
     return getallen[2]
 
 def print_getallen(getallen):
-    for i in range(len(getallen)):
+    for i in range(5):
         print(i)
         
 def som_tot_vijf(getal):
