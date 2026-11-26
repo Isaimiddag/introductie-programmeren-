@@ -602,6 +602,7 @@ def tel_letters(woord):
 
 def alle_letters(woord):
     lijst = []
+    if 
 
 
 
