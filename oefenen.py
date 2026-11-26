@@ -657,7 +657,7 @@ def eerste_letter(woorden: list) -> list[str]:
     lijst = []
     for i in range(len(woorden)):
         for letter in woorden
-        lijst.append(woorden[0])
+        lijst.append(letter[0])
     return lijst
 
 print(eerste_letter(["fiets", "auto", "trein"]))
