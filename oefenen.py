@@ -589,7 +589,7 @@ def laatste_letter(woord):
 def derde_getal(getallen):
     return getallen[2]
 
-def print_getallen(getallen):
+def print_getallen():
     for i in range(5):
         print(i)
         
