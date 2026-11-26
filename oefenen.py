@@ -626,7 +626,7 @@ def klinkers(woord):
             lijst.append(letter)
     return lijst
         
-def pos
+def posities_van_a(woord)
 
 
             
