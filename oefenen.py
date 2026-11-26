@@ -595,7 +595,9 @@ def print_getallen(getallen):
         
 def som_tot_vijf(getal):
     for i in range(len(getal)):
-        return 
+        return getal.sum()
+
+def 
 
 
 
