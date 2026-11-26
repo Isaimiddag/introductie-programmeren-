@@ -610,7 +610,8 @@ def posities(woord):
         return i
         
 def letters_met_index(woord):
-    
+    for i in range(len(woord)):
+        return
 
 
             
