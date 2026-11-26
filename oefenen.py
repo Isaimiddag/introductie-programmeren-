@@ -606,7 +606,7 @@ def tel_letters(woord):
 def alle_letters(woord):
     lijst = []
     for i in range(len(woord)):
-        lijst.append(woord)
+        lijst.append(woord[i])
 
 def posities(woord):
     for i in range(len(woord)):
