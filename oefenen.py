@@ -666,6 +666,7 @@ def posities_van_e(woord: str) -> list[str]:
     for i in range(len(woord)):
         if i == "e":
             lijst.append(i)
+    return lijst
 print(posities_van_e("element"))
     
 
