@@ -659,7 +659,7 @@ def eerste_letter(woorden: list) -> list[str]:
         lijst.append(woorden[0])
     return lijst
 
-print
+print(eerste_letter())
 
 
             
