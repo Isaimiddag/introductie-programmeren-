@@ -641,6 +641,7 @@ def posities_van_klinkers(woord):
         if woord[i] in klinkers:
             lijst.append(i)
     return lijst
+
         
 
 
