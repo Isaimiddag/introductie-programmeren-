@@ -647,7 +647,7 @@ def hoofdletters_posities(woorden):
     lijst = []
     
     for i in range(len(woorden)):
-        if woorden[i] i:
+        if woorden[i].isupper():
             lijst.append(i)
     return lijst
 print(hoofdletters_posities(["Hallo", "Ams", "po", "HAK" "aaa", "aap", "AA"]))
