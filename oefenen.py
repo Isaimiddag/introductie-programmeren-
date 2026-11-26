@@ -654,7 +654,7 @@ print(hoofdletters_posities(["Hallo", "hoi", "Hha", "pp", "Poeo"]))
     
 
 def eerste_letter(woorden: list) -> list[str]:
-    for 
+    for i in range(len)
 
 
             
