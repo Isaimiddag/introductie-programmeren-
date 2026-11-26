@@ -678,7 +678,8 @@ def woorden_met_hoofdletter(woorden: list) -> list[str]:
 print(woorden_met_hoofdletter(["Amsterdam", "fiets", "Utrecht", "boot"]))
     
     
-
+def alle_klinkers(woord):
+    
 
             
             
