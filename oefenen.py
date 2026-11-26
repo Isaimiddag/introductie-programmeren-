@@ -619,6 +619,7 @@ def letters_met_index(woord):
         print(i + woord[i])
 
 def klinkers(woord):
+    lijst = []
     
     
 
