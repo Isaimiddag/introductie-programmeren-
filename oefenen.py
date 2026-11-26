@@ -633,6 +633,9 @@ def posities_van_a(woord):
             lijst.append(i)
     return lijst
 print(posities_van_a("halloa"))
+
+def posities_van_klinkers(woord):
+    
         
 
 
