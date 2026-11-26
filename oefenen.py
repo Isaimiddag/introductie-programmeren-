@@ -609,6 +609,7 @@ def alle_letters(woord):
         lijst.append(woord[i])
 
 def posities(woord):
+    lijst = []
     for i in range(len(woord)):
     return i
         
