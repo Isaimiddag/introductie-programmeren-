@@ -644,6 +644,10 @@ def posities_van_klinkers(woord):
 
 nieuwe oefeningen:
 def hoofdletters_posities(woorden):
+    >>> hoofdletters_posities(
+... ["Amsterdam", "fiets", "Utrecht", "rotterdam"]
+... )
+[0, 2]
         
 
 
