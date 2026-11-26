@@ -627,7 +627,7 @@ def klinkers(woord):
     return lijst
         
 def posities_van_a(woord):
-    
+    for 
 
 
             
