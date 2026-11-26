@@ -649,7 +649,7 @@ def hoofdletters_posities(woorden):
         if woorden[i].isupper():
             lijst.append(i)
     return lijst
-printhoofdletters_posities()
+print(hoofdletters_posities())
             
         
     
