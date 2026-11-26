@@ -645,6 +645,7 @@ def posities_van_klinkers(woord):
 
 def hoofdletters_posities(woorden):
     lijst = []
+    hoofdletters = "ABCDEF
     for i in range(len(woorden)):
         if woorden[i].isupper():
             lijst.append(i)
