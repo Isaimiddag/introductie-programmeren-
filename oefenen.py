@@ -687,7 +687,8 @@ def alle_klinkers(woord):
     return lijst
 print(alle_klinkers("programmeren"))
 
-
+def combineer(namen, leeftijden): 
+    
 
 
 
