@@ -643,6 +643,7 @@ def posities_van_klinkers(woord):
     return lijst
 
 nieuwe oefeningen:
+def hoofdletters_posities(woorden):
         
 
 
