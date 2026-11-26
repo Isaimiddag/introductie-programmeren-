@@ -621,7 +621,7 @@ def letters_met_index(woord):
 def klinkers(woord):
     lijst = []
     klinkers = "aeiou"
-    for letter in range(len(woord)):
+    for letter in (woord)):
         if i in klinkers: 
             lijst.append(i)
     return lijst
