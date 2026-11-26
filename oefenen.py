@@ -601,7 +601,7 @@ def tel_letters(woord):
     return len(woord)
 
 def alle_letters(woord):
-    lijst =[]
+    lijst = []
 
 
 
