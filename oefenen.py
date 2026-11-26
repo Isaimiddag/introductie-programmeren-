@@ -600,7 +600,7 @@ def som_tot_vijf(getal):
 def tel_letters(woord):
     return len(woord)
 
-def 
+def alle_letters(woord)
 
 
 
