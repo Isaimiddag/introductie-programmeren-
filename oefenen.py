@@ -680,7 +680,9 @@ print(woorden_met_hoofdletter(["Amsterdam", "fiets", "Utrecht", "boot"]))
     
 def alle_klinkers(woord):
     lijst = []
-    klinkers = 
+    klinkers = "aeiou"
+    for letter in woord:
+        if letter in 
 
             
             
