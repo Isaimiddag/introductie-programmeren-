@@ -590,7 +590,8 @@ def derde_getal(getallen):
     return getallen[2]
 
 def print_getallen(getallen):
-    for i in
+    for i in range(len(getallen)):
+        print
 
 
 
