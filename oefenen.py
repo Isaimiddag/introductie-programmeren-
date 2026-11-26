@@ -689,7 +689,8 @@ print(alle_klinkers("programmeren"))
 
 def combineer(namen, leeftijden): 
     lijst = []
-    return namen[i]: , 
+    return namen[i]: , leeftijd[i]
+
 
 
 
