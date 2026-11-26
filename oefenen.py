@@ -586,7 +586,10 @@ def tweede_letter(woord):
 def laatste_letter(woord):
     return woord[-1]
     
-def derde_getal(getallen)
+def derde_getal(getallen):
+    return getallen[2]
+
+def 
 
 
             
