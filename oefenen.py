@@ -644,7 +644,8 @@ def posities_van_klinkers(woord):
 
 
 def hoofdletters_posities(woorden):
-    for i in range(len(woorden))
+    for i in range(len(woorden)):
+        if 
     
 
         
