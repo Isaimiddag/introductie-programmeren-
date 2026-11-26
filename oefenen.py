@@ -602,7 +602,7 @@ def tel_letters(woord):
 
 def alle_letters(woord):
     lijst = []
-    for i in range(len(woord:
+    for i in range(len(woord)):
         lijst.append(woord)
 
 
