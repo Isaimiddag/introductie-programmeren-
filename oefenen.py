@@ -669,7 +669,7 @@ def posities_van_e(woord: str) -> list[str]:
     return lijst
 print(posities_van_e("element"))
 
-def
+def woorden_met_hoofdletter(woorden: )
     
 
 
