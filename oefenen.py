@@ -693,7 +693,7 @@ def combineer(namen, leeftijden):
 print(combineer(
 ["Jan", "Piet", "Klaas"],
 [20, 25, 18]
-)
+))
 
 
 
