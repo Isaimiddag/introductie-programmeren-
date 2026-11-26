@@ -630,7 +630,7 @@ def posities_van_a(woord):
     lijst = []
     for i in range(len(woord)):
         if woord[i] == "a":
-            lijst.append([i])
+            lijst.append(i)
     return lijst
 print(posities_van_a("halloa"))
         
