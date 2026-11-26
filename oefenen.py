@@ -650,8 +650,7 @@ def hoofdletters_posities(woorden):
         if woorden[i].isupper():
             lijst.append(i)
     return lijst
-print(hoofdletters_posities(["Hallo", "Ams", "po", "HA" "aaa", "aap", "AA"]))
-            
+
         
     
 
