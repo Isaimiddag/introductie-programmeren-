@@ -616,7 +616,7 @@ def posities(woord):
         
 def letters_met_index(woord):
     for i in range(len(woord)):
-        print(i + woord[i])
+        print(i, woord[i])
 
 def klinkers(woord):
     lijst = []
