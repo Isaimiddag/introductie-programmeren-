@@ -618,7 +618,8 @@ def letters_met_index(woord):
     for i in range(len(woord)):
         print(i + woord[i])
 
-def klinkers(woord)
+def klinkers(woord):
+    
     
 
 
