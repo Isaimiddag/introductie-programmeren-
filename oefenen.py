@@ -685,6 +685,7 @@ def alle_klinkers(woord):
         if letter in klinkers:
             lijst.append(letter)
     return lijst
+print(alle_klinkers("programmeren"))
 
             
             
