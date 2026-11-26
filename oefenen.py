@@ -644,8 +644,10 @@ def posities_van_klinkers(woord):
 
 
 def hoofdletters_posities(woorden):
+    lijst = []
     for i in range(len(woorden)):
         if woorden[i].isupper():
+            lijst.append(i)
             
         
     
