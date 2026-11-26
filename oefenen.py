@@ -624,6 +624,7 @@ def klinkers(woord):
     for i in range(len(woord)):
         if i in klinkers: 
             lijst.append(i)
+    return lijst
         
     
 
