@@ -593,7 +593,7 @@ def print_getallen(getallen):
     for i in range(len(getallen)):
         print(i)
         
-def som_tot_vijf(get)
+def som_tot_vijf(getal)
 
 
 
