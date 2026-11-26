@@ -622,7 +622,8 @@ def klinkers(woord):
     lijst = []
     klinkers = "aeiou"
     for i in range(len(woord)):
-        if 
+        if i in klinkers: 
+            
         
     
 
