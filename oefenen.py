@@ -664,7 +664,7 @@ print(eerste_letter(["fiets", "auto", "trein"]))
 def posities_van_e(woord: str) -> list[str]:
     lijst = []
     for i in range(len(woord)):
-        if i == "e":
+        if woord[i == "e":
             lijst.append(i)
     return lijst
 print(posities_van_e("element"))
