@@ -631,6 +631,7 @@ def posities_van_a(woord):
     for i in range(len(woord)):
         if woord[i] == "a":
             lijst.append(woord[i])
+    return lijst
         
 
 
