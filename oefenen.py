@@ -616,6 +616,7 @@ def letters_met_index(woord):
     letter = ""
     for i in range(len(woord)):
         letter += i + woord[i]
+    return letter
 
 
             
