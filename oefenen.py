@@ -653,7 +653,7 @@ def hoofdletters_posities(woorden):
 print(hoofdletters_posities(["Hallo", "hoi", "Hha", "pp", "Poeo"]))
     
 
-def eerste_letter(woorden: list) -> list
+def eerste_letter(woorden: list) -> list[str]
 
 
             
