@@ -669,7 +669,8 @@ def posities_van_e(woord: str) -> list[str]:
     return lijst
 print(posities_van_e("element"))
 
-def woorden_met_hoofdletter(woorden: )
+def woorden_met_hoofdletter(woorden: list) -> list[str]:
+    
     
 
 
