@@ -639,7 +639,8 @@ def posities_van_klinkers(woord):
     klinkers = "aeiou"
     for i in range(len(woord)):
         if woord[i] in klinkers:
-            
+            lijst.append(i)
+    return lijst
         
 
 
