@@ -710,7 +710,6 @@ def woorden_met_beginletter(woorden, letter):
         if woord[0] == letter:
             lijst.append(woord)
     return lijst
-print(woorden_met_beginletter(["fiets", "fietsbel", "auto", "flat"],"a"))
 
 def dubbele_letters(woord): 
     lijst = []
