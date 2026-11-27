@@ -706,7 +706,8 @@ def lange_woorden(woorden):
     
 def woorden_met_beginletter(woorden, letter):
     lijst = []
-    
+    for woord in woorden:
+        
 
 
 
