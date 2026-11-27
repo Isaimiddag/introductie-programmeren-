@@ -727,7 +727,7 @@ def woorden_met_klinker(woorden):
         huidig = ""
         if woord in klinkers:
             huidig = woord
-                lijst.append(woord)
+            lijst.append(woord)
     return lijst
 print(woorden_met_klinker(["rhythm", "fiets", "auto", "sky"]))
 
