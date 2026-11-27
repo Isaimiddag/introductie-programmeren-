@@ -767,7 +767,7 @@ def hoofdletter_posities(woorden):
     lijst = []
     for woord in woorden:
         huidig_woord = ""
-        if woord[0].isalpha().upper():
+        if woord[0] == "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
             huidig_woord = woord
             if len(huidig_woord) > 5:
                 lijst.append(huidig_woord)
