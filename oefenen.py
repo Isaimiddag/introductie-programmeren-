@@ -720,7 +720,7 @@ def dubbele_letters(woord):
     return lijst
 
 #4
-
+def woorden_met_klinker(woorden)
 
 
 
