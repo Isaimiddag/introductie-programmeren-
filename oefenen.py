@@ -721,7 +721,8 @@ def dubbele_letters(woord):
 
 #4
 def woorden_met_klinker(woorden):
-    lijst 
+    lijst = []
+    
 
 
 
