@@ -699,7 +699,8 @@
 
 def lange_woorden(woorden):
     lijst = []
-    for 
+    for woord in woorden:
+        if len(woord) 
 
 
 
