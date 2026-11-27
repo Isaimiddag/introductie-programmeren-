@@ -783,7 +783,8 @@ def tussen_a(woord):
     return lijst
 print(tussen_a("baard"))
 
-
+#10
+def select_containing
 
 
         
