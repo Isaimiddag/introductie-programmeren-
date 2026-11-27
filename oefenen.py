@@ -696,7 +696,7 @@
 # ["Jan", "Piet", "Klaas"],
 # [20, 25, 18]
 # ))
-
+#1
 def lange_woorden(woorden):
     lijst = []
     for i in range(len(woorden)):
