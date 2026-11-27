@@ -779,7 +779,7 @@ def tussen_a(woord):
     lijst = []
     for i in range(len(woord)):
         if woord[i] == woord[i-1] and  woord[i] == woord[i+1] and woord[i] is not woord[-1] or woord[0]:
-            lijst.append(woord(i))
+            lijst.append(woord[i)
     return lijst
 print(tussen_a("baard"))
 
