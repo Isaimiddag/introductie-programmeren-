@@ -750,6 +750,8 @@ def lokale_pieken(getallen):
             lijst.append(i)
     return lijst
 print(lokale_pieken([1, 5, 2, 8, 3]))
+
+
            
         
 
