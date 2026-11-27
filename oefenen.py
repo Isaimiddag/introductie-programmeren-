@@ -701,7 +701,7 @@ def lange_woorden(woorden):
     lijst = []
     for woord in range(len(woorden)):
         
-        if len(woord) >= 5:
+        if len(woord[i]) >= 5:
             lijst.append(i)
     return lijst
     
