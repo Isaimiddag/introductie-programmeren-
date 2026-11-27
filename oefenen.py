@@ -697,7 +697,7 @@
 # [20, 25, 18]
 # ))
 
-
+def lange_woorden(woorden)
 
 
 
