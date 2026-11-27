@@ -770,7 +770,7 @@ def hoofdletter_posities(woorden):
         if woord[0].isalpha().upper():
             huidig_woord = woord
         for letter in woord:
-            if 
+            if letter 
 
         
 
