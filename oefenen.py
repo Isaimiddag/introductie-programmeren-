@@ -763,7 +763,8 @@ def herhaal(woord, aantallen):
 print(herhaal("abc", [2, 1, 3]))
 
 #8
-def hoofdletter_posities(woorden)
+def hoofdletter_posities(woorden):
+    
 
         
 
