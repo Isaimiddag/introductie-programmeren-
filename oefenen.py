@@ -734,7 +734,7 @@ print(woorden_met_klinker(["rhythm", "fiets", "auto", "sky"]))
 
 #5
 def rapport(namen, cijfers):
-    for i in range(len(namen and for cijfer in cijfers:
+    for i in range(len(namen)) and for cijfer in cijfers:
         print
         
 
