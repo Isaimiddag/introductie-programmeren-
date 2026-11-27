@@ -745,7 +745,8 @@ print(rapport(["Jan", "Piet", "Klaas"],[7.5, 4.5, 8.0]))
 #6
 def lokale_pieken(getallen):
     lijst = []
-    
+    for i in range(len(getallen)):
+        if i 
            
         
 
