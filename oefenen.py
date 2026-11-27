@@ -723,6 +723,7 @@ def dubbele_letters(woord):
 def woorden_met_klinker(woorden):
     lijst = []
     klinkers = "aeiou"
+    huidig = ""
     for woord in woorden:
         huidig = ""
             if woord in klinkers:
