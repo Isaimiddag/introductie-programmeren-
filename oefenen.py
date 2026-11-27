@@ -776,8 +776,7 @@ print(hoofdletter_posities(["Amsterdam", "fiets", "Utrecht", "Kat"]))
        
 #9
 def tussen_a(woord):
-    for i in range(len(woord)):
-        for letter in woord
+    for i in range(len(woord))
         if 
 
 
