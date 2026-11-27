@@ -723,7 +723,8 @@ def dubbele_letters(woord):
 def woorden_met_klinker(woorden):
     lijst = []
     klinkers = "aeiou"
-    for 
+    for woord in woorden:
+        for l
 
 
 
