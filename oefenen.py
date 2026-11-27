@@ -756,7 +756,7 @@ def herhaal(woord, aantallen):
     string = ""
     for i in range(len(woord)):
         for i in range(len(aantallen)):
-            if woord[i] and aantallen[i] not in string:
+            
                 break
             string += new_string
     return string
