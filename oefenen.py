@@ -775,7 +775,7 @@ def hoofdletter_posities(woorden):
 print(hoofdletter_posities(["Amsterdam", "fiets", "Utrecht", "Kat"]))
        
 #8
-
+def tussen_a(woord)
         
         
 
