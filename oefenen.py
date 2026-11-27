@@ -703,7 +703,7 @@ def lange_woorden(woorden):
         if len(woorden[i]) >= 5:
             lijst.append(i)
     return lijst
-    
+#2
 def woorden_met_beginletter(woorden, letter):
     lijst = []
     for woord in woorden:
