@@ -756,7 +756,6 @@ def herhaal(woord, aantallen):
     string = ""
     for i in range(len(woord)):
         for i in range(len(aantallen)):
-            
                 break
             string += new_string
     return string
