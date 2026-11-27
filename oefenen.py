@@ -756,7 +756,7 @@ def herhaal(woord, aantallen):
     string = ""
     for i in range(len(woord)):
         for i in range(len(aantallen)):
-            if new_string = woord[i] * aantallen[i]
+            if inew_string = woord[i] * aantallen[i]
             string += new_string
     return string
 print(herhaal("abc", [2, 1, 3]))
