@@ -781,7 +781,7 @@ def tussen_a(woord):
         if woord[i] == woord[i-1] and  woord[i] == woord[i+1] and woord[i] is not woord[-1] or woord[0]:
             lijst.append(woord[i])
     return lijst
-print()
+print(ussen_a("baard"))
 
 
 
