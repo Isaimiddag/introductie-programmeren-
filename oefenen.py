@@ -697,7 +697,8 @@
 # [20, 25, 18]
 # ))
 
-def lange_woorden(woorden)
+def lange_woorden(woorden):
+    for wo
 
 
 
