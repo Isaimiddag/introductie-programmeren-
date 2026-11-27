@@ -776,6 +776,7 @@ print(hoofdletter_posities(["Amsterdam", "fiets", "Utrecht", "Kat"]))
        
 #8
 
+
         
         
 
