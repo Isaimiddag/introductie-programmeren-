@@ -724,7 +724,9 @@ def woorden_met_klinker(woorden):
     lijst = []
     klinkers = "aeiou"
     for woord in woorden:
-        for l
+        for letter in woord:
+            if letter in klinkers:
+                lijst.append(woord)
 
 
 
