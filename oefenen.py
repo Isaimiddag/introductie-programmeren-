@@ -708,7 +708,8 @@ def woorden_met_beginletter(woorden, letter):
     lijst = []
     for woord in woorden:
         if woord[0] == letter:
-            lijst.append(letter)
+            lijst.append(woord)
+    return woord
             
 
 
