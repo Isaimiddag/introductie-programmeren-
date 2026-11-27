@@ -757,7 +757,7 @@ def herhaal(woord, aantallen):
     for i in range(len(woord)):
         for i in range(len(aantallen)):
             if woord[i] and aantallen[i] not in string:
-                new_string = woord[i] * aantallen[i]
+                break
             string += new_string
     return string
 print(herhaal("abc", [2, 1, 3]))
