@@ -770,8 +770,7 @@ def hoofdletter_posities(woorden):
         if woord[0] in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
             huidig_woord = woord
             if len(huidig_woord) > 5:
-                index_woord = woorden(huidig_woord)
-                lijst.append(index_woord)
+                lijst.append(huidig_woord)
     return lijst
 print(hoofdletter_posities(["Amsterdam", "fiets", "Utrecht", "Kat"]))
        
