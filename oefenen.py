@@ -698,7 +698,8 @@
 # ))
 
 def lange_woorden(woorden):
-    for wo
+    lijst = []
+    for 
 
 
 
