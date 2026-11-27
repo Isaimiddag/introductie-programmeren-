@@ -704,7 +704,7 @@ def lange_woorden(woorden):
             lijst.append(woord)
     return lijst
     
-print(lange_woorden(["kat", "fiets", "auto", "programmeren"])
+print(lange_woorden(["kat", "fiets", "auto", "programmeren"]))
 
 
 
