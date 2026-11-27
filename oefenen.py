@@ -752,7 +752,8 @@ def lokale_pieken(getallen):
 print(lokale_pieken([1, 5, 2, 8, 3]))
 
 #7 
-def herhaal(woord, aantallen) 
+def herhaal(woord, aantallen):
+    
            
         
 
