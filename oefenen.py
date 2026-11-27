@@ -698,6 +698,7 @@
 # ))
 
 def lange_woorden(woorden):
+    lijst = []
     for i in range(len(woorden)):
         for woord in woorden:
             if len(woord) >= 5:
