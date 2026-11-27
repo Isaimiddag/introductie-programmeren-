@@ -755,7 +755,8 @@ print(lokale_pieken([1, 5, 2, 8, 3]))
 def herhaal(woord, aantallen):
     string = ""
     for letter in woord:
-        letter * aantallen
+        letter * aantallen:
+            
            
         
 
