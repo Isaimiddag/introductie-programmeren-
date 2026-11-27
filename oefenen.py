@@ -714,7 +714,7 @@ print(woorden_met_beginletter(["fiets", "fietsbel", "auto", "flat"],"a"))
 
 def dubbele_letters(woord): 
     lijst = []
-    for letter in woord:
+    for i in woord:
         if letter
 
 
