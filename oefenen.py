@@ -765,7 +765,9 @@ print(herhaal("abc", [2, 1, 3]))
 #8
 def hoofdletter_posities(woorden):
     lijst = []
-    for w
+    for woord in woorden:
+        for letter in woord:
+            if 
 
         
 
