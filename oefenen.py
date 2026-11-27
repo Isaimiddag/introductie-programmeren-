@@ -725,10 +725,10 @@ def woorden_met_klinker(woorden):
     klinkers = "aeiou"
     for woord in woorden:
         for letter in woord:
-            if letter in klinkers:
+            if letter in klinkers and woord not in lijst:
                 huidig = woord
                 lijst.append(woord)
-                break
+                
     return lijst
 print(woorden_met_klinker(["rhythm", "fiets", "auto", "sky"]))
 
