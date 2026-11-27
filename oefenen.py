@@ -774,7 +774,8 @@ def hoofdletter_posities(woorden):
     return lijst
 print(hoofdletter_posities(["Amsterdam", "fiets", "Utrecht", "Kat"]))
        
-     
+#8
+
         
         
 
