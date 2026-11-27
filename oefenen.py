@@ -719,6 +719,9 @@ def dubbele_letters(woord):
                 lijst.append(letter[i])
     return lijst
 
+#4
+
+
 
 
 
