@@ -749,6 +749,7 @@ def lokale_pieken(getallen):
         if getallen[i] > getallen[i-1] and getallen[i] > getallen[i+1]:
             lijst.append(i)
     return lijst
+
            
         
 
