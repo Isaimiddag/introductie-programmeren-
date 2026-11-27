@@ -704,7 +704,7 @@ def lange_woorden(woorden):
             lijst.append(i)
     return lijst
     
-
+def 
 
 
 
