@@ -726,7 +726,7 @@ def woorden_met_klinker(woorden):
     for woord in woorden:
         for letter in huidig_woord:
             if letter in klinkers:
-                lijst.append(huidig_woord)
+                lijst.append(woord)
     return lijst
 print(woorden_met_klinker(["rhythm", "fiets", "auto", "sky"]))
 
