@@ -714,7 +714,7 @@ def woorden_met_beginletter(woorden, letter):
 def dubbele_letters(woord): 
     lijst = []
     for i in range(len(woord)):
-        if 
+        if i[woord]
             lijst.append(i)
     return lijst
 
