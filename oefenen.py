@@ -740,6 +740,10 @@ def rapport(namen, cijfers):
     for cijfer in cijfers:
         lijst.append(cijfer)
     return lijst
+print(rapport(
+... ["Jan", "Piet", "Klaas"],
+... [7.5, 4.5, 8.0]
+... ))
            
         
 
