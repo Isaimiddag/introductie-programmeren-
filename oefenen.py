@@ -702,6 +702,7 @@ def lange_woorden(woorden):
     for woord in woorden:
         if len(woord) >= 5:
             lijst.append(woord)
+            
 
 
 
