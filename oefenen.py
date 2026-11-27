@@ -772,6 +772,7 @@ def hoofdletter_posities(woorden):
             if len(huidig_woord) > 5:
                 lijst.append(huidig_woord)
     return lijst
+print()
             
         
         
