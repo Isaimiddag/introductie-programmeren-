@@ -728,6 +728,7 @@ def woorden_met_klinker(woorden):
             if letter in klinkers:
                 lijst.append(woord)
     return lijst
+print()
 
 
 
