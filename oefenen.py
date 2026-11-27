@@ -757,8 +757,7 @@ def herhaal(woord, aantallen):
     for letter in woord:
         new_string = letter * aantallen:
             string += new_string
-            
-           
+print( herhaal("abc", [2, 1, 3]))
         
 
 
