@@ -773,7 +773,8 @@ def hoofdletter_posities(woorden):
                 lijst.append(huidig_woord)
     return lijst
 print(hoofdletter_posities(["Amsterdam", "fiets", "Utrecht", "Kat"]))
-            
+       
+     
         
         
 
