@@ -785,7 +785,9 @@ print(tussen_a("baard"))
 
 #10
 def select_containing(words, letters):
-    
+    for word in words:
+        for letter in word:
+            if let
 
 
         
