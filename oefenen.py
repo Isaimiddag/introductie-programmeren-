@@ -733,9 +733,7 @@ def woorden_met_klinker(woorden):
 print(woorden_met_klinker(["rhythm", "fiets", "auto", "sky"]))
 
 #5
-def rapport(namen, cijfers):
-    lijst = []
-    for naam in namen: 
+ 
         
 
 
