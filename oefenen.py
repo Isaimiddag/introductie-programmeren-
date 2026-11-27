@@ -762,6 +762,7 @@ def herhaal(woord, aantallen):
     return string
 print(herhaal("abc", [2, 1, 3]))
 
+#8
 
         
 
