@@ -699,7 +699,7 @@
 
 def lange_woorden(woorden):
     for i in range(len(woorden)):
-    for woord in woorden:
+        for woord in woorden:
         if len(woord) >= 5:
             lijst.append(woord)
     return lijst
