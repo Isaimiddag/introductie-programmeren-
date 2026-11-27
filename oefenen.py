@@ -756,7 +756,7 @@ def herhaal(woord, aantallen):
     string = ""
     for letter in woord:
         new_string = letter * aantallen:
-            string += newstring
+            string += new_string
             
            
         
