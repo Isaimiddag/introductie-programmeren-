@@ -580,122 +580,124 @@
 
             
        
-def tweede_letter(woord):
-    return woord[1]
+# def tweede_letter(woord):
+#     return woord[1]
 
-def laatste_letter(woord):
-    return woord[-1]
+# def laatste_letter(woord):
+#     return woord[-1]
     
-def derde_getal(getallen):
-    return getallen[2]
+# def derde_getal(getallen):
+#     return getallen[2]
 
-def print_getallen():
-    for i in range(5):
-        print(i)
+# def print_getallen():
+#     for i in range(5):
+#         print(i)
         
-def som_tot_vijf(getal):
-    som = 0
-    for i in range(5):
-        som += i
-    return som
+# def som_tot_vijf(getal):
+#     som = 0
+#     for i in range(5):
+#         som += i
+#     return som
         
 
-def tel_letters(woord):
-    return len(woord)
+# def tel_letters(woord):
+#     return len(woord)
 
-def alle_letters(woord):
-    lijst = []
-    for i in range(len(woord)):
-        lijst.append(woord[i])
+# def alle_letters(woord):
+#     lijst = []
+#     for i in range(len(woord)):
+#         lijst.append(woord[i])
 
-def posities(woord):
-    lijst = []
-    for i in range(len(woord)):
-        lijst.append(i)
-    return lijst
+# def posities(woord):
+#     lijst = []
+#     for i in range(len(woord)):
+#         lijst.append(i)
+#     return lijst
         
-def letters_met_index(woord):
-    for i in range(len(woord)):
-        print(i, woord[i])
+# def letters_met_index(woord):
+#     for i in range(len(woord)):
+#         print(i, woord[i])
 
-def klinkers(woord):
-    lijst = []
-    klinkers = "aeiou"
-    for letter in (woord):
-        if letter in klinkers: 
-            lijst.append(letter)
-    return lijst
+# def klinkers(woord):
+#     lijst = []
+#     klinkers = "aeiou"
+#     for letter in (woord):
+#         if letter in klinkers: 
+#             lijst.append(letter)
+#     return lijst
         
-def posities_van_a(woord):
-    lijst = []
-    for i in range(len(woord)):
-        if woord[i] == "a":
-            lijst.append(i)
-    return lijst
-print(posities_van_a("halloa"))
+# def posities_van_a(woord):
+#     lijst = []
+#     for i in range(len(woord)):
+#         if woord[i] == "a":
+#             lijst.append(i)
+#     return lijst
+# print(posities_van_a("halloa"))
 
-def posities_van_klinkers(woord):
-    lijst = []
-    klinkers = "aeiou"
-    for i in range(len(woord)):
-        if woord[i] in klinkers:
-            lijst.append(i)
-    return lijst
+# def posities_van_klinkers(woord):
+#     lijst = []
+#     klinkers = "aeiou"
+#     for i in range(len(woord)):
+#         if woord[i] in klinkers:
+#             lijst.append(i)
+#     return lijst
 
 
-def hoofdletters_posities(woorden):
-    lijst = []
+# def hoofdletters_posities(woorden):
+#     lijst = []
     
-    for i in range(len(woorden)):
-        if woorden[i][0].isupper():
-            lijst.append(i)
-    return lijst
-print(hoofdletters_posities(["Hallo", "hoi", "Hha", "pp", "Poeo"]))
+#     for i in range(len(woorden)):
+#         if woorden[i][0].isupper():
+#             lijst.append(i)
+#     return lijst
+# print(hoofdletters_posities(["Hallo", "hoi", "Hha", "pp", "Poeo"]))
     
 
-def eerste_letter(woorden: list) -> list[str]:
-    lijst = []
-    for letter in woorden:
-        lijst.append(letter[0])
-    return lijst
+# def eerste_letter(woorden: list) -> list[str]:
+#     lijst = []
+#     for letter in woorden:
+#         lijst.append(letter[0])
+#     return lijst
 
-print(eerste_letter(["fiets", "auto", "trein"]))
+# print(eerste_letter(["fiets", "auto", "trein"]))
 
-def posities_van_e(woord: str) -> list[str]:
-    lijst = []
-    for i in range(len(woord)):
-        if woord[i] == "e":
-            lijst.append(i)
-    return lijst
-print(posities_van_e("element"))
+# def posities_van_e(woord: str) -> list[str]:
+#     lijst = []
+#     for i in range(len(woord)):
+#         if woord[i] == "e":
+#             lijst.append(i)
+#     return lijst
+# print(posities_van_e("element"))
 
-def woorden_met_hoofdletter(woorden: list) -> list[str]:
-    lijst = []
-    for i in range(len(woorden)):
-        if woorden[i][0].isupper():
-            lijst.append(i)
-    return lijst
-print(woorden_met_hoofdletter(["Amsterdam", "fiets", "Utrecht", "boot"]))
+# def woorden_met_hoofdletter(woorden: list) -> list[str]:
+#     lijst = []
+#     for i in range(len(woorden)):
+#         if woorden[i][0].isupper():
+#             lijst.append(i)
+#     return lijst
+# print(woorden_met_hoofdletter(["Amsterdam", "fiets", "Utrecht", "boot"]))
     
     
-def alle_klinkers(woord):
-    lijst = []
-    klinkers = "aeiou"
-    for letter in woord:
-        if letter in klinkers:
-            lijst.append(letter)
-    return lijst
-print(alle_klinkers("programmeren"))
+# def alle_klinkers(woord):
+#     lijst = []
+#     klinkers = "aeiou"
+#     for letter in woord:
+#         if letter in klinkers:
+#             lijst.append(letter)
+#     return lijst
+# print(alle_klinkers("programmeren"))
 
-def combineer(namen, leeftijden): 
-    lijst = []
-    for i in range(len(namen, leeftijden)):
-        lijst.append(namen[i] , leeftijden[i])
-    return lijst
-print(combineer(
-["Jan", "Piet", "Klaas"],
-[20, 25, 18]
-))
+# def combineer(namen, leeftijden): 
+#     lijst = []
+#     for i in range(len(namen, leeftijden)):
+#         lijst.append(namen[i] , leeftijden[i])
+#     return lijst
+# print(combineer(
+# ["Jan", "Piet", "Klaas"],
+# [20, 25, 18]
+# ))
+
+
 
 
 
