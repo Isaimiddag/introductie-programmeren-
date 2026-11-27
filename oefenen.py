@@ -738,7 +738,8 @@ def rapport(namen, cijfers):
     for naam in namen:
         lijst.append(naam)
     for cijfer in cijfers:
-        lijst.append()
+        lijst.append(cijfer)
+    return 
            
         
 
