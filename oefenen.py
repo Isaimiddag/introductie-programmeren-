@@ -716,7 +716,7 @@ def dubbele_letters(woord):
     for letter in woord:
         for letter in range(len(woord)):
         if woord[letter] == woord[letter +1]:
-            lijst.append(woord[i])
+            lijst.append(letter[i])
     return lijst
 
 
